@@ -83,7 +83,7 @@ public class MinecraftPlusModBiomes {
 									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, WOODY_LAND.getId()),
 											MinecraftPlusModBlocks.LIQUIDATIONIFICATION.get().defaultBlockState(),
 											MinecraftPlusModBlocks.LIQUIDATIONIFICATION.get().defaultBlockState(),
-											MinecraftPlusModBlocks.PURPLE_STUFF.get().defaultBlockState()));
+											MinecraftPlusModBlocks.LIQUIDATIONIFICATION.get().defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),

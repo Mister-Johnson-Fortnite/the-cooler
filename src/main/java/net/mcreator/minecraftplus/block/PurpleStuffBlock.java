@@ -13,7 +13,7 @@ import net.mcreator.minecraftplus.init.MinecraftPlusModFluids;
 
 public class PurpleStuffBlock extends LiquidBlock {
 	public PurpleStuffBlock() {
-		super(() -> (FlowingFluid) MinecraftPlusModFluids.PURPLE_STUFF.get(), BlockBehaviour.Properties.of(Material.LAVA).strength(100f)
+		super(() -> (FlowingFluid) MinecraftPlusModFluids.PURPLE_STUFF.get(), BlockBehaviour.Properties.of(Material.WATER).strength(100f)
 
 		);
 	}

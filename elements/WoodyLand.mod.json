@@ -10,7 +10,7 @@
       "value": "CUSTOM:Liquidationification"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:PurpleStuff"
+      "value": ""
     },
     "airColor": {
       "value": -6750055,
@@ -88,20 +88,20 @@
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
-    "spawnPillagerOutpost": false,
+    "spawnPillagerOutpost": true,
     "villageType": "none",
-    "spawnWoodlandMansion": false,
+    "spawnWoodlandMansion": true,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
-    "spawnSwampHut": false,
+    "spawnSwampHut": true,
     "spawnIgloo": false,
-    "spawnOceanMonument": false,
+    "spawnOceanMonument": true,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
-    "spawnBuriedTreasure": false,
+    "spawnBuriedTreasure": true,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
-    "spawnNetherFossil": false,
+    "spawnNetherFossil": true,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",

@@ -8,7 +8,7 @@
     "textureFlowing": "inscryption-1",
     "tintType": "No tint",
     "canMultiply": false,
-    "flowRate": 5,
+    "flowRate": 1,
     "levelDecrease": 1,
     "slopeFindDistance": 4,
     "spawnParticles": false,
@@ -21,7 +21,7 @@
     "viscosity": 1000,
     "isGas": false,
     "temperature": 300,
-    "type": "LAVA",
+    "type": "WATER",
     "generateBucket": true,
     "textureBucket": "",
     "creativeTab": {
@@ -40,10 +40,14 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "DEFAULT",
-    "frequencyOnChunks": 5,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": []
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:WoodyLand"
+      }
+    ]
   }
 }

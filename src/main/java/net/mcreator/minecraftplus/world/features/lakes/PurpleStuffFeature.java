@@ -37,7 +37,7 @@ public class PurpleStuffFeature extends LakeFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("minecraft_plus:purple_stuff", FEATURE, new LakeFeature.Configuration(
 				BlockStateProvider.simple(MinecraftPlusModBlocks.PURPLE_STUFF.get()), BlockStateProvider.simple(Blocks.AIR)));
 		PLACED_FEATURE = PlacementUtils.register("minecraft_plus:purple_stuff", CONFIGURED_FEATURE,
-				List.of(RarityFilter.onAverageOnceEvery(5), InSquarePlacement.spread(), PlacementUtils.RANGE_BOTTOM_TO_MAX_TERRAIN_HEIGHT,
+				List.of(RarityFilter.onAverageOnceEvery(1), InSquarePlacement.spread(), PlacementUtils.RANGE_BOTTOM_TO_MAX_TERRAIN_HEIGHT,
 						EnvironmentScanPlacement.scanningFor(Direction.DOWN, BlockPredicate.not(BlockPredicate.ONLY_IN_AIR_PREDICATE), 32),
 						BiomeFilter.biome()));
 		return FEATURE;
@@ -47,7 +47,7 @@ public class PurpleStuffFeature extends LakeFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("minecraft_plus:woody_land"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public PurpleStuffFeature() {

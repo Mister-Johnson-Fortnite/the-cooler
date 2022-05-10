@@ -29,6 +29,8 @@ public abstract class PurpleStuffFluid extends ForgeFlowingFluid {
 					.rarity(Rarity.UNCOMMON).sound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.composter.fill_success"))))
 			.explosionResistance(100f)
 
+			.tickRate(1)
+
 			.bucket(MinecraftPlusModItems.PURPLE_STUFF_BUCKET).block(() -> (LiquidBlock) MinecraftPlusModBlocks.PURPLE_STUFF.get());
 
 	private PurpleStuffFluid() {

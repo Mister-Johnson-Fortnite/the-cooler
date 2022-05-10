@@ -1342,6 +1342,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "liquidationification"
+    },
+    {
+      "name": "RenameYourself",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rename_yourself"
     }
   ],
   "variable_elements": [
@@ -1462,6 +1470,7 @@
       "entity.minecraft_plus.the_garf": "The Garf",
       "item.minecraft_plus.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "item.minecraft_plus.diamond_gilded_netherite_hoe": "Diamond Adorned Netherite Hoe",
+      "item.minecraft_plus.rename_yourself": "Rename Yourself",
       "item.minecraft_plus.emerald_gilded_netherite_hoe": "Emerald Adorned Netherite Hoe",
       "item.minecraft_plus.stimulation_wizard_spawn_egg": "Stimulation Wizard Spawn Egg",
       "item.minecraft_plus.diamond_gilded_netherite_leggings": "Diamond Adorned Netherite Leggings",

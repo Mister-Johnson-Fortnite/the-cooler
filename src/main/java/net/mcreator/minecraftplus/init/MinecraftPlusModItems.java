@@ -18,6 +18,7 @@ import net.mcreator.minecraftplus.item.WingedStrawberryItem;
 import net.mcreator.minecraftplus.item.SquirrelGunItem;
 import net.mcreator.minecraftplus.item.SlimeGunItem;
 import net.mcreator.minecraftplus.item.ShieldOfCthulhuItem;
+import net.mcreator.minecraftplus.item.RenameYourselfItem;
 import net.mcreator.minecraftplus.item.NetheriteWaraxeItem;
 import net.mcreator.minecraftplus.item.NetheriteCleaverItem;
 import net.mcreator.minecraftplus.item.MothwingCloakItem;
@@ -133,6 +134,7 @@ public class MinecraftPlusModItems {
 			() -> new ForgeSpawnEggItem(MinecraftPlusModEntities.THE_GARF, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> LIQUIDATIONIFICATION = block(MinecraftPlusModBlocks.LIQUIDATIONIFICATION,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RENAME_YOURSELF = REGISTRY.register("rename_yourself", () -> new RenameYourselfItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

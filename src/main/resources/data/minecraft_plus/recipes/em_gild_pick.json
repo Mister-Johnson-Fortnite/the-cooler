@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "minecraft:emerald_block"
+  },
+  "result": {
+    "item": "minecraft_plus:emerald_gilded_netherite_pickaxe"
+  }
+}

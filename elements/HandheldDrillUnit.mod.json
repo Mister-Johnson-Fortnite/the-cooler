@@ -1,0 +1,41 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "paper",
+    "customModelName": "drill:default",
+    "name": "Handheld Drill Unit",
+    "specialInfo": [
+      "Destroys blocks. Items won't drop.",
+      "Scales with the best tier pickaxe",
+      "in your inventory."
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 0,
+    "efficiency": 6.0,
+    "attackSpeed": 1.2,
+    "enchantability": 0,
+    "damageVsEntity": 4.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "HandheldDrillUnitToolInHandTick"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "HandheldDrillUnitBlockDestroyedWithTool"
+    }
+  }
+}

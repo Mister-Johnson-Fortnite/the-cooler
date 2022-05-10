@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minecraft_plus:blocks/stickyresidue",
+    "particle": "minecraft_plus:blocks/stickyresidue"
+  }
+}

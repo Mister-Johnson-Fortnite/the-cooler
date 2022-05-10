@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft_plus:blocks/ancientcontroller",
+    "up": "minecraft_plus:blocks/ancientcontroller",
+    "north": "minecraft_plus:blocks/ancientcontroller",
+    "east": "minecraft_plus:blocks/ancientcontroller",
+    "south": "minecraft_plus:blocks/ancientcontroller",
+    "west": "minecraft_plus:blocks/ancientcontroller",
+    "particle": "minecraft_plus:blocks/ancientcontroller"
+  }
+}

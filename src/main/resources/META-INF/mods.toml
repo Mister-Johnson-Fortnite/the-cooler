@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="minecraft_plus"
+version="1.0.0"
+displayName="Minecraft Plus"
+credits="Winslo8"
+displayURL="https://www.arngren.net/"
+authors="Winslo8"
+description='''
+A mod to make Minecraft a better game!
+'''
+
+[[dependencies.minecraft_plus]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

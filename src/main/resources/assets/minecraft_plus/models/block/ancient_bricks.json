@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft_plus:blocks/ancientbricks",
+    "up": "minecraft_plus:blocks/ancientbricks",
+    "north": "minecraft_plus:blocks/ancientbricks",
+    "east": "minecraft_plus:blocks/ancientbricks",
+    "south": "minecraft_plus:blocks/ancientbricks",
+    "west": "minecraft_plus:blocks/ancientbricks",
+    "particle": "minecraft_plus:blocks/ancientbricks"
+  }
+}

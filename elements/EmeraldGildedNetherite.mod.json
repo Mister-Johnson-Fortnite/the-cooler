@@ -1,0 +1,74 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "em_netherite_helmet",
+    "enableBody": true,
+    "textureBody": "em_netherite_chest",
+    "enableLeggings": true,
+    "textureLeggings": "em_netherite_leggings",
+    "enableBoots": true,
+    "textureBoots": "em_netherite_boots",
+    "onHelmetTick": {
+      "name": "EmeraldGildedNetheriteHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "EmeraldGildedNetheriteBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "EmeraldGildedNetheriteLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "EmeraldGildedNetheriteBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "water_upgraded_netherite_",
+    "helmetName": "Emerald Adorned Netherite Helmet",
+    "bodyName": "Emerald Adorned Netherite Body",
+    "leggingsName": "Emerald Adorned Netherite Leggings",
+    "bootsName": "Emerald Adorned Netherite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 36,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 15,
+    "toughness": 3.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "Items.NETHERITE_INGOT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft_plus:custom/squirrelgun",
+  "textures": {
+    "0": "minecraft_plus:blocks/squirrelgun",
+    "particle": "minecraft_plus:items/drill_blueprint"
+  }
+}

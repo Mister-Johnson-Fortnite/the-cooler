@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft_plus:custom/drill",
+  "textures": {
+    "0": "minecraft_plus:blocks/drill",
+    "particle": "minecraft_plus:items/paper"
+  }
+}

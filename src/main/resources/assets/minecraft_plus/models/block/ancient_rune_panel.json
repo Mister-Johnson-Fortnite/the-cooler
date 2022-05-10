@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft_plus:blocks/ancienttile",
+    "up": "minecraft_plus:blocks/ancienttile",
+    "north": "minecraft_plus:blocks/ancientpanelrune",
+    "east": "minecraft_plus:blocks/ancientpanelrune",
+    "south": "minecraft_plus:blocks/ancientpanelrune",
+    "west": "minecraft_plus:blocks/ancientpanelrune",
+    "particle": "minecraft_plus:blocks/ancienttile"
+  }
+}

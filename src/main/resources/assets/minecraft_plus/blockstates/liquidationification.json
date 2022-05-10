@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "minecraft_plus:block/liquidationification",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "minecraft_plus:block/liquidationification"
+    },
+    "axis=z": {
+      "model": "minecraft_plus:block/liquidationification",
+      "x": 90
     }
   }
 }

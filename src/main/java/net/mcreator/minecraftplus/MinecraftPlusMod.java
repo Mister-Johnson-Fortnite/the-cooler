@@ -26,9 +26,13 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.minecraftplus.init.MinecraftPlusModTabs;
 import net.mcreator.minecraftplus.init.MinecraftPlusModItems;
+import net.mcreator.minecraftplus.init.MinecraftPlusModFluids;
+import net.mcreator.minecraftplus.init.MinecraftPlusModFeatures;
 import net.mcreator.minecraftplus.init.MinecraftPlusModEntities;
 import net.mcreator.minecraftplus.init.MinecraftPlusModBlocks;
+import net.mcreator.minecraftplus.init.MinecraftPlusModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,11 +48,16 @@ public class MinecraftPlusMod {
 	private static int messageID = 0;
 
 	public MinecraftPlusMod() {
-
+		MinecraftPlusModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		MinecraftPlusModBlocks.REGISTRY.register(bus);
 		MinecraftPlusModItems.REGISTRY.register(bus);
 		MinecraftPlusModEntities.REGISTRY.register(bus);
+
+		MinecraftPlusModFeatures.REGISTRY.register(bus);
+		MinecraftPlusModFluids.REGISTRY.register(bus);
+
+		MinecraftPlusModBiomes.REGISTRY.register(bus);
 
 	}
 

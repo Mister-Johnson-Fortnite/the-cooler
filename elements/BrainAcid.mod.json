@@ -1,0 +1,29 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RenameYourself"
+      },
+      {
+        "value": "CUSTOM:Liquidationification"
+      },
+      {
+        "value": "CUSTOM:Saltine"
+      },
+      {
+        "value": "CUSTOM:PurpleStuff.bucket"
+      },
+      {
+        "value": "CUSTOM:PurpleStuff"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "brain_acid",
+    "namespace": "minecraft"
+  }
+}

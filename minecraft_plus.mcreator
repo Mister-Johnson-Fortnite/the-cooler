@@ -1264,6 +1264,121 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "active_abilities_mod"
+    },
+    {
+      "name": "RenamingYourselfIsRequired",
+      "type": "villagertrade",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renaming_yourself_is_required"
+    },
+    {
+      "name": "PurpleStuff",
+      "type": "fluid",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_stuff",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "BrainAcid",
+      "type": "tag",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brain_acid"
+    },
+    {
+      "name": "Illuminated",
+      "type": "tab",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "illuminated"
+    },
+    {
+      "name": "Saltine",
+      "type": "item",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saltine"
+    },
+    {
+      "name": "RenameYourselfPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rename_yourself_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Compaction",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compaction"
+    },
+    {
+      "name": "LiquidationificationOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquidationification_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Condensation",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensation"
+    },
+    {
+      "name": "WoodyLand",
+      "type": "biome",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woody_land"
     }
   ],
   "variable_elements": [
@@ -1332,6 +1447,12 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "yoinkitydoinkity",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
     }
   ],
   "sound_elements": [],
@@ -1354,6 +1475,7 @@
       "entity.minecraft_plus.stimulation_wizard": "Stimulation Wizard",
       "item.minecraft_plus.diamond_gilded_netherite_shovel": "Diamond Adorned Netherite Shovel",
       "item.minecraft_plus.mothwing_cloak": "Bloodied Scarf",
+      "item.minecraft_plus.cloaker_goggles_chestplate": "Cloaker Goggles Body",
       "block.minecraft_plus.ancient_tech_block": "Ancient Tech Block",
       "item.minecraft_plus.ancient_warp_key": "Ancient Warp Key",
       "item.minecraft_plus.dimtest": "Dimtest Portal Igniter",
@@ -1362,8 +1484,10 @@
       "block.minecraft_plus.ancient_light": "Ancient Light",
       "item.minecraft_plus.diamond_gilded_netherite_chestplate": "Diamond Adorned Netherite Chestplate",
       "item.minecraft_plus.diamond_gilded_netherite_axe": "Diamond Adorned Netherite Axe",
+      "item.minecraft_plus.cloaker_goggles_leggings": "Cloaker Goggles Leggings",
       "item.minecraft_plus.squirrel_gun": "Squirrel Gun",
       "block.minecraft_plus.ancient_screen": "Ancient Screen",
+      "item.minecraft_plus.shield_of_cthulhu": "Bloodied Scarf",
       "item.minecraft_plus.emerald_gilded_netherite_shovel": "Emerald Adorned Netherite Shovel",
       "block.minecraft_plus.ancient_rune_panel": "Ancient Rune Panel",
       "item.minecraft_plus.diamond_gilded_netherite_pickaxe": "Diamond Adorned Netherite Pickaxe",
@@ -1375,21 +1499,30 @@
       "item.minecraft_plus.emerald_gilded_netherite_helmet": "Emerald Adorned Netherite Helmet",
       "item.minecraft_plus.blue_slime": "Blue Slime",
       "item.minecraft_plus.diamond_gilded_netherite_boots": "Diamond Adorned Netherite Boots",
+      "item.minecraft_plus.cloaker_goggles_helmet": "Cloaker Goggles Helmet",
       "block.minecraft_plus.sticky_residue": "Sticky Residue",
       "item.minecraft_plus.handheld_drill_unit": "Handheld Drill Unit",
+      "entity.minecraft_plus.the_garf": "The Garf",
       "item.minecraft_plus.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "item.minecraft_plus.diamond_gilded_netherite_hoe": "Diamond Adorned Netherite Hoe",
       "item.minecraft_plus.rename_yourself": "Rename Yourself",
       "item.minecraft_plus.emerald_gilded_netherite_hoe": "Emerald Adorned Netherite Hoe",
       "item.minecraft_plus.stimulation_wizard_spawn_egg": "Stimulation Wizard Spawn Egg",
       "item.minecraft_plus.diamond_gilded_netherite_leggings": "Diamond Adorned Netherite Leggings",
+      "item.minecraft_plus.dashhit": "Dashhit",
       "item.minecraft_plus.emerald_gilded_netherite_chestplate": "Emerald Adorned Netherite Body",
       "item.minecraft_plus.emerald_gilded_netherite_pickaxe": "Emerald Adorned Netherite Pickaxe",
+      "effect.minecraft_plus.downed": "Downed",
+      "item.minecraft_plus.winged_strawberry": "Winged Strawberry",
       "item.minecraft_plus.emerald_gilded_netherite_sword": "Emerald Adorned Netherite Sword",
+      "item.minecraft_plus.bloodied_scarf": "Bloodied Scarf",
       "item.minecraft_plus.marmrgh": "enter",
       "entity.minecraft_plus.mecha_goobert": "Mecha Goobert",
+      "item.minecraft_plus.cloaker_goggles_boots": "Cloaker Goggles Boots",
+      "item.minecraft_plus.the_garf_spawn_egg": "The Garf Spawn Egg",
       "item.minecraft_plus.emerald_gilded_netherite_leggings": "Emerald Adorned Netherite Leggings",
-      "item.minecraft_plus.mod": "M.O.D."
+      "item.minecraft_plus.mod": "M.O.D.",
+      "item.minecraft_plus.golden_strawberry": "Winged Golden Strawberry"
     }
   },
   "foldersRoot": {
@@ -1400,10 +1533,6 @@
         "children": []
       },
       {
-        "name": "serverinternal",
-        "children": []
-      },
-      {
         "name": "loot items",
         "children": [
           {
@@ -1411,6 +1540,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "serverinternal",
+        "children": []
       }
     ]
   },

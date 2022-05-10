@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 14.0,
+    "cookingTime": 183,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RenameYourself"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Saltine"
+    },
+    "name": "condensation",
+    "namespace": "mod"
+  }
+}

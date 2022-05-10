@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 14,
+  "cookingtime": 183,
+  "ingredient": {
+    "item": "minecraft_plus:rename_yourself"
+  },
+  "result": "minecraft_plus:saltine"
+}

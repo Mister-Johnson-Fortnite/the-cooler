@@ -43,6 +43,7 @@ import net.mcreator.minecraftplus.item.DiamondGildedNetheritePickaxeItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteHoeItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteAxeItem;
+import net.mcreator.minecraftplus.item.DavidItem;
 import net.mcreator.minecraftplus.item.DashhitItem;
 import net.mcreator.minecraftplus.item.DargleItem;
 import net.mcreator.minecraftplus.item.CloakerGogglesItem;
@@ -139,6 +140,7 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> RENAME_YOURSELF = REGISTRY.register("rename_yourself", () -> new RenameYourselfItem());
 	public static final RegistryObject<Item> SALTINE = REGISTRY.register("saltine", () -> new SaltineItem());
 	public static final RegistryObject<Item> PURPLE_STUFF_BUCKET = REGISTRY.register("purple_stuff_bucket", () -> new PurpleStuffItem());
+	public static final RegistryObject<Item> DAVID = REGISTRY.register("david", () -> new DavidItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

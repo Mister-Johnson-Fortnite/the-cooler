@@ -23,7 +23,7 @@ public abstract class PurpleStuffFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(MinecraftPlusModFluids.PURPLE_STUFF,
 			MinecraftPlusModFluids.FLOWING_PURPLE_STUFF,
 			FluidAttributes
-					.builder(new ResourceLocation("minecraft_plus:blocks/minion_of_the_void"),
+					.builder(new ResourceLocation("minecraft_plus:blocks/220px-sans_undertale"),
 							new ResourceLocation("minecraft_plus:blocks/inscryption-1"))
 
 					.rarity(Rarity.UNCOMMON).sound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.composter.fill_success"))))

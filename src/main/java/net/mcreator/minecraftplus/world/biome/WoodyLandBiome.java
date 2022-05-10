@@ -32,10 +32,10 @@ import net.mcreator.minecraftplus.init.MinecraftPlusModEntities;
 import java.util.List;
 
 public class WoodyLandBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.014285714286f, 0.014285714286f),
-			Climate.Parameter.span(0.985714285714f, 1.014285714286f), Climate.Parameter.span(0.495714285714f, 0.524285714286f),
-			Climate.Parameter.span(0.785714285714f, 0.814285714286f), Climate.Parameter.point(0),
-			Climate.Parameter.span(-0.074539664962f, -0.04596823639f), 0);
+	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.085714285714f, 0.085714285714f),
+			Climate.Parameter.span(-0.085714285714f, 0.085714285714f), Climate.Parameter.span(0.424285714286f, 0.595714285714f),
+			Climate.Parameter.span(0.714285714286f, 0.885714285714f), Climate.Parameter.point(0),
+			Climate.Parameter.span(-0.14596823639f, 0.025460335038f), 0);
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-6750055).waterColor(-6750055).waterFogColor(-13369549)
@@ -61,8 +61,8 @@ public class WoodyLandBiome {
 		BiomeDefaultFeatures.addSurfaceFreezing(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
 		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(MinecraftPlusModEntities.SQUIRREL.get(), 20, 4, 4));
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.TAIGA).temperature(0.5f)
-				.downfall(1f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build())
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).temperature(0.5f)
+				.downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build())
 				.build();
 	}
 

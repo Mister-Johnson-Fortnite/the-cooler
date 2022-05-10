@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft_plus:blocks/hqdefault-2-300x177",
+    "up": "minecraft_plus:blocks/minion_of_the_void",
+    "north": "minecraft_plus:blocks/220px-sans_undertale",
+    "east": "minecraft_plus:blocks/roblox-epic-minigames-codes11",
+    "south": "minecraft_plus:blocks/kingofthehill",
+    "west": "minecraft_plus:blocks/inscryption-1",
+    "particle": "minecraft_plus:blocks/hqdefault-2-300x177"
+  }
+}

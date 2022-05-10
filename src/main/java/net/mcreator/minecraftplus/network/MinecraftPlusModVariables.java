@@ -88,6 +88,7 @@ public class MinecraftPlusModVariables {
 			clone.DailyIsReady = original.DailyIsReady;
 			clone.IsPlayerOnGround = original.IsPlayerOnGround;
 			clone.CanDash = original.CanDash;
+			clone.yoinkitydoinkity = original.yoinkitydoinkity;
 			if (!event.isWasDeath()) {
 				clone.heavyhelmet = original.heavyhelmet;
 			}
@@ -268,6 +269,7 @@ public class MinecraftPlusModVariables {
 		public boolean DailyIsReady = false;
 		public boolean IsPlayerOnGround = false;
 		public boolean CanDash = false;
+		public boolean yoinkitydoinkity = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -286,6 +288,7 @@ public class MinecraftPlusModVariables {
 			nbt.putBoolean("DailyIsReady", DailyIsReady);
 			nbt.putBoolean("IsPlayerOnGround", IsPlayerOnGround);
 			nbt.putBoolean("CanDash", CanDash);
+			nbt.putBoolean("yoinkitydoinkity", yoinkitydoinkity);
 			return nbt;
 		}
 
@@ -301,6 +304,7 @@ public class MinecraftPlusModVariables {
 			DailyIsReady = nbt.getBoolean("DailyIsReady");
 			IsPlayerOnGround = nbt.getBoolean("IsPlayerOnGround");
 			CanDash = nbt.getBoolean("CanDash");
+			yoinkitydoinkity = nbt.getBoolean("yoinkitydoinkity");
 		}
 	}
 
@@ -336,6 +340,7 @@ public class MinecraftPlusModVariables {
 					variables.DailyIsReady = message.data.DailyIsReady;
 					variables.IsPlayerOnGround = message.data.IsPlayerOnGround;
 					variables.CanDash = message.data.CanDash;
+					variables.yoinkitydoinkity = message.data.yoinkitydoinkity;
 				}
 			});
 			context.setPacketHandled(true);

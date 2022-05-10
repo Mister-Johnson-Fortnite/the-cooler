@@ -1350,6 +1350,62 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "rename_yourself"
+    },
+    {
+      "name": "Illuminated",
+      "type": "tab",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "illuminated"
+    },
+    {
+      "name": "LiquidationificationOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquidationification_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RenamingYourselfIsRequired",
+      "type": "villagertrade",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renaming_yourself_is_required"
+    },
+    {
+      "name": "BrainAcid",
+      "type": "tag",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brain_acid"
     }
   ],
   "variable_elements": [
@@ -1418,6 +1474,12 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "yoinkitydoinkity",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -1465,12 +1527,13 @@
       "item.minecraft_plus.blue_slime": "Blue Slime",
       "item.minecraft_plus.diamond_gilded_netherite_boots": "Diamond Adorned Netherite Boots",
       "item.minecraft_plus.cloaker_goggles_helmet": "Cloaker Goggles Helmet",
+      "itemGroup.tabilluminated": "illuminated",
       "block.minecraft_plus.sticky_residue": "Sticky Residue",
       "item.minecraft_plus.handheld_drill_unit": "Handheld Drill Unit",
       "entity.minecraft_plus.the_garf": "The Garf",
       "item.minecraft_plus.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "item.minecraft_plus.diamond_gilded_netherite_hoe": "Diamond Adorned Netherite Hoe",
-      "item.minecraft_plus.rename_yourself": "Rename Yourself",
+      "item.minecraft_plus.rename_yourself": "rename yourself.",
       "item.minecraft_plus.emerald_gilded_netherite_hoe": "Emerald Adorned Netherite Hoe",
       "item.minecraft_plus.stimulation_wizard_spawn_egg": "Stimulation Wizard Spawn Egg",
       "item.minecraft_plus.diamond_gilded_netherite_leggings": "Diamond Adorned Netherite Leggings",

@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.minecraftplus.init.MinecraftPlusModTabs;
 import net.mcreator.minecraftplus.init.MinecraftPlusModMobEffects;
 import net.mcreator.minecraftplus.init.MinecraftPlusModItems;
 import net.mcreator.minecraftplus.init.MinecraftPlusModEntities;
@@ -45,7 +46,7 @@ public class MinecraftPlusMod {
 	private static int messageID = 0;
 
 	public MinecraftPlusMod() {
-
+		MinecraftPlusModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		MinecraftPlusModBlocks.REGISTRY.register(bus);
 		MinecraftPlusModItems.REGISTRY.register(bus);

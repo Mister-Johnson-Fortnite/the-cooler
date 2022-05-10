@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "illuminated",
+    "icon": {
+      "value": "CUSTOM:Liquidationification"
+    },
+    "showSearch": false
+  }
+}

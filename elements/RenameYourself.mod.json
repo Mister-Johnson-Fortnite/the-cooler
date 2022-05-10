@@ -5,21 +5,21 @@
     "renderType": 0,
     "texture": "minion_of_the_void",
     "customModelName": "Normal",
-    "name": "Rename Yourself",
+    "name": "rename yourself.",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Illuminated"
     },
-    "stackSize": 64,
+    "stackSize": 7,
     "enchantability": 0,
     "useDuration": 0,
-    "toolType": 1.0,
+    "toolType": 0.1,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
@@ -38,6 +38,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "none"
   }
 }

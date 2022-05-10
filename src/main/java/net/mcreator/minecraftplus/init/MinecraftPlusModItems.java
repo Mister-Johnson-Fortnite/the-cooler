@@ -133,7 +133,7 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> THE_GARF = REGISTRY.register("the_garf_spawn_egg",
 			() -> new ForgeSpawnEggItem(MinecraftPlusModEntities.THE_GARF, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> LIQUIDATIONIFICATION = block(MinecraftPlusModBlocks.LIQUIDATIONIFICATION,
-			CreativeModeTab.TAB_BUILDING_BLOCKS);
+			MinecraftPlusModTabs.TAB_ILLUMINATED);
 	public static final RegistryObject<Item> RENAME_YOURSELF = REGISTRY.register("rename_yourself", () -> new RenameYourselfItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

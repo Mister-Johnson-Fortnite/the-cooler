@@ -18,7 +18,9 @@ import net.mcreator.minecraftplus.item.WingedStrawberryItem;
 import net.mcreator.minecraftplus.item.SquirrelGunItem;
 import net.mcreator.minecraftplus.item.SlimeGunItem;
 import net.mcreator.minecraftplus.item.ShieldOfCthulhuItem;
+import net.mcreator.minecraftplus.item.SaltineItem;
 import net.mcreator.minecraftplus.item.RenameYourselfItem;
+import net.mcreator.minecraftplus.item.PurpleStuffItem;
 import net.mcreator.minecraftplus.item.NetheriteWaraxeItem;
 import net.mcreator.minecraftplus.item.NetheriteCleaverItem;
 import net.mcreator.minecraftplus.item.MothwingCloakItem;
@@ -135,6 +137,8 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> LIQUIDATIONIFICATION = block(MinecraftPlusModBlocks.LIQUIDATIONIFICATION,
 			MinecraftPlusModTabs.TAB_ILLUMINATED);
 	public static final RegistryObject<Item> RENAME_YOURSELF = REGISTRY.register("rename_yourself", () -> new RenameYourselfItem());
+	public static final RegistryObject<Item> SALTINE = REGISTRY.register("saltine", () -> new SaltineItem());
+	public static final RegistryObject<Item> PURPLE_STUFF_BUCKET = REGISTRY.register("purple_stuff_bucket", () -> new PurpleStuffItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

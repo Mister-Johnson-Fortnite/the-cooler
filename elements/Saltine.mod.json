@@ -3,17 +3,17 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "minion_of_the_void",
+    "texture": "1266472",
     "customModelName": "Normal",
-    "name": "rename yourself.",
-    "rarity": "COMMON",
+    "name": "saltine",
+    "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:Illuminated"
     },
-    "stackSize": 7,
+    "stackSize": 1,
     "enchantability": 0,
-    "useDuration": 38,
-    "toolType": 0.1,
+    "useDuration": 0,
+    "toolType": 0.3,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
@@ -25,22 +25,19 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onFinishUsingItem": {
-      "name": "RenameYourselfPlayerFinishesUsingItem"
-    },
     "hasDispenseBehavior": false,
-    "isFood": true,
-    "nutritionalValue": 0,
-    "saturation": 0.0,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
     "eatResultItem": {
-      "value": "CUSTOM:RenameYourself"
+      "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": true,
-    "animation": "eat"
+    "isAlwaysEdible": false,
+    "animation": "none"
   }
 }

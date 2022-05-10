@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft_plus:saltine"
+    },
+    "1": {
+      "item": "minecraft_plus:saltine"
+    },
+    "2": {
+      "item": "minecraft_plus:saltine"
+    },
+    "3": {
+      "item": "minecraft_plus:saltine"
+    },
+    "4": {
+      "item": "minecraft_plus:saltine"
+    },
+    "5": {
+      "item": "minecraft_plus:saltine"
+    },
+    "6": {
+      "item": "minecraft_plus:saltine"
+    },
+    "7": {
+      "item": "minecraft_plus:saltine"
+    },
+    "8": {
+      "item": "minecraft_plus:saltine"
+    }
+  },
+  "result": {
+    "item": "minecraft_plus:liquidationification",
+    "count": 1
+  }
+}

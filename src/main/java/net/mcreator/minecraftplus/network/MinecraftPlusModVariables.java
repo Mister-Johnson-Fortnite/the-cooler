@@ -269,7 +269,7 @@ public class MinecraftPlusModVariables {
 		public boolean DailyIsReady = false;
 		public boolean IsPlayerOnGround = false;
 		public boolean CanDash = false;
-		public boolean yoinkitydoinkity = false;
+		public boolean yoinkitydoinkity = true;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)

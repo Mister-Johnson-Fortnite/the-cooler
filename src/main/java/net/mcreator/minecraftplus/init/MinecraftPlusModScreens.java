@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.minecraftplus.client.gui.MODGuiScreen;
+import net.mcreator.minecraftplus.client.gui.ActiveAbilitiesMODScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class MinecraftPlusModScreens {
@@ -19,6 +20,7 @@ public class MinecraftPlusModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(MinecraftPlusModMenus.MOD_GUI, MODGuiScreen::new);
+			MenuScreens.register(MinecraftPlusModMenus.ACTIVE_ABILITIES_MOD, ActiveAbilitiesMODScreen::new);
 		});
 	}
 }

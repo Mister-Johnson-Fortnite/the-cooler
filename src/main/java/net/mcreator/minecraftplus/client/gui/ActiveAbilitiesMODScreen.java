@@ -5,42 +5,35 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.minecraftplus.world.inventory.MODGuiMenu;
+import net.mcreator.minecraftplus.world.inventory.ActiveAbilitiesMODMenu;
 
 import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class MODGuiScreen extends AbstractContainerScreen<MODGuiMenu> {
-	private final static HashMap<String, Object> guistate = MODGuiMenu.guistate;
+public class ActiveAbilitiesMODScreen extends AbstractContainerScreen<ActiveAbilitiesMODMenu> {
+	private final static HashMap<String, Object> guistate = ActiveAbilitiesMODMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public MODGuiScreen(MODGuiMenu container, Inventory inventory, Component text) {
+	public ActiveAbilitiesMODScreen(ActiveAbilitiesMODMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 176;
+		this.imageWidth = 352;
 		this.imageHeight = 166;
 	}
 
-	@Override
-	public boolean isPauseScreen() {
-		return true;
-	}
-
-	private static final ResourceLocation texture = new ResourceLocation("minecraft_plus:textures/mod_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("minecraft_plus:textures/active_abilities_mod.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -75,7 +68,7 @@ public class MODGuiScreen extends AbstractContainerScreen<MODGuiMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "M.O.D. User Interface", 6, 7, -12829636);
+		this.font.draw(poseStack, "M.O.D. User Interface", 4, 7, -12829636);
 	}
 
 	@Override
@@ -88,11 +81,5 @@ public class MODGuiScreen extends AbstractContainerScreen<MODGuiMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 6, this.topPos + 25, 93, 20, new TextComponent("Active Abilities"), e -> {
-		}));
-		this.addRenderableWidget(new Button(this.leftPos + 6, this.topPos + 52, 98, 20, new TextComponent("Passive Abilities"), e -> {
-		}));
-		this.addRenderableWidget(new Button(this.leftPos + 114, this.topPos + 52, 51, 20, new TextComponent("Upload"), e -> {
-		}));
 	}
 }

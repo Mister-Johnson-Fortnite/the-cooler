@@ -26,7 +26,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.minecraftplus.init.MinecraftPlusModMobEffects;
 import net.mcreator.minecraftplus.init.MinecraftPlusModItems;
 import net.mcreator.minecraftplus.init.MinecraftPlusModEntities;
 import net.mcreator.minecraftplus.init.MinecraftPlusModBlocks;
@@ -50,8 +49,6 @@ public class MinecraftPlusMod {
 		MinecraftPlusModBlocks.REGISTRY.register(bus);
 		MinecraftPlusModItems.REGISTRY.register(bus);
 		MinecraftPlusModEntities.REGISTRY.register(bus);
-
-		MinecraftPlusModMobEffects.REGISTRY.register(bus);
 
 	}
 

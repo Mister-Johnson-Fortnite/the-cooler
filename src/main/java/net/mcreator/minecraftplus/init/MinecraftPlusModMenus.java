@@ -13,6 +13,7 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
 import net.mcreator.minecraftplus.world.inventory.MODGuiMenu;
+import net.mcreator.minecraftplus.world.inventory.ActiveAbilitiesMODMenu;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -21,6 +22,8 @@ import java.util.ArrayList;
 public class MinecraftPlusModMenus {
 	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
 	public static final MenuType<MODGuiMenu> MOD_GUI = register("mod_gui", (id, inv, extraData) -> new MODGuiMenu(id, inv, extraData));
+	public static final MenuType<ActiveAbilitiesMODMenu> ACTIVE_ABILITIES_MOD = register("active_abilities_mod",
+			(id, inv, extraData) -> new ActiveAbilitiesMODMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

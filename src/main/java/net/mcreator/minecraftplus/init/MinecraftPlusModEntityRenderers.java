@@ -11,7 +11,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
-import net.mcreator.minecraftplus.client.renderer.TheGarfRenderer;
 import net.mcreator.minecraftplus.client.renderer.StimulationWizardRenderer;
 import net.mcreator.minecraftplus.client.renderer.SquirrelRenderer;
 import net.mcreator.minecraftplus.client.renderer.SquirrelGunRenderer;
@@ -26,7 +25,5 @@ public class MinecraftPlusModEntityRenderers {
 		event.registerEntityRenderer(MinecraftPlusModEntities.SLIME_GUN.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MinecraftPlusModEntities.SQUIRREL.get(), SquirrelRenderer::new);
 		event.registerEntityRenderer(MinecraftPlusModEntities.SQUIRREL_GUN.get(), SquirrelGunRenderer::new);
-		event.registerEntityRenderer(MinecraftPlusModEntities.DASHHIT.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(MinecraftPlusModEntities.THE_GARF.get(), TheGarfRenderer::new);
 	}
 }

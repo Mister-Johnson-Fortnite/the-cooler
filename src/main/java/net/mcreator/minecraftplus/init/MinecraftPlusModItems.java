@@ -14,10 +14,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.minecraftplus.item.WingedStrawberryItem;
 import net.mcreator.minecraftplus.item.SquirrelGunItem;
 import net.mcreator.minecraftplus.item.SlimeGunItem;
-import net.mcreator.minecraftplus.item.ShieldOfCthulhuItem;
 import net.mcreator.minecraftplus.item.RenameYourselfItem;
 import net.mcreator.minecraftplus.item.NetheriteWaraxeItem;
 import net.mcreator.minecraftplus.item.NetheriteCleaverItem;
@@ -26,7 +24,6 @@ import net.mcreator.minecraftplus.item.MarmrghItem;
 import net.mcreator.minecraftplus.item.MODItem;
 import net.mcreator.minecraftplus.item.HeavyNetheriteItem;
 import net.mcreator.minecraftplus.item.HandheldDrillUnitItem;
-import net.mcreator.minecraftplus.item.GoldenStrawberryItem;
 import net.mcreator.minecraftplus.item.FunnyboxItem;
 import net.mcreator.minecraftplus.item.EmeraldShardItem;
 import net.mcreator.minecraftplus.item.EmeraldGildedNetheriteSwordItem;
@@ -41,11 +38,8 @@ import net.mcreator.minecraftplus.item.DiamondGildedNetheritePickaxeItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteHoeItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteAxeItem;
-import net.mcreator.minecraftplus.item.DashhitItem;
 import net.mcreator.minecraftplus.item.DargleItem;
-import net.mcreator.minecraftplus.item.CloakerGogglesItem;
 import net.mcreator.minecraftplus.item.BlueSlimeItem;
-import net.mcreator.minecraftplus.item.BloodiedScarfItem;
 import net.mcreator.minecraftplus.item.AncientWarpKeyItem;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
 
@@ -120,18 +114,9 @@ public class MinecraftPlusModItems {
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> ANCIENT_SCREEN = block(MinecraftPlusModBlocks.ANCIENT_SCREEN, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> FUNNYBOX = REGISTRY.register("funnybox", () -> new FunnyboxItem());
-	public static final RegistryObject<Item> BLOODIED_SCARF = REGISTRY.register("bloodied_scarf", () -> new BloodiedScarfItem());
-	public static final RegistryObject<Item> SHIELD_OF_CTHULHU = REGISTRY.register("shield_of_cthulhu", () -> new ShieldOfCthulhuItem());
 	public static final RegistryObject<Item> MOTHWING_CLOAK = REGISTRY.register("mothwing_cloak", () -> new MothwingCloakItem());
-	public static final RegistryObject<Item> GOLDEN_STRAWBERRY = REGISTRY.register("golden_strawberry", () -> new GoldenStrawberryItem());
-	public static final RegistryObject<Item> WINGED_STRAWBERRY = REGISTRY.register("winged_strawberry", () -> new WingedStrawberryItem());
-	public static final RegistryObject<Item> CLOAKER_GOGGLES_HELMET = REGISTRY.register("cloaker_goggles_helmet",
-			() -> new CloakerGogglesItem.Helmet());
-	public static final RegistryObject<Item> DASHHIT = REGISTRY.register("dashhit", () -> new DashhitItem());
 	public static final RegistryObject<Item> BLUE_SLIME = REGISTRY.register("blue_slime", () -> new BlueSlimeItem());
 	public static final RegistryObject<Item> MOD = REGISTRY.register("mod", () -> new MODItem());
-	public static final RegistryObject<Item> THE_GARF = REGISTRY.register("the_garf_spawn_egg",
-			() -> new ForgeSpawnEggItem(MinecraftPlusModEntities.THE_GARF, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> LIQUIDATIONIFICATION = block(MinecraftPlusModBlocks.LIQUIDATIONIFICATION,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RENAME_YOURSELF = REGISTRY.register("rename_yourself", () -> new RenameYourselfItem());

@@ -1166,63 +1166,12 @@
       "path": "~/loot items"
     },
     {
-      "name": "BloodiedScarf",
-      "type": "item",
-      "sortid": 124,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodied_scarf",
-      "path": "~/loot items"
-    },
-    {
-      "name": "ShieldOfCthulhu",
-      "type": "item",
-      "sortid": 125,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shield_of_cthulhu",
-      "path": "~/loot items"
-    },
-    {
       "name": "MothwingCloak",
       "type": "item",
       "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mothwing_cloak",
-      "path": "~/loot items"
-    },
-    {
-      "name": "GoldenStrawberry",
-      "type": "item",
-      "sortid": 127,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "golden_strawberry",
-      "path": "~/loot items"
-    },
-    {
-      "name": "WingedStrawberry",
-      "type": "item",
-      "sortid": 128,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "winged_strawberry",
-      "path": "~/loot items"
-    },
-    {
-      "name": "CloakerGoggles",
-      "type": "armor",
-      "sortid": 129,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cloaker_goggles",
-      "metadata": {
-        "eh": true,
-        "el": false,
-        "eb": false,
-        "ec": false
-      },
       "path": "~/loot items"
     },
     {
@@ -1249,41 +1198,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dash",
-      "path": "~/loot items"
-    },
-    {
-      "name": "DownedOnEffectActiveTick",
-      "type": "procedure",
-      "sortid": 131,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "downed_on_effect_active_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/loot items"
-    },
-    {
-      "name": "Downed",
-      "type": "potioneffect",
-      "sortid": 131,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "downed",
-      "path": "~/loot items"
-    },
-    {
-      "name": "Dashhit",
-      "type": "rangeditem",
-      "sortid": 132,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dashhit",
       "path": "~/loot items"
     },
     {
@@ -1328,14 +1242,6 @@
       "registry_name": "mod_gui"
     },
     {
-      "name": "TheGarf",
-      "type": "livingentity",
-      "sortid": 137,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_garf"
-    },
-    {
       "name": "Liquidationification",
       "type": "block",
       "sortid": 138,
@@ -1350,6 +1256,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "rename_yourself"
+    },
+    {
+      "name": "ActiveAbilitiesMOD",
+      "type": "gui",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "active_abilities_mod"
     }
   ],
   "variable_elements": [
@@ -1440,7 +1354,6 @@
       "entity.minecraft_plus.stimulation_wizard": "Stimulation Wizard",
       "item.minecraft_plus.diamond_gilded_netherite_shovel": "Diamond Adorned Netherite Shovel",
       "item.minecraft_plus.mothwing_cloak": "Bloodied Scarf",
-      "item.minecraft_plus.cloaker_goggles_chestplate": "Cloaker Goggles Body",
       "block.minecraft_plus.ancient_tech_block": "Ancient Tech Block",
       "item.minecraft_plus.ancient_warp_key": "Ancient Warp Key",
       "item.minecraft_plus.dimtest": "Dimtest Portal Igniter",
@@ -1449,10 +1362,8 @@
       "block.minecraft_plus.ancient_light": "Ancient Light",
       "item.minecraft_plus.diamond_gilded_netherite_chestplate": "Diamond Adorned Netherite Chestplate",
       "item.minecraft_plus.diamond_gilded_netherite_axe": "Diamond Adorned Netherite Axe",
-      "item.minecraft_plus.cloaker_goggles_leggings": "Cloaker Goggles Leggings",
       "item.minecraft_plus.squirrel_gun": "Squirrel Gun",
       "block.minecraft_plus.ancient_screen": "Ancient Screen",
-      "item.minecraft_plus.shield_of_cthulhu": "Bloodied Scarf",
       "item.minecraft_plus.emerald_gilded_netherite_shovel": "Emerald Adorned Netherite Shovel",
       "block.minecraft_plus.ancient_rune_panel": "Ancient Rune Panel",
       "item.minecraft_plus.diamond_gilded_netherite_pickaxe": "Diamond Adorned Netherite Pickaxe",
@@ -1464,30 +1375,21 @@
       "item.minecraft_plus.emerald_gilded_netherite_helmet": "Emerald Adorned Netherite Helmet",
       "item.minecraft_plus.blue_slime": "Blue Slime",
       "item.minecraft_plus.diamond_gilded_netherite_boots": "Diamond Adorned Netherite Boots",
-      "item.minecraft_plus.cloaker_goggles_helmet": "Cloaker Goggles Helmet",
       "block.minecraft_plus.sticky_residue": "Sticky Residue",
       "item.minecraft_plus.handheld_drill_unit": "Handheld Drill Unit",
-      "entity.minecraft_plus.the_garf": "The Garf",
       "item.minecraft_plus.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "item.minecraft_plus.diamond_gilded_netherite_hoe": "Diamond Adorned Netherite Hoe",
       "item.minecraft_plus.rename_yourself": "Rename Yourself",
       "item.minecraft_plus.emerald_gilded_netherite_hoe": "Emerald Adorned Netherite Hoe",
       "item.minecraft_plus.stimulation_wizard_spawn_egg": "Stimulation Wizard Spawn Egg",
       "item.minecraft_plus.diamond_gilded_netherite_leggings": "Diamond Adorned Netherite Leggings",
-      "item.minecraft_plus.dashhit": "Dashhit",
       "item.minecraft_plus.emerald_gilded_netherite_chestplate": "Emerald Adorned Netherite Body",
       "item.minecraft_plus.emerald_gilded_netherite_pickaxe": "Emerald Adorned Netherite Pickaxe",
-      "effect.minecraft_plus.downed": "Downed",
-      "item.minecraft_plus.winged_strawberry": "Winged Strawberry",
       "item.minecraft_plus.emerald_gilded_netherite_sword": "Emerald Adorned Netherite Sword",
-      "item.minecraft_plus.bloodied_scarf": "Bloodied Scarf",
       "item.minecraft_plus.marmrgh": "enter",
       "entity.minecraft_plus.mecha_goobert": "Mecha Goobert",
-      "item.minecraft_plus.cloaker_goggles_boots": "Cloaker Goggles Boots",
-      "item.minecraft_plus.the_garf_spawn_egg": "The Garf Spawn Egg",
       "item.minecraft_plus.emerald_gilded_netherite_leggings": "Emerald Adorned Netherite Leggings",
-      "item.minecraft_plus.mod": "M.O.D.",
-      "item.minecraft_plus.golden_strawberry": "Winged Golden Strawberry"
+      "item.minecraft_plus.mod": "M.O.D."
     }
   },
   "foldersRoot": {

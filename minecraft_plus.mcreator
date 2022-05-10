@@ -1166,63 +1166,12 @@
       "path": "~/loot items"
     },
     {
-      "name": "BloodiedScarf",
-      "type": "item",
-      "sortid": 124,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodied_scarf",
-      "path": "~/loot items"
-    },
-    {
-      "name": "ShieldOfCthulhu",
-      "type": "item",
-      "sortid": 125,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shield_of_cthulhu",
-      "path": "~/loot items"
-    },
-    {
       "name": "MothwingCloak",
       "type": "item",
       "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mothwing_cloak",
-      "path": "~/loot items"
-    },
-    {
-      "name": "GoldenStrawberry",
-      "type": "item",
-      "sortid": 127,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "golden_strawberry",
-      "path": "~/loot items"
-    },
-    {
-      "name": "WingedStrawberry",
-      "type": "item",
-      "sortid": 128,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "winged_strawberry",
-      "path": "~/loot items"
-    },
-    {
-      "name": "CloakerGoggles",
-      "type": "armor",
-      "sortid": 129,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cloaker_goggles",
-      "metadata": {
-        "eh": true,
-        "el": false,
-        "eb": false,
-        "ec": false
-      },
       "path": "~/loot items"
     },
     {
@@ -1249,41 +1198,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dash",
-      "path": "~/loot items"
-    },
-    {
-      "name": "DownedOnEffectActiveTick",
-      "type": "procedure",
-      "sortid": 131,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "downed_on_effect_active_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/loot items"
-    },
-    {
-      "name": "Downed",
-      "type": "potioneffect",
-      "sortid": 131,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "downed",
-      "path": "~/loot items"
-    },
-    {
-      "name": "Dashhit",
-      "type": "rangeditem",
-      "sortid": 132,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dashhit",
       "path": "~/loot items"
     },
     {
@@ -1328,14 +1242,6 @@
       "registry_name": "mod_gui"
     },
     {
-      "name": "TheGarf",
-      "type": "livingentity",
-      "sortid": 137,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_garf"
-    },
-    {
       "name": "Liquidationification",
       "type": "block",
       "sortid": 138,
@@ -1352,12 +1258,79 @@
       "registry_name": "rename_yourself"
     },
     {
+      "name": "ActiveAbilitiesMOD",
+      "type": "gui",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "active_abilities_mod"
+    },
+    {
+      "name": "RenamingYourselfIsRequired",
+      "type": "villagertrade",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renaming_yourself_is_required"
+    },
+    {
+      "name": "PurpleStuff",
+      "type": "fluid",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_stuff",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "BrainAcid",
+      "type": "tag",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brain_acid"
+    },
+    {
       "name": "Illuminated",
       "type": "tab",
       "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "illuminated"
+    },
+    {
+      "name": "Saltine",
+      "type": "item",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saltine"
+    },
+    {
+      "name": "RenameYourselfPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rename_yourself_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Compaction",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compaction"
     },
     {
       "name": "LiquidationificationOnBlockRightClicked",
@@ -1392,71 +1365,12 @@
       }
     },
     {
-      "name": "RenamingYourselfIsRequired",
-      "type": "villagertrade",
-      "sortid": 142,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "renaming_yourself_is_required"
-    },
-    {
-      "name": "BrainAcid",
-      "type": "tag",
-      "sortid": 143,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "brain_acid"
-    },
-    {
-      "name": "RenameYourselfPlayerFinishesUsingItem",
-      "type": "procedure",
-      "sortid": 144,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rename_yourself_player_finishes_using_item",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Saltine",
-      "type": "item",
-      "sortid": 145,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "saltine"
-    },
-    {
       "name": "Condensation",
       "type": "recipe",
       "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "condensation"
-    },
-    {
-      "name": "Compaction",
-      "type": "recipe",
-      "sortid": 146,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "compaction"
-    },
-    {
-      "name": "PurpleStuff",
-      "type": "fluid",
-      "sortid": 147,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "purple_stuff",
-      "metadata": {
-        "gb": true
-      }
     },
     {
       "name": "WoodyLand",
@@ -1579,7 +1493,6 @@
       "item.minecraft_plus.emerald_shard": "Emerald Shard",
       "item.minecraft_plus.emerald_gilded_netherite_axe": "Emerald Adorned Netherite Axe",
       "block.minecraft_plus.ancient_tile": "Ancient Tile",
-      "item.minecraft_plus.purple_stuff_bucket": "purple stuff squared",
       "key.minecraft_plus.dash": "Dash",
       "item.minecraft_plus.emerald_gilded_netherite_boots": "Emerald Adorned Netherite Boots",
       "item.minecraft_plus.dargle": "exit",
@@ -1603,26 +1516,21 @@
       "block.minecraft_plus.ancient_rune_panel": "Ancient Rune Panel",
       "item.minecraft_plus.diamond_gilded_netherite_pickaxe": "Diamond Adorned Netherite Pickaxe",
       "item.minecraft_plus.heavy_netherite_chestplate": "Heavy Netherite Chestplate",
-      "item.minecraft_plus.saltine": "saltine",
       "item.minecraft_plus.diamond_gilded_netherite_helmet": "Diamond Adorned Netherite Helmet",
       "item.minecraft_plus.netherite_cleaver": "Netherite Cleaver",
       "item.minecraft_plus.funnybox": "Funnybox",
       "block.minecraft_plus.ancient_bricks": "Ancient Bricks",
-      "block.minecraft_plus.purple_stuff": "purple stuff",
       "item.minecraft_plus.emerald_gilded_netherite_helmet": "Emerald Adorned Netherite Helmet",
       "item.minecraft_plus.blue_slime": "Blue Slime",
       "item.minecraft_plus.diamond_gilded_netherite_boots": "Diamond Adorned Netherite Boots",
       "item.minecraft_plus.cloaker_goggles_helmet": "Cloaker Goggles Helmet",
-      "itemGroup.tabilluminated": "illuminated",
-      "fluid.minecraft_plus.purple_stuff": "purple stuff",
       "block.minecraft_plus.sticky_residue": "Sticky Residue",
       "item.minecraft_plus.david": "david",
       "item.minecraft_plus.handheld_drill_unit": "Handheld Drill Unit",
-      "biome.minecraft_plus.woody_land": "woody land",
       "entity.minecraft_plus.the_garf": "The Garf",
       "item.minecraft_plus.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "item.minecraft_plus.diamond_gilded_netherite_hoe": "Diamond Adorned Netherite Hoe",
-      "item.minecraft_plus.rename_yourself": "rename yourself.",
+      "item.minecraft_plus.rename_yourself": "Rename Yourself",
       "item.minecraft_plus.emerald_gilded_netherite_hoe": "Emerald Adorned Netherite Hoe",
       "item.minecraft_plus.stimulation_wizard_spawn_egg": "Stimulation Wizard Spawn Egg",
       "item.minecraft_plus.diamond_gilded_netherite_leggings": "Diamond Adorned Netherite Leggings",
@@ -1650,10 +1558,6 @@
         "children": []
       },
       {
-        "name": "serverinternal",
-        "children": []
-      },
-      {
         "name": "loot items",
         "children": [
           {
@@ -1661,6 +1565,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "serverinternal",
+        "children": []
       }
     ]
   },

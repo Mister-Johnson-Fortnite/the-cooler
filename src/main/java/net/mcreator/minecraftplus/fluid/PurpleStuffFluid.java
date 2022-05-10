@@ -1,25 +1,8 @@
 
 package net.mcreator.minecraftplus.fluid;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fluids.ForgeFlowingFluid;
-import net.minecraftforge.fluids.FluidAttributes;
-
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.material.Fluid;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.minecraftplus.init.MinecraftPlusModItems;
-import net.mcreator.minecraftplus.init.MinecraftPlusModFluids;
-import net.mcreator.minecraftplus.init.MinecraftPlusModBlocks;
-
 public abstract class PurpleStuffFluid extends ForgeFlowingFluid {
+
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(MinecraftPlusModFluids.PURPLE_STUFF,
 			MinecraftPlusModFluids.FLOWING_PURPLE_STUFF,
 			FluidAttributes
@@ -74,4 +57,5 @@ public abstract class PurpleStuffFluid extends ForgeFlowingFluid {
 			return false;
 		}
 	}
+
 }

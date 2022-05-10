@@ -16,13 +16,11 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.minecraftplus.entity.TheGarfEntity;
 import net.mcreator.minecraftplus.entity.StimulationWizardEntity;
 import net.mcreator.minecraftplus.entity.SquirrelGunEntity;
 import net.mcreator.minecraftplus.entity.SquirrelEntity;
 import net.mcreator.minecraftplus.entity.SlimeGunEntity;
 import net.mcreator.minecraftplus.entity.MechaGoobertEntity;
-import net.mcreator.minecraftplus.entity.DashhitEntity;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)

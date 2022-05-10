@@ -10,7 +10,6 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.effect.MobEffect;
 
-import net.mcreator.minecraftplus.potion.DownedMobEffect;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
 
 public class MinecraftPlusModMobEffects {

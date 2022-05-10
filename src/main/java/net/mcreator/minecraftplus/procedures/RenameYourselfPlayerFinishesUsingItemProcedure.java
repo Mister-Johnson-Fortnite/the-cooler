@@ -1,8 +1,8 @@
 package net.mcreator.minecraftplus.procedures;
 
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.minecraftplus.network.MinecraftPlusModVariables;
+import javax.annotation.Nullable;
 
 public class RenameYourselfPlayerFinishesUsingItemProcedure {
 	public static void execute(Entity entity) {

@@ -1,33 +1,11 @@
 
 package net.mcreator.minecraftplus.world.features.lakes;
 
-import net.minecraft.world.level.levelgen.placement.RarityFilter;
-import net.minecraft.world.level.levelgen.placement.PlacedFeature;
-import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
-import net.minecraft.world.level.levelgen.placement.EnvironmentScanPlacement;
-import net.minecraft.world.level.levelgen.placement.BiomeFilter;
-import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
-import net.minecraft.world.level.levelgen.feature.LakeFeature;
-import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
-import net.minecraft.world.level.levelgen.feature.Feature;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.WorldGenLevel;
-import net.minecraft.world.level.Level;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.data.worldgen.placement.PlacementUtils;
-import net.minecraft.data.worldgen.features.FeatureUtils;
-import net.minecraft.core.Holder;
-import net.minecraft.core.Direction;
-
-import net.mcreator.minecraftplus.init.MinecraftPlusModBlocks;
-
-import java.util.Set;
-import java.util.List;
+import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 
 public class PurpleStuffFeature extends LakeFeature {
+
 	public static PurpleStuffFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<LakeFeature.Configuration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
@@ -47,7 +25,8 @@ public class PurpleStuffFeature extends LakeFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("minecraft_plus:woody_land"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of();
+
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public PurpleStuffFeature() {
@@ -59,6 +38,7 @@ public class PurpleStuffFeature extends LakeFeature {
 		WorldGenLevel world = context.level();
 		if (!generate_dimensions.contains(world.getLevel().dimension()))
 			return false;
+
 		return super.place(context);
 	}
 }

@@ -11,7 +11,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
-import net.mcreator.minecraftplus.client.renderer.TheGarfRenderer;
 import net.mcreator.minecraftplus.client.renderer.StimulationWizardRenderer;
 import net.mcreator.minecraftplus.client.renderer.SquirrelRenderer;
 import net.mcreator.minecraftplus.client.renderer.SquirrelGunRenderer;

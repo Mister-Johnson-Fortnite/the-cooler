@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.minecraftplus.init.MinecraftPlusModTabs;
+import net.mcreator.minecraftplus.init.MinecraftPlusModMobEffects;
 import net.mcreator.minecraftplus.init.MinecraftPlusModItems;
 import net.mcreator.minecraftplus.init.MinecraftPlusModFluids;
 import net.mcreator.minecraftplus.init.MinecraftPlusModFeatures;
@@ -56,6 +57,8 @@ public class MinecraftPlusMod {
 
 		MinecraftPlusModFeatures.REGISTRY.register(bus);
 		MinecraftPlusModFluids.REGISTRY.register(bus);
+
+		MinecraftPlusModMobEffects.REGISTRY.register(bus);
 
 		MinecraftPlusModBiomes.REGISTRY.register(bus);
 

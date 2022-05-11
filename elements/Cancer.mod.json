@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Cancer",
+    "icon": "starve-a-tumor-feed-a-cell-33160.png",
+    "color": {
+      "value": -16711936,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "CancerEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "CancerEffectExpires"
+    }
+  }
+}

@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.minecraftplus.item.TumorItem;
 import net.mcreator.minecraftplus.item.SquirrelGunItem;
 import net.mcreator.minecraftplus.item.SlimeGunItem;
 import net.mcreator.minecraftplus.item.SaltineItem;
@@ -22,6 +23,7 @@ import net.mcreator.minecraftplus.item.PurpleStuffItem;
 import net.mcreator.minecraftplus.item.NetheriteWaraxeItem;
 import net.mcreator.minecraftplus.item.NetheriteCleaverItem;
 import net.mcreator.minecraftplus.item.MothwingCloakItem;
+import net.mcreator.minecraftplus.item.MothManCardItem;
 import net.mcreator.minecraftplus.item.MarmrghItem;
 import net.mcreator.minecraftplus.item.MODItem;
 import net.mcreator.minecraftplus.item.HeavyNetheriteItem;
@@ -40,7 +42,10 @@ import net.mcreator.minecraftplus.item.DiamondGildedNetheritePickaxeItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteHoeItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteAxeItem;
+import net.mcreator.minecraftplus.item.DavidItem;
+import net.mcreator.minecraftplus.item.DavidChestplateItem;
 import net.mcreator.minecraftplus.item.DargleItem;
+import net.mcreator.minecraftplus.item.DOKTORPEPSIIItem;
 import net.mcreator.minecraftplus.item.BlueSlimeItem;
 import net.mcreator.minecraftplus.item.AncientWarpKeyItem;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
@@ -124,6 +129,12 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> RENAME_YOURSELF = REGISTRY.register("rename_yourself", () -> new RenameYourselfItem());
 	public static final RegistryObject<Item> SALTINE = REGISTRY.register("saltine", () -> new SaltineItem());
 	public static final RegistryObject<Item> PURPLE_STUFF_BUCKET = REGISTRY.register("purple_stuff_bucket", () -> new PurpleStuffItem());
+	public static final RegistryObject<Item> DAVID = REGISTRY.register("david", () -> new DavidItem());
+	public static final RegistryObject<Item> DAVID_CHESTPLATE_CHESTPLATE = REGISTRY.register("david_chestplate_chestplate",
+			() -> new DavidChestplateItem.Chestplate());
+	public static final RegistryObject<Item> MOTH_MAN_CARD = REGISTRY.register("moth_man_card", () -> new MothManCardItem());
+	public static final RegistryObject<Item> TUMOR = REGISTRY.register("tumor", () -> new TumorItem());
+	public static final RegistryObject<Item> DOKTORPEPSII = REGISTRY.register("doktorpepsii", () -> new DOKTORPEPSIIItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

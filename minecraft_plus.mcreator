@@ -1403,6 +1403,148 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "davids_house"
+    },
+    {
+      "name": "DavidChestplate",
+      "type": "armor",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "david_chestplate",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "DavidChestplateRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "david_chestplate_recipe"
+    },
+    {
+      "name": "MothManCardPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moth_man_card_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MothManCard",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moth_man_card"
+    },
+    {
+      "name": "Cardmoth",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardmoth"
+    },
+    {
+      "name": "CancerEffectExpires",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancer_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CancerEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancer_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cancer",
+      "type": "potioneffect",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancer"
+    },
+    {
+      "name": "PlayerFinishesUsingCancerCausingItem",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_finishes_using_cancer_causing_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tumor",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumor"
+    },
+    {
+      "name": "DOKTORPEPSII",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doktorpepsii"
     }
   ],
   "variable_elements": [
@@ -1487,7 +1629,9 @@
       "item.minecraft_plus.slime_gun": "Slime Gun",
       "item.minecraft_plus.heavy_netherite_boots": "Heavy Netherite Boots",
       "block.minecraft_plus.liquidationification": "Liquidationification",
+      "item.minecraft_plus.david_chestplate_helmet": "David Chestplate Helmet",
       "item.minecraft_plus.diamond_gilded_netherite_sword": "Diamond Adorned Netherite Sword",
+      "item.minecraft_plus.doktorpepsii": "docketor.",
       "item.minecraft_plus.netherite_waraxe": "Netherite Waraxe",
       "entity.minecraft_plus.squirrel": "Rabid Squirrel",
       "item.minecraft_plus.emerald_shard": "Emerald Shard",
@@ -1505,7 +1649,9 @@
       "item.minecraft_plus.ancient_warp_key": "Ancient Warp Key",
       "item.minecraft_plus.dimtest": "Dimtest Portal Igniter",
       "item.minecraft_plus.squirrel_spawn_egg": "Rabid Squirrel Spawn Egg",
+      "item.minecraft_plus.david_chestplate_boots": "David Chestplate Boots",
       "block.minecraft_plus.ancient_panel": "Ancient Panel",
+      "effect.minecraft_plus.cancer": "Cancer",
       "block.minecraft_plus.ancient_light": "Ancient Light",
       "item.minecraft_plus.diamond_gilded_netherite_chestplate": "Diamond Adorned Netherite Chestplate",
       "item.minecraft_plus.diamond_gilded_netherite_axe": "Diamond Adorned Netherite Axe",
@@ -1519,6 +1665,8 @@
       "item.minecraft_plus.heavy_netherite_chestplate": "Heavy Netherite Chestplate",
       "item.minecraft_plus.saltine": "saltine",
       "item.minecraft_plus.diamond_gilded_netherite_helmet": "Diamond Adorned Netherite Helmet",
+      "item.minecraft_plus.moth_man_card": "moth man card",
+      "item.minecraft_plus.tumor": "tumor.",
       "item.minecraft_plus.netherite_cleaver": "Netherite Cleaver",
       "item.minecraft_plus.funnybox": "Funnybox",
       "block.minecraft_plus.ancient_bricks": "Ancient Bricks",
@@ -1534,6 +1682,7 @@
       "item.minecraft_plus.handheld_drill_unit": "Handheld Drill Unit",
       "biome.minecraft_plus.woody_land": "woody land",
       "entity.minecraft_plus.the_garf": "The Garf",
+      "item.minecraft_plus.david_chestplate_leggings": "David Chestplate Leggings",
       "item.minecraft_plus.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "item.minecraft_plus.diamond_gilded_netherite_hoe": "Diamond Adorned Netherite Hoe",
       "item.minecraft_plus.rename_yourself": "rename yourself.",
@@ -1550,6 +1699,7 @@
       "item.minecraft_plus.marmrgh": "enter",
       "entity.minecraft_plus.mecha_goobert": "Mecha Goobert",
       "item.minecraft_plus.cloaker_goggles_boots": "Cloaker Goggles Boots",
+      "item.minecraft_plus.david_chestplate_chestplate": "david chestplate",
       "item.minecraft_plus.the_garf_spawn_egg": "The Garf Spawn Egg",
       "item.minecraft_plus.emerald_gilded_netherite_leggings": "Emerald Adorned Netherite Leggings",
       "item.minecraft_plus.mod": "M.O.D.",

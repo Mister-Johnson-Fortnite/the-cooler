@@ -24,6 +24,16 @@
         }
       },
       {
+        "type": "image",
+        "data": {
+          "image": "death.png",
+          "use1Xscale": true,
+          "name": "death.png",
+          "x": 330,
+          "y": 170
+        }
+      },
+      {
         "type": "button",
         "data": {
           "text": "Active Abilities",

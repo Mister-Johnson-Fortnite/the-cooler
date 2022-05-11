@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft_plus:david"
+    },
+    "1": {
+      "item": "minecraft_plus:david"
+    },
+    "2": {
+      "item": "minecraft_plus:david"
+    },
+    "3": {
+      "item": "minecraft_plus:david"
+    },
+    "4": {
+      "item": "minecraft_plus:saltine"
+    },
+    "5": {
+      "item": "minecraft_plus:david"
+    },
+    "6": {
+      "item": "minecraft_plus:david"
+    },
+    "7": {
+      "item": "minecraft_plus:david"
+    },
+    "8": {
+      "item": "minecraft_plus:david"
+    }
+  },
+  "result": {
+    "item": "minecraft_plus:david_chestplate_chestplate",
+    "count": 1
+  }
+}

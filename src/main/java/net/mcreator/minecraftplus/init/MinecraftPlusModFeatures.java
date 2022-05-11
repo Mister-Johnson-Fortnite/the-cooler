@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
 import net.mcreator.minecraftplus.world.features.lakes.PurpleStuffFeature;
+import net.mcreator.minecraftplus.world.features.DavidsHouseFeature;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
 
 import java.util.function.Supplier;
@@ -31,6 +32,8 @@ public class MinecraftPlusModFeatures {
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
 	public static final RegistryObject<Feature<?>> PURPLE_STUFF = register("purple_stuff", PurpleStuffFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.LAKES, PurpleStuffFeature.GENERATE_BIOMES, PurpleStuffFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DAVIDS_HOUSE = register("davids_house", DavidsHouseFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.SURFACE_STRUCTURES, DavidsHouseFeature.GENERATE_BIOMES, DavidsHouseFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

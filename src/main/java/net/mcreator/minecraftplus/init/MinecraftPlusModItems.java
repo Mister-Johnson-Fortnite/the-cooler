@@ -135,6 +135,7 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> MOTH_MAN_CARD = REGISTRY.register("moth_man_card", () -> new MothManCardItem());
 	public static final RegistryObject<Item> TUMOR = REGISTRY.register("tumor", () -> new TumorItem());
 	public static final RegistryObject<Item> DOKTORPEPSII = REGISTRY.register("doktorpepsii", () -> new DOKTORPEPSIIItem());
+	public static final RegistryObject<Item> CONDEMNED = block(MinecraftPlusModBlocks.CONDEMNED, MinecraftPlusModTabs.TAB_ILLUMINATED);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

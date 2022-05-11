@@ -1545,6 +1545,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "doktorpepsii"
+    },
+    {
+      "name": "Condemned",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condemned"
     }
   ],
   "variable_elements": [
@@ -1652,6 +1660,7 @@
       "item.minecraft_plus.david_chestplate_boots": "David Chestplate Boots",
       "block.minecraft_plus.ancient_panel": "Ancient Panel",
       "effect.minecraft_plus.cancer": "Cancer",
+      "block.minecraft_plus.condemned": "condemned",
       "block.minecraft_plus.ancient_light": "Ancient Light",
       "item.minecraft_plus.diamond_gilded_netherite_chestplate": "Diamond Adorned Netherite Chestplate",
       "item.minecraft_plus.diamond_gilded_netherite_axe": "Diamond Adorned Netherite Axe",

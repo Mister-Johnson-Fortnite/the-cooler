@@ -64,7 +64,7 @@ public class CancerEffectExpiresProcedure {
 					private void run() {
 						if (entity instanceof Player _player && !_player.level.isClientSide())
 							_player.displayClientMessage(new TextComponent("you die."), (true));
-						entity.hurt(DamageSource.MAGIC, 50);
+						entity.hurt(DamageSource.STARVE, 50);
 						MinecraftForge.EVENT_BUS.unregister(this);
 					}
 				}.start(world, 100);

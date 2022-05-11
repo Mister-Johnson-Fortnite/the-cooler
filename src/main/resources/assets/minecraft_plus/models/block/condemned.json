@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft_plus:blocks/aaaaaghhhh_i_neeeed_a_medic_bag",
+    "up": "minecraft_plus:blocks/aaaaaghhhh_i_neeeed_a_medic_bag",
+    "north": "minecraft_plus:blocks/aaaaaghhhh_i_neeeed_a_medic_bag",
+    "east": "minecraft_plus:blocks/aaaaaghhhh_i_neeeed_a_medic_bag",
+    "south": "minecraft_plus:blocks/aaaaaghhhh_i_neeeed_a_medic_bag",
+    "west": "minecraft_plus:blocks/aaaaaghhhh_i_neeeed_a_medic_bag",
+    "particle": "minecraft_plus:blocks/aaaaaghhhh_i_neeeed_a_medic_bag"
+  }
+}

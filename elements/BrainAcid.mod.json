@@ -39,6 +39,9 @@
       },
       {
         "value": "CUSTOM:TheCube"
+      },
+      {
+        "value": "CUSTOM:Solidify"
       }
     ],
     "blocks": [],

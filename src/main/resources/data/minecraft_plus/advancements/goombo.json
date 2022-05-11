@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft_plus:condemned"
+    },
+    "title": {
+      "translate": "advancements.goombo.title"
+    },
+    "description": {
+      "translate": "advancements.goombo.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "goombo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft_plus:woody_land"
+      }
+    }
+  },
+  "parent": "minecraft_plus:yayyyyyyy"
+}

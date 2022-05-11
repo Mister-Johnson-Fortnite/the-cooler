@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft_plus:textures/death.png",
+    "icon": {
+      "item": "minecraft_plus:doktorpepsii"
+    },
+    "title": {
+      "translate": "advancements.yayyyyyyy.title"
+    },
+    "description": {
+      "translate": "advancements.yayyyyyyy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yayyyyyyy": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  }
+}

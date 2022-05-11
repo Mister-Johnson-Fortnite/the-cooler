@@ -1593,6 +1593,93 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cubism"
+    },
+    {
+      "name": "BecomeGarfedAndStuff",
+      "type": "gui",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "become_garfed_and_stuff",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "SolidifyRightclicked",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidify_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "Solidify",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidify",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "Solidification",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidification",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "Solidified",
+      "type": "achievement",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidified",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "YAYYYYYYY",
+      "type": "achievement",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yayyyyyyy",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "Goombo",
+      "type": "achievement",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goombo",
+      "path": "~/reaction based porfolio issues of the current day"
     }
   ],
   "variable_elements": [
@@ -1677,6 +1764,7 @@
       "item.minecraft_plus.slime_gun": "Slime Gun",
       "item.minecraft_plus.heavy_netherite_boots": "Heavy Netherite Boots",
       "block.minecraft_plus.liquidationification": "Liquidationification",
+      "advancements.yayyyyyyy.title": "YAYYYYYYY",
       "item.minecraft_plus.david_chestplate_helmet": "David Chestplate Helmet",
       "item.minecraft_plus.diamond_gilded_netherite_sword": "Diamond Adorned Netherite Sword",
       "item.minecraft_plus.doktorpepsii": "docketor.",
@@ -1694,6 +1782,8 @@
       "item.minecraft_plus.mothwing_cloak": "Bloodied Scarf",
       "item.minecraft_plus.cloaker_goggles_chestplate": "Cloaker Goggles Body",
       "block.minecraft_plus.ancient_tech_block": "Ancient Tech Block",
+      "item.minecraft_plus.solidify": "solidify",
+      "advancements.goombo.title": "goombo",
       "item.minecraft_plus.ancient_warp_key": "Ancient Warp Key",
       "item.minecraft_plus.dimtest": "Dimtest Portal Igniter",
       "item.minecraft_plus.squirrel_spawn_egg": "Rabid Squirrel Spawn Egg",
@@ -1729,10 +1819,13 @@
       "fluid.minecraft_plus.purple_stuff": "purple stuff",
       "block.minecraft_plus.sticky_residue": "Sticky Residue",
       "item.minecraft_plus.david": "david",
+      "advancements.solidified.descr": "You solidified.",
       "item.minecraft_plus.handheld_drill_unit": "Handheld Drill Unit",
       "biome.minecraft_plus.woody_land": "woody land",
       "entity.minecraft_plus.the_garf": "The Garf",
+      "advancements.goombo.descr": "goombo.",
       "item.minecraft_plus.david_chestplate_leggings": "David Chestplate Leggings",
+      "advancements.solidified.title": "Solidified",
       "item.minecraft_plus.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "item.minecraft_plus.diamond_gilded_netherite_hoe": "Diamond Adorned Netherite Hoe",
       "item.minecraft_plus.rename_yourself": "rename yourself.",
@@ -1746,7 +1839,9 @@
       "item.minecraft_plus.winged_strawberry": "Winged Strawberry",
       "item.minecraft_plus.emerald_gilded_netherite_sword": "Emerald Adorned Netherite Sword",
       "item.minecraft_plus.bloodied_scarf": "Bloodied Scarf",
+      "death.attack.cancer.player": "%1$s died of cancer.",
       "item.minecraft_plus.marmrgh": "enter",
+      "advancements.yayyyyyyy.descr": "YEAH YOU DID IT!!!!!! WOOOOOOOOOOOOOOOOOOOOOOOOO",
       "entity.minecraft_plus.mecha_goobert": "Mecha Goobert",
       "item.minecraft_plus.cloaker_goggles_boots": "Cloaker Goggles Boots",
       "item.minecraft_plus.david_chestplate_chestplate": "david chestplate",
@@ -1775,6 +1870,10 @@
       },
       {
         "name": "serverinternal",
+        "children": []
+      },
+      {
+        "name": "reaction based porfolio issues of the current day",
         "children": []
       }
     ]

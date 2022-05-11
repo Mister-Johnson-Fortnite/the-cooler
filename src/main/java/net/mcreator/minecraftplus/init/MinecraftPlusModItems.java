@@ -17,6 +17,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.minecraftplus.item.TumorItem;
 import net.mcreator.minecraftplus.item.TheCubeItem;
 import net.mcreator.minecraftplus.item.SquirrelGunItem;
+import net.mcreator.minecraftplus.item.SolidifyItem;
 import net.mcreator.minecraftplus.item.SlimeGunItem;
 import net.mcreator.minecraftplus.item.SaltineItem;
 import net.mcreator.minecraftplus.item.RenameYourselfItem;
@@ -138,6 +139,7 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> DOKTORPEPSII = REGISTRY.register("doktorpepsii", () -> new DOKTORPEPSIIItem());
 	public static final RegistryObject<Item> CONDEMNED = block(MinecraftPlusModBlocks.CONDEMNED, MinecraftPlusModTabs.TAB_ILLUMINATED);
 	public static final RegistryObject<Item> THE_CUBE = REGISTRY.register("the_cube", () -> new TheCubeItem());
+	public static final RegistryObject<Item> SOLIDIFY = REGISTRY.register("solidify", () -> new SolidifyItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

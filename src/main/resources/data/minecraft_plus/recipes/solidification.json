@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft_plus:condemned"
+  },
+  "result": "minecraft_plus:solidify"
+}

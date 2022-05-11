@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft_plus:purple_stuff"
+    },
+    "title": {
+      "translate": "advancements.solidified.title"
+    },
+    "description": {
+      "translate": "advancements.solidified.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "solidified": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft_plus:yayyyyyyy"
+}

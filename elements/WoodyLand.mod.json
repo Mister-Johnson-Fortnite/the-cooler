@@ -4,7 +4,7 @@
   "definition": {
     "name": "woody land",
     "groundBlock": {
-      "value": "CUSTOM:Liquidationification"
+      "value": "CUSTOM:Condemned"
     },
     "undergroundBlock": {
       "value": "CUSTOM:Liquidationification"
@@ -58,7 +58,7 @@
     "spawnBiome": true,
     "spawnBiomeNether": false,
     "spawnInCaves": false,
-    "biomeWeight": 6,
+    "biomeWeight": 30,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 4,
     "seagrassPerChunk": 0,

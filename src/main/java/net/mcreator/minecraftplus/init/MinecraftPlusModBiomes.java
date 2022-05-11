@@ -81,7 +81,7 @@ public class MinecraftPlusModBiomes {
 							List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
 							surfaceRules.add(1,
 									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, WOODY_LAND.getId()),
-											MinecraftPlusModBlocks.LIQUIDATIONIFICATION.get().defaultBlockState(),
+											MinecraftPlusModBlocks.CONDEMNED.get().defaultBlockState(),
 											MinecraftPlusModBlocks.LIQUIDATIONIFICATION.get().defaultBlockState(),
 											MinecraftPlusModBlocks.LIQUIDATIONIFICATION.get().defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "cookingtime": 99,
+  "ingredient": {
+    "item": "minecraft_plus:moth_man_card"
+  },
+  "result": "minecraft_plus:doktorpepsii"
+}

@@ -1379,6 +1379,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "woody_land"
+    },
+    {
+      "name": "David",
+      "type": "item",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "david"
+    },
+    {
+      "name": "DavidDistributer",
+      "type": "loottable",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "david_distributer"
+    },
+    {
+      "name": "DavidsHouse",
+      "type": "structure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "davids_house"
     }
   ],
   "variable_elements": [
@@ -1506,6 +1530,7 @@
       "itemGroup.tabilluminated": "illuminated",
       "fluid.minecraft_plus.purple_stuff": "purple stuff",
       "block.minecraft_plus.sticky_residue": "Sticky Residue",
+      "item.minecraft_plus.david": "david",
       "item.minecraft_plus.handheld_drill_unit": "Handheld Drill Unit",
       "biome.minecraft_plus.woody_land": "woody land",
       "entity.minecraft_plus.the_garf": "The Garf",

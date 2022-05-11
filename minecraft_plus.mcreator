@@ -1680,6 +1680,23 @@
       "locked_code": false,
       "registry_name": "goombo",
       "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "YAAT",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaat",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reaction based porfolio issues of the current day"
     }
   ],
   "variable_elements": [
@@ -1761,10 +1778,10 @@
     "en_us": {
       "item.minecraft_plus.mecha_goobert_spawn_egg": "Mecha Goobert Spawn Egg",
       "item.minecraft_plus.heavy_netherite_leggings": "Heavy Netherite Leggings",
-      "item.minecraft_plus.slime_gun": "Slime Gun",
-      "item.minecraft_plus.heavy_netherite_boots": "Heavy Netherite Boots",
-      "block.minecraft_plus.liquidationification": "Liquidationification",
       "advancements.yayyyyyyy.title": "YAYYYYYYY",
+      "block.minecraft_plus.liquidationification": "Liquidationification",
+      "item.minecraft_plus.heavy_netherite_boots": "Heavy Netherite Boots",
+      "item.minecraft_plus.slime_gun": "Slime Gun",
       "item.minecraft_plus.david_chestplate_helmet": "David Chestplate Helmet",
       "item.minecraft_plus.diamond_gilded_netherite_sword": "Diamond Adorned Netherite Sword",
       "item.minecraft_plus.doktorpepsii": "docketor.",

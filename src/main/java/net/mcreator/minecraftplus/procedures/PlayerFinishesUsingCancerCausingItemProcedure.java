@@ -11,6 +11,6 @@ public class PlayerFinishesUsingCancerCausingItemProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MinecraftPlusModMobEffects.CANCER.get(), 24000, 1, (false), (false)));
+			_entity.addEffect(new MobEffectInstance(MinecraftPlusModMobEffects.CANCER.get(), 24000, 0, (false), (false)));
 	}
 }

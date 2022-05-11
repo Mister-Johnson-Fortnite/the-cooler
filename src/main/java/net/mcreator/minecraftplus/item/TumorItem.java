@@ -14,9 +14,7 @@ import net.mcreator.minecraftplus.init.MinecraftPlusModTabs;
 public class TumorItem extends Item {
 	public TumorItem() {
 		super(new Item.Properties().tab(MinecraftPlusModTabs.TAB_ILLUMINATED).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(1).saturationMod(0f)
-
-						.meat().build()));
+				.food((new FoodProperties.Builder()).nutrition(3).saturationMod(5f).alwaysEat().meat().build()));
 	}
 
 	@Override

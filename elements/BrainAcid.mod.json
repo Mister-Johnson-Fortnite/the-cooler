@@ -21,6 +21,27 @@
       },
       {
         "value": "CUSTOM:David"
+      },
+      {
+        "value": "CUSTOM:DavidChestplate.body"
+      },
+      {
+        "value": "CUSTOM:MothManCard"
+      },
+      {
+        "value": "CUSTOM:DOKTORPEPSII"
+      },
+      {
+        "value": "CUSTOM:Tumor"
+      },
+      {
+        "value": "CUSTOM:Condemned"
+      },
+      {
+        "value": "CUSTOM:TheCube"
+      },
+      {
+        "value": "CUSTOM:Solidify"
       }
     ],
     "blocks": [],

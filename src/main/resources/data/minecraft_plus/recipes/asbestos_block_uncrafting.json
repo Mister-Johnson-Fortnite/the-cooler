@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft_plus:asbestos_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft_plus:asbestos",
+    "count": 9
+  }
+}

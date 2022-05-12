@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft_plus:asbestos"
+    },
+    "1": {
+      "item": "minecraft_plus:asbestos"
+    },
+    "2": {
+      "item": "minecraft_plus:asbestos"
+    },
+    "3": {
+      "item": "minecraft_plus:asbestos"
+    },
+    "4": {
+      "item": "minecraft_plus:asbestos"
+    },
+    "5": {
+      "item": "minecraft_plus:asbestos"
+    },
+    "6": {
+      "item": "minecraft_plus:asbestos"
+    },
+    "7": {
+      "item": "minecraft_plus:asbestos"
+    },
+    "8": {
+      "item": "minecraft_plus:asbestos"
+    }
+  },
+  "result": {
+    "item": "minecraft_plus:asbestos_block",
+    "count": 1
+  }
+}

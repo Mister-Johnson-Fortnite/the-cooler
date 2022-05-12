@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.0,
+    "cookingTime": 99,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:MothManCard"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:DOKTORPEPSII"
+    },
+    "name": "le_doktor",
+    "namespace": "mod"
+  }
+}

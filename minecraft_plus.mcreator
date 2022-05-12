@@ -1403,6 +1403,405 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "davids_house"
+    },
+    {
+      "name": "DavidChestplate",
+      "type": "armor",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "david_chestplate",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "DavidChestplateRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "david_chestplate_recipe"
+    },
+    {
+      "name": "MothManCardPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moth_man_card_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MothManCard",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moth_man_card"
+    },
+    {
+      "name": "Cardmoth",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardmoth"
+    },
+    {
+      "name": "CancerEffectExpires",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancer_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CancerEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancer_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cancer",
+      "type": "potioneffect",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancer"
+    },
+    {
+      "name": "PlayerFinishesUsingCancerCausingItem",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_finishes_using_cancer_causing_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tumor",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumor"
+    },
+    {
+      "name": "DOKTORPEPSII",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doktorpepsii"
+    },
+    {
+      "name": "Condemned",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condemned"
+    },
+    {
+      "name": "LeDoktor",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "le_doktor"
+    },
+    {
+      "name": "TheCubePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_cube_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheCube",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_cube"
+    },
+    {
+      "name": "CUBISM",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubism"
+    },
+    {
+      "name": "BecomeGarfedAndStuff",
+      "type": "gui",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "become_garfed_and_stuff",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "SolidifyRightclicked",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidify_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "Solidify",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidify",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "Solidification",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidification",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "Solidified",
+      "type": "achievement",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidified",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "YAYYYYYYY",
+      "type": "achievement",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yayyyyyyy",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "Goombo",
+      "type": "achievement",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goombo",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "YAAT",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaat",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "AsbestosBlockEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos_block_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "AsbestosBlockPlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos_block_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "AsbestosBlock",
+      "type": "block",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos_block",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "Asbestos",
+      "type": "item",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "AsbestosItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "AsbestosFlower",
+      "type": "plant",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos_flower",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "AsbestosFlowerTable",
+      "type": "loottable",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos_flower_table",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "AsbestosBlockRecipe",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos_block_recipe",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "AsbestosBlockUncrafting",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos_block_uncrafting",
+      "path": "~/reaction based porfolio issues of the current day"
     }
   ],
   "variable_elements": [
@@ -1484,10 +1883,13 @@
     "en_us": {
       "item.minecraft_plus.mecha_goobert_spawn_egg": "Mecha Goobert Spawn Egg",
       "item.minecraft_plus.heavy_netherite_leggings": "Heavy Netherite Leggings",
-      "item.minecraft_plus.slime_gun": "Slime Gun",
-      "item.minecraft_plus.heavy_netherite_boots": "Heavy Netherite Boots",
+      "advancements.yayyyyyyy.title": "YAYYYYYYY",
       "block.minecraft_plus.liquidationification": "Liquidationification",
+      "item.minecraft_plus.heavy_netherite_boots": "Heavy Netherite Boots",
+      "item.minecraft_plus.slime_gun": "Slime Gun",
+      "item.minecraft_plus.david_chestplate_helmet": "David Chestplate Helmet",
       "item.minecraft_plus.diamond_gilded_netherite_sword": "Diamond Adorned Netherite Sword",
+      "item.minecraft_plus.doktorpepsii": "docketor.",
       "item.minecraft_plus.netherite_waraxe": "Netherite Waraxe",
       "entity.minecraft_plus.squirrel": "Rabid Squirrel",
       "item.minecraft_plus.emerald_shard": "Emerald Shard",
@@ -1498,27 +1900,38 @@
       "item.minecraft_plus.emerald_gilded_netherite_boots": "Emerald Adorned Netherite Boots",
       "item.minecraft_plus.dargle": "exit",
       "entity.minecraft_plus.stimulation_wizard": "Stimulation Wizard",
+      "item.minecraft_plus.asbestos": "Asbestos",
       "item.minecraft_plus.diamond_gilded_netherite_shovel": "Diamond Adorned Netherite Shovel",
       "item.minecraft_plus.mothwing_cloak": "Bloodied Scarf",
       "item.minecraft_plus.cloaker_goggles_chestplate": "Cloaker Goggles Body",
       "block.minecraft_plus.ancient_tech_block": "Ancient Tech Block",
+      "item.minecraft_plus.solidify": "solidify",
+      "advancements.goombo.title": "goombo",
       "item.minecraft_plus.ancient_warp_key": "Ancient Warp Key",
       "item.minecraft_plus.dimtest": "Dimtest Portal Igniter",
       "item.minecraft_plus.squirrel_spawn_egg": "Rabid Squirrel Spawn Egg",
+      "item.minecraft_plus.david_chestplate_boots": "David Chestplate Boots",
       "block.minecraft_plus.ancient_panel": "Ancient Panel",
+      "effect.minecraft_plus.cancer": "Cancer",
+      "block.minecraft_plus.condemned": "condemned",
       "block.minecraft_plus.ancient_light": "Ancient Light",
       "item.minecraft_plus.diamond_gilded_netherite_chestplate": "Diamond Adorned Netherite Chestplate",
+      "block.minecraft_plus.asbestos_flower": "Asbestos Flower",
       "item.minecraft_plus.diamond_gilded_netherite_axe": "Diamond Adorned Netherite Axe",
       "item.minecraft_plus.cloaker_goggles_leggings": "Cloaker Goggles Leggings",
+      "block.minecraft_plus.asbestos_block": "Asbestos Block",
       "item.minecraft_plus.squirrel_gun": "Squirrel Gun",
       "block.minecraft_plus.ancient_screen": "Ancient Screen",
       "item.minecraft_plus.shield_of_cthulhu": "Bloodied Scarf",
       "item.minecraft_plus.emerald_gilded_netherite_shovel": "Emerald Adorned Netherite Shovel",
+      "item.minecraft_plus.the_cube": "a cube?",
       "block.minecraft_plus.ancient_rune_panel": "Ancient Rune Panel",
       "item.minecraft_plus.diamond_gilded_netherite_pickaxe": "Diamond Adorned Netherite Pickaxe",
       "item.minecraft_plus.heavy_netherite_chestplate": "Heavy Netherite Chestplate",
       "item.minecraft_plus.saltine": "saltine",
       "item.minecraft_plus.diamond_gilded_netherite_helmet": "Diamond Adorned Netherite Helmet",
+      "item.minecraft_plus.moth_man_card": "moth man card",
+      "item.minecraft_plus.tumor": "tumor.",
       "item.minecraft_plus.netherite_cleaver": "Netherite Cleaver",
       "item.minecraft_plus.funnybox": "Funnybox",
       "block.minecraft_plus.ancient_bricks": "Ancient Bricks",
@@ -1531,9 +1944,13 @@
       "fluid.minecraft_plus.purple_stuff": "purple stuff",
       "block.minecraft_plus.sticky_residue": "Sticky Residue",
       "item.minecraft_plus.david": "david",
+      "advancements.solidified.descr": "You solidified.",
       "item.minecraft_plus.handheld_drill_unit": "Handheld Drill Unit",
       "biome.minecraft_plus.woody_land": "woody land",
       "entity.minecraft_plus.the_garf": "The Garf",
+      "advancements.goombo.descr": "goombo.",
+      "item.minecraft_plus.david_chestplate_leggings": "David Chestplate Leggings",
+      "advancements.solidified.title": "Solidified",
       "item.minecraft_plus.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "item.minecraft_plus.diamond_gilded_netherite_hoe": "Diamond Adorned Netherite Hoe",
       "item.minecraft_plus.rename_yourself": "rename yourself.",
@@ -1547,10 +1964,14 @@
       "item.minecraft_plus.winged_strawberry": "Winged Strawberry",
       "item.minecraft_plus.emerald_gilded_netherite_sword": "Emerald Adorned Netherite Sword",
       "item.minecraft_plus.bloodied_scarf": "Bloodied Scarf",
+      "death.attack.cancer.player": "%1$s died of cancer.",
       "item.minecraft_plus.marmrgh": "enter",
+      "advancements.yayyyyyyy.descr": "YEAH YOU DID IT!!!!!! WOOOOOOOOOOOOOOOOOOOOOOOOO",
       "entity.minecraft_plus.mecha_goobert": "Mecha Goobert",
       "item.minecraft_plus.cloaker_goggles_boots": "Cloaker Goggles Boots",
+      "item.minecraft_plus.david_chestplate_chestplate": "david chestplate",
       "item.minecraft_plus.the_garf_spawn_egg": "The Garf Spawn Egg",
+      "death.attack.cancer": "%1$s died of cancer.",
       "item.minecraft_plus.emerald_gilded_netherite_leggings": "Emerald Adorned Netherite Leggings",
       "item.minecraft_plus.mod": "M.O.D.",
       "item.minecraft_plus.golden_strawberry": "Winged Golden Strawberry"
@@ -1574,6 +1995,10 @@
       },
       {
         "name": "serverinternal",
+        "children": []
+      },
+      {
+        "name": "reaction based porfolio issues of the current day",
         "children": []
       }
     ]

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft_plus:tumor"
+  },
+  "addition": {
+    "item": "minecraft_plus:rename_yourself"
+  },
+  "result": {
+    "item": "minecraft_plus:the_cube"
+  }
+}

@@ -135,6 +135,8 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> SALTINE = REGISTRY.register("saltine", () -> new SaltineItem());
 	public static final RegistryObject<Item> PURPLE_STUFF_BUCKET = REGISTRY.register("purple_stuff_bucket", () -> new PurpleStuffItem());
 	public static final RegistryObject<Item> DAVID = REGISTRY.register("david", () -> new DavidItem());
+	public static final RegistryObject<Item> DAVID_CHESTPLATE_HELMET = REGISTRY.register("david_chestplate_helmet",
+			() -> new DavidChestplateItem.Helmet());
 	public static final RegistryObject<Item> DAVID_CHESTPLATE_CHESTPLATE = REGISTRY.register("david_chestplate_chestplate",
 			() -> new DavidChestplateItem.Chestplate());
 	public static final RegistryObject<Item> MOTH_MAN_CARD = REGISTRY.register("moth_man_card", () -> new MothManCardItem());

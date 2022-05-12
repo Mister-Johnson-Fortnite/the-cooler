@@ -92,6 +92,7 @@ public class MinecraftPlusModVariables {
 			clone.playerEnteringLamentableX = original.playerEnteringLamentableX;
 			clone.playerEnteringLamentableY = original.playerEnteringLamentableY;
 			clone.playerEnteringLamentableZ = original.playerEnteringLamentableZ;
+			clone.isImmuneToAsbestos = original.isImmuneToAsbestos;
 			if (!event.isWasDeath()) {
 				clone.heavyhelmet = original.heavyhelmet;
 				clone.NeedToBreath = original.NeedToBreath;
@@ -278,6 +279,7 @@ public class MinecraftPlusModVariables {
 		public double playerEnteringLamentableY = 0;
 		public double playerEnteringLamentableZ = 0;
 		public double NeedToBreath = 100.0;
+		public boolean isImmuneToAsbestos = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -301,6 +303,7 @@ public class MinecraftPlusModVariables {
 			nbt.putDouble("playerEnteringLamentableY", playerEnteringLamentableY);
 			nbt.putDouble("playerEnteringLamentableZ", playerEnteringLamentableZ);
 			nbt.putDouble("NeedToBreath", NeedToBreath);
+			nbt.putBoolean("isImmuneToAsbestos", isImmuneToAsbestos);
 			return nbt;
 		}
 
@@ -321,6 +324,7 @@ public class MinecraftPlusModVariables {
 			playerEnteringLamentableY = nbt.getDouble("playerEnteringLamentableY");
 			playerEnteringLamentableZ = nbt.getDouble("playerEnteringLamentableZ");
 			NeedToBreath = nbt.getDouble("NeedToBreath");
+			isImmuneToAsbestos = nbt.getBoolean("isImmuneToAsbestos");
 		}
 	}
 
@@ -361,6 +365,7 @@ public class MinecraftPlusModVariables {
 					variables.playerEnteringLamentableY = message.data.playerEnteringLamentableY;
 					variables.playerEnteringLamentableZ = message.data.playerEnteringLamentableZ;
 					variables.NeedToBreath = message.data.NeedToBreath;
+					variables.isImmuneToAsbestos = message.data.isImmuneToAsbestos;
 				}
 			});
 			context.setPacketHandled(true);

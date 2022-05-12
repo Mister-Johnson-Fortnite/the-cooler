@@ -2,8 +2,8 @@
   "_fv": 28,
   "_type": "armor",
   "definition": {
-    "enableHelmet": false,
-    "textureHelmet": "",
+    "enableHelmet": true,
+    "textureHelmet": "gasmask",
     "enableBody": true,
     "textureBody": "david",
     "enableLeggings": false,
@@ -14,11 +14,13 @@
       "value": "CUSTOM:Illuminated"
     },
     "armorTextureFile": "davidset",
-    "helmetName": "David Chestplate Helmet",
+    "helmetName": "paper gas mask",
     "bodyName": "david chestplate",
     "leggingsName": "David Chestplate Leggings",
     "bootsName": "David Chestplate Boots",
-    "helmetSpecialInfo": [],
+    "helmetSpecialInfo": [
+      "no more asbestos taste!"
+    ],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
     "bootsSpecialInfo": [],
@@ -38,7 +40,7 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "helmetImmuneToFire": false,
+    "helmetImmuneToFire": true,
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,

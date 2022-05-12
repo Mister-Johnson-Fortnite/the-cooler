@@ -124,8 +124,8 @@
     "onStartToDestroy": {
       "name": "AsbestosBlockPlayerStartsToDestroy"
     },
-    "onEntityCollides": {
-      "name": "AsbestosBlockEntityCollidesInTheBlock"
+    "onEntityWalksOn": {
+      "name": "AsbestosBlockEntityWalksOnTheBlock"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

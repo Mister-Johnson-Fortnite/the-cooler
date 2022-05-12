@@ -15,7 +15,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.minecraftplus.procedures.AsbestosBlockPlayerStartsToDestroyProcedure;
-import net.mcreator.minecraftplus.procedures.AsbestosBlockEntityCollidesInTheBlockProcedure;
+import net.mcreator.minecraftplus.procedures.AsbestosBlockEntityWalksOnTheBlockProcedure;
 
 import java.util.List;
 import java.util.Collections;
@@ -45,8 +45,8 @@ public class AsbestosBlockBlock extends Block {
 	}
 
 	@Override
-	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
-		super.entityInside(blockstate, world, pos, entity);
-		AsbestosBlockEntityCollidesInTheBlockProcedure.execute(entity);
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
+		super.stepOn(world, pos, blockstate, entity);
+		AsbestosBlockEntityWalksOnTheBlockProcedure.execute(entity);
 	}
 }

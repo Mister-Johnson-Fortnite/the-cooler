@@ -2,8 +2,8 @@
   "_fv": 28,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Get a Wooden Pickaxe to 1 Durability",
-    "achievementDescription": "You got a wooden pickaxe to exactly 1 durability!",
+    "achievementName": "Break a Wooden Pickaxe",
+    "achievementDescription": "You broke a wooden pickaxe!",
     "achievementIcon": {
       "value": "Items.WOODEN_PICKAXE"
     },

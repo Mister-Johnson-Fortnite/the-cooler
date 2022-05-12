@@ -49,6 +49,7 @@ import net.mcreator.minecraftplus.item.DavidChestplateItem;
 import net.mcreator.minecraftplus.item.DargleItem;
 import net.mcreator.minecraftplus.item.DOKTORPEPSIIItem;
 import net.mcreator.minecraftplus.item.BlueSlimeItem;
+import net.mcreator.minecraftplus.item.AsbestosItem;
 import net.mcreator.minecraftplus.item.AncientWarpKeyItem;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
 
@@ -140,6 +141,9 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> CONDEMNED = block(MinecraftPlusModBlocks.CONDEMNED, MinecraftPlusModTabs.TAB_ILLUMINATED);
 	public static final RegistryObject<Item> THE_CUBE = REGISTRY.register("the_cube", () -> new TheCubeItem());
 	public static final RegistryObject<Item> SOLIDIFY = REGISTRY.register("solidify", () -> new SolidifyItem());
+	public static final RegistryObject<Item> ASBESTOS_BLOCK = block(MinecraftPlusModBlocks.ASBESTOS_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> ASBESTOS = REGISTRY.register("asbestos", () -> new AsbestosItem());
+	public static final RegistryObject<Item> ASBESTOS_FLOWER = block(MinecraftPlusModBlocks.ASBESTOS_FLOWER, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

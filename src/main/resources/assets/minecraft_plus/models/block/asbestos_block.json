@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft_plus:blocks/asbestoswithpenny",
+    "up": "minecraft_plus:blocks/asbestoswithpenny",
+    "north": "minecraft_plus:blocks/asbestoswithpenny",
+    "east": "minecraft_plus:blocks/asbestoswithpenny",
+    "south": "minecraft_plus:blocks/asbestoswithpenny",
+    "west": "minecraft_plus:blocks/asbestoswithpenny",
+    "particle": "minecraft_plus:blocks/asbestoswithpenny"
+  }
+}

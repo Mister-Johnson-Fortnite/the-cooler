@@ -17,6 +17,7 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
+import net.mcreator.minecraftplus.world.features.plants.AsbestosFlowerFeature;
 import net.mcreator.minecraftplus.world.features.ores.CondemnedFeature;
 import net.mcreator.minecraftplus.world.features.lakes.PurpleStuffFeature;
 import net.mcreator.minecraftplus.world.features.DavidsHouseFeature;
@@ -37,6 +38,9 @@ public class MinecraftPlusModFeatures {
 			GenerationStep.Decoration.SURFACE_STRUCTURES, DavidsHouseFeature.GENERATE_BIOMES, DavidsHouseFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> CONDEMNED = register("condemned", CondemnedFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, CondemnedFeature.GENERATE_BIOMES, CondemnedFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ASBESTOS_FLOWER = register("asbestos_flower", AsbestosFlowerFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, AsbestosFlowerFeature.GENERATE_BIOMES,
+					AsbestosFlowerFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

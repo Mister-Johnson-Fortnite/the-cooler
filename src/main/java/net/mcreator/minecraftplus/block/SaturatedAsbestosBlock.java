@@ -26,8 +26,7 @@ import java.util.Collections;
 
 public class SaturatedAsbestosBlock extends Block {
 	public SaturatedAsbestosBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOL).sound(SoundType.WOOL).strength(3f, 4f).requiresCorrectToolForDrops().friction(1f)
-				.speedFactor(1.1f).jumpFactor(0.9f));
+		super(BlockBehaviour.Properties.of(Material.WOOL).sound(SoundType.WOOL).strength(3f, 4f).requiresCorrectToolForDrops());
 	}
 
 	@Override

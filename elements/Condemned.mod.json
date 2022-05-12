@@ -70,8 +70,8 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 5.0,
-    "speedFactor": 0.0,
+    "slipperiness": 0.1,
+    "speedFactor": 0.7,
     "jumpFactor": 0.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

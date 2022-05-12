@@ -19,7 +19,7 @@ import java.util.Collections;
 public class CondemnedBlock extends Block {
 	public CondemnedBlock() {
 		super(BlockBehaviour.Properties.of(Material.HEAVY_METAL).sound(SoundType.SLIME_BLOCK).strength(1f, 2147483647f).requiresCorrectToolForDrops()
-				.friction(5f).speedFactor(0f).jumpFactor(0f));
+				.friction(0.1f).speedFactor(0.7f).jumpFactor(0f));
 	}
 
 	@Override
@@ -30,7 +30,7 @@ public class CondemnedBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 1;
+			return tieredItem.getTier().getLevel() >= 0;
 		return false;
 	}
 

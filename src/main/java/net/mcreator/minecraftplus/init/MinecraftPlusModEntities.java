@@ -21,6 +21,7 @@ import net.mcreator.minecraftplus.entity.SquirrelGunEntity;
 import net.mcreator.minecraftplus.entity.SquirrelEntity;
 import net.mcreator.minecraftplus.entity.SlimeGunEntity;
 import net.mcreator.minecraftplus.entity.MechaGoobertEntity;
+import net.mcreator.minecraftplus.entity.CrustyGunEntity;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -43,6 +44,9 @@ public class MinecraftPlusModEntities {
 					.sized(0.4f, 0.4f));
 	public static final RegistryObject<EntityType<SquirrelGunEntity>> SQUIRREL_GUN = register("projectile_squirrel_gun",
 			EntityType.Builder.<SquirrelGunEntity>of(SquirrelGunEntity::new, MobCategory.MISC).setCustomClientFactory(SquirrelGunEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<CrustyGunEntity>> CRUSTY_GUN = register("projectile_crusty_gun",
+			EntityType.Builder.<CrustyGunEntity>of(CrustyGunEntity::new, MobCategory.MISC).setCustomClientFactory(CrustyGunEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

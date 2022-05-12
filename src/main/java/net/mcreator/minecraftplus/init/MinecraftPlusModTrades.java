@@ -34,5 +34,13 @@ public class MinecraftPlusModTrades {
 
 					new ItemStack(MinecraftPlusModItems.RENAME_YOURSELF.get()), 1, 0, 0f));
 		}
+		if (event.getType() == VillagerProfession.FLETCHER) {
+			trades.get(1).add(new BasicItemListing(new ItemStack(MinecraftPlusModBlocks.ASBESTOS_BLOCK.get(), 40),
+
+					new ItemStack(MinecraftPlusModItems.CRUSTY_GUN.get()), 5, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(MinecraftPlusModItems.ASBESTOS.get(), 8),
+
+					new ItemStack(MinecraftPlusModItems.CRUSTY_BULLET.get(), 3), 64, 5, 0.05f));
+		}
 	}
 }

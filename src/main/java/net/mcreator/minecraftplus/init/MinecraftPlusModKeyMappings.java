@@ -23,7 +23,7 @@ import net.mcreator.minecraftplus.MinecraftPlusMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class MinecraftPlusModKeyMappings {
 	public static final KeyMapping DASH = new KeyMapping("key.minecraft_plus.dash", GLFW.GLFW_KEY_V, "key.categories.movement");
-	public static final KeyMapping BREATHE = new KeyMapping("key.minecraft_plus.breathe", GLFW.GLFW_KEY_U, "key.categories.breathing");
+	public static final KeyMapping BREATHE = new KeyMapping("key.minecraft_plus.breathe", GLFW.GLFW_KEY_Z, "key.categories.breathing");
 
 	@SubscribeEvent
 	public static void registerKeyBindings(FMLClientSetupEvent event) {

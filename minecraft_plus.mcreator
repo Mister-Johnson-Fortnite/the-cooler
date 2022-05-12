@@ -2099,6 +2099,33 @@
       "locked_code": false,
       "registry_name": "gas_hat",
       "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "CrustyBullet",
+      "type": "item",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusty_bullet",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "CrustyGun",
+      "type": "rangeditem",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusty_gun",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "CrustyGunsmith",
+      "type": "villagertrade",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusty_gunsmith",
+      "path": "~/reaction based porfolio issues of the current day"
     }
   ],
   "variable_elements": [
@@ -2281,6 +2308,7 @@
       "item.minecraft_plus.emerald_gilded_netherite_axe": "Emerald Adorned Netherite Axe",
       "advancements.get_a_woodenpickaxe_to_1_durability.descr": "You broke a wooden pickaxe!",
       "key.minecraft_plus.dash": "Dash",
+      "item.minecraft_plus.crusty_gun": "Crusty Gun",
       "item.minecraft_plus.emerald_gilded_netherite_boots": "Emerald Adorned Netherite Boots",
       "item.minecraft_plus.dargle": "exit",
       "item.minecraft_plus.mothwing_cloak": "Bloodied Scarf",
@@ -2323,6 +2351,7 @@
       "advancements.become_leanified.title": "Become Leanified",
       "advancements.obtain_soda.descr": "Obtained Soda",
       "item.minecraft_plus.bloodied_scarf": "Bloodied Scarf",
+      "item.minecraft_plus.crusty_bullet": "crusty bullet",
       "item.minecraft_plus.david_chestplate_chestplate": "david chestplate"
     }
   },

@@ -50,6 +50,8 @@ import net.mcreator.minecraftplus.item.DavidItem;
 import net.mcreator.minecraftplus.item.DavidChestplateItem;
 import net.mcreator.minecraftplus.item.DargleItem;
 import net.mcreator.minecraftplus.item.DOKTORPEPSIIItem;
+import net.mcreator.minecraftplus.item.CrustyGunItem;
+import net.mcreator.minecraftplus.item.CrustyBulletItem;
 import net.mcreator.minecraftplus.item.BlueSlimeItem;
 import net.mcreator.minecraftplus.item.AsbestosItem;
 import net.mcreator.minecraftplus.item.AncientWarpKeyItem;
@@ -153,6 +155,8 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> DISCRETE_SODA = REGISTRY.register("discrete_soda", () -> new DiscreteSodaItem());
 	public static final RegistryObject<Item> BERRY = block(MinecraftPlusModBlocks.BERRY, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> LEAN = REGISTRY.register("lean", () -> new LeanItem());
+	public static final RegistryObject<Item> CRUSTY_BULLET = REGISTRY.register("crusty_bullet", () -> new CrustyBulletItem());
+	public static final RegistryObject<Item> CRUSTY_GUN = REGISTRY.register("crusty_gun", () -> new CrustyGunItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:jungle_log"
+    },
+    "title": {
+      "translate": "advancements.obtain_exactly_37_jungle_logs.title"
+    },
+    "description": {
+      "translate": "advancements.obtain_exactly_37_jungle_logs.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_exactly_37_jungle_logs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_log"
+            ],
+            "count": {
+              "min": 37,
+              "max": 37
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft_plus:become_leanified"
+}

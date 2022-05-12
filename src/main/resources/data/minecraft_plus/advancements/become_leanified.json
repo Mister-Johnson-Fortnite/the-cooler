@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft_plus:lean"
+    },
+    "title": {
+      "translate": "advancements.become_leanified.title"
+    },
+    "description": {
+      "translate": "advancements.become_leanified.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "become_leanified": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft_plus:lean"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "minecraft_plus:obtain_soda"
+}

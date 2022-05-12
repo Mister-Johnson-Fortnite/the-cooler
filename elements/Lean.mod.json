@@ -10,7 +10,7 @@
     "creativeTab": {
       "value": "CUSTOM:Illuminated"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 32,
     "toolType": 1.0,
@@ -37,7 +37,7 @@
     "nutritionalValue": 0,
     "saturation": 0.0,
     "eatResultItem": {
-      "value": ""
+      "value": "Items.GLASS_BOTTLE"
     },
     "isMeat": false,
     "isAlwaysEdible": true,

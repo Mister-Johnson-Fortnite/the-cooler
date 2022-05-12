@@ -16,8 +16,8 @@ import net.mcreator.minecraftplus.init.MinecraftPlusModTabs;
 
 public class DiscreteSodaItem extends Item {
 	public DiscreteSodaItem() {
-		super(new Item.Properties().tab(MinecraftPlusModTabs.TAB_ILLUMINATED).stacksTo(64).rarity(Rarity.EPIC)
-				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.7f)
+		super(new Item.Properties().tab(MinecraftPlusModTabs.TAB_ILLUMINATED).stacksTo(1).rarity(Rarity.EPIC)
+				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.7f).alwaysEat()
 
 						.build()));
 	}

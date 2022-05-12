@@ -19,7 +19,7 @@ import java.util.Collections;
 public class CondemnedBlock extends Block {
 	public CondemnedBlock() {
 		super(BlockBehaviour.Properties.of(Material.HEAVY_METAL).sound(SoundType.SLIME_BLOCK).strength(1f, 2147483647f).requiresCorrectToolForDrops()
-				.friction(0.1f).speedFactor(0.7f).jumpFactor(0f));
+				.speedFactor(0.4f).jumpFactor(0f));
 	}
 
 	@Override

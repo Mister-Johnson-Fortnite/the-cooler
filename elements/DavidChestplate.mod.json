@@ -51,7 +51,7 @@
     "damageValueBoots": 0,
     "enchantability": 100,
     "toughness": 1.0,
-    "knockbackResistance": 1.0,
+    "knockbackResistance": 0.0,
     "equipSound": {
       "value": "entity.endermen.death"
     },

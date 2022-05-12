@@ -62,7 +62,7 @@ public abstract class DavidChestplateItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 1f;
+				return 0f;
 			}
 		}, slot, properties);
 	}

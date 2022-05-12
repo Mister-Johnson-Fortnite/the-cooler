@@ -28,6 +28,7 @@ import net.mcreator.minecraftplus.item.MothwingCloakItem;
 import net.mcreator.minecraftplus.item.MothManCardItem;
 import net.mcreator.minecraftplus.item.MarmrghItem;
 import net.mcreator.minecraftplus.item.MODItem;
+import net.mcreator.minecraftplus.item.LeanItem;
 import net.mcreator.minecraftplus.item.HeavyNetheriteItem;
 import net.mcreator.minecraftplus.item.HandheldDrillUnitItem;
 import net.mcreator.minecraftplus.item.FunnyboxItem;
@@ -38,6 +39,7 @@ import net.mcreator.minecraftplus.item.EmeraldGildedNetheritePickaxeItem;
 import net.mcreator.minecraftplus.item.EmeraldGildedNetheriteItem;
 import net.mcreator.minecraftplus.item.EmeraldGildedNetheriteHoeItem;
 import net.mcreator.minecraftplus.item.EmeraldGildedNetheriteAxeItem;
+import net.mcreator.minecraftplus.item.DiscreteSodaItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteSwordItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteShovelItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheritePickaxeItem;
@@ -146,6 +148,9 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> ASBESTOS_FLOWER = block(MinecraftPlusModBlocks.ASBESTOS_FLOWER, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> SATURATED_ASBESTOS = block(MinecraftPlusModBlocks.SATURATED_ASBESTOS,
 			MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> DISCRETE_SODA = REGISTRY.register("discrete_soda", () -> new DiscreteSodaItem());
+	public static final RegistryObject<Item> BERRY = block(MinecraftPlusModBlocks.BERRY, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> LEAN = REGISTRY.register("lean", () -> new LeanItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

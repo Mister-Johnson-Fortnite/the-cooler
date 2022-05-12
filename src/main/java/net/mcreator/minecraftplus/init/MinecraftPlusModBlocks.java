@@ -19,6 +19,7 @@ import net.mcreator.minecraftplus.block.SaturatedAsbestosBlock;
 import net.mcreator.minecraftplus.block.PurpleStuffBlock;
 import net.mcreator.minecraftplus.block.LiquidationificationBlock;
 import net.mcreator.minecraftplus.block.CondemnedBlock;
+import net.mcreator.minecraftplus.block.BerryBlock;
 import net.mcreator.minecraftplus.block.AsbestosFlowerBlock;
 import net.mcreator.minecraftplus.block.AsbestosBlockBlock;
 import net.mcreator.minecraftplus.block.AncientTileBlock;
@@ -46,6 +47,7 @@ public class MinecraftPlusModBlocks {
 	public static final RegistryObject<Block> ASBESTOS_BLOCK = REGISTRY.register("asbestos_block", () -> new AsbestosBlockBlock());
 	public static final RegistryObject<Block> ASBESTOS_FLOWER = REGISTRY.register("asbestos_flower", () -> new AsbestosFlowerBlock());
 	public static final RegistryObject<Block> SATURATED_ASBESTOS = REGISTRY.register("saturated_asbestos", () -> new SaturatedAsbestosBlock());
+	public static final RegistryObject<Block> BERRY = REGISTRY.register("berry", () -> new BerryBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -53,6 +55,7 @@ public class MinecraftPlusModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			StickyResidueBlock.registerRenderLayer();
 			AsbestosFlowerBlock.registerRenderLayer();
+			BerryBlock.registerRenderLayer();
 		}
 	}
 }

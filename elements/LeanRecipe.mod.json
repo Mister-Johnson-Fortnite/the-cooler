@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "CUSTOM:DiscreteSoda"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:Berry"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:Lean"
+    },
+    "name": "lean_recipe",
+    "namespace": "mod"
+  }
+}

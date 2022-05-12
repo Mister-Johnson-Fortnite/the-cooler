@@ -1802,6 +1802,15 @@
         ]
       },
       "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "DumbGui",
+      "type": "gui",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dumb_gui",
+      "path": "~/reaction based porfolio issues of the current day"
     }
   ],
   "variable_elements": [

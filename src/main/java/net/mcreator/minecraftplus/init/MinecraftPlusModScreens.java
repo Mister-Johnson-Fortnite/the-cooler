@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.minecraftplus.client.gui.MODGuiScreen;
+import net.mcreator.minecraftplus.client.gui.DumbGuiScreen;
 import net.mcreator.minecraftplus.client.gui.BecomeGarfedAndStuffScreen;
 import net.mcreator.minecraftplus.client.gui.ActiveAbilitiesMODScreen;
 
@@ -23,6 +24,7 @@ public class MinecraftPlusModScreens {
 			MenuScreens.register(MinecraftPlusModMenus.MOD_GUI, MODGuiScreen::new);
 			MenuScreens.register(MinecraftPlusModMenus.ACTIVE_ABILITIES_MOD, ActiveAbilitiesMODScreen::new);
 			MenuScreens.register(MinecraftPlusModMenus.BECOME_GARFED_AND_STUFF, BecomeGarfedAndStuffScreen::new);
+			MenuScreens.register(MinecraftPlusModMenus.DUMB_GUI, DumbGuiScreen::new);
 		});
 	}
 }

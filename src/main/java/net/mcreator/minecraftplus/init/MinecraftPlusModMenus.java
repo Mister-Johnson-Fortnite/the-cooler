@@ -13,7 +13,6 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
 import net.mcreator.minecraftplus.world.inventory.MODGuiMenu;
-import net.mcreator.minecraftplus.world.inventory.DumbGuiMenu;
 import net.mcreator.minecraftplus.world.inventory.BecomeGarfedAndStuffMenu;
 import net.mcreator.minecraftplus.world.inventory.ActiveAbilitiesMODMenu;
 
@@ -28,7 +27,6 @@ public class MinecraftPlusModMenus {
 			(id, inv, extraData) -> new ActiveAbilitiesMODMenu(id, inv, extraData));
 	public static final MenuType<BecomeGarfedAndStuffMenu> BECOME_GARFED_AND_STUFF = register("become_garfed_and_stuff",
 			(id, inv, extraData) -> new BecomeGarfedAndStuffMenu(id, inv, extraData));
-	public static final MenuType<DumbGuiMenu> DUMB_GUI = register("dumb_gui", (id, inv, extraData) -> new DumbGuiMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

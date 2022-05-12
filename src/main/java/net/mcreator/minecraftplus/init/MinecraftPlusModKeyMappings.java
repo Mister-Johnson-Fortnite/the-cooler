@@ -17,15 +17,18 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
 import net.mcreator.minecraftplus.network.DashMessage;
+import net.mcreator.minecraftplus.network.BreatheMessage;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class MinecraftPlusModKeyMappings {
 	public static final KeyMapping DASH = new KeyMapping("key.minecraft_plus.dash", GLFW.GLFW_KEY_V, "key.categories.movement");
+	public static final KeyMapping BREATHE = new KeyMapping("key.minecraft_plus.breathe", GLFW.GLFW_KEY_U, "key.categories.breathing");
 
 	@SubscribeEvent
 	public static void registerKeyBindings(FMLClientSetupEvent event) {
 		ClientRegistry.registerKeyBinding(DASH);
+		ClientRegistry.registerKeyBinding(BREATHE);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -37,6 +40,12 @@ public class MinecraftPlusModKeyMappings {
 					if (event.getAction() == GLFW.GLFW_PRESS) {
 						MinecraftPlusMod.PACKET_HANDLER.sendToServer(new DashMessage(0, 0));
 						DashMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+					}
+				}
+				if (event.getKey() == BREATHE.getKey().getValue()) {
+					if (event.getAction() == GLFW.GLFW_PRESS) {
+						MinecraftPlusMod.PACKET_HANDLER.sendToServer(new BreatheMessage(0, 0));
+						BreatheMessage.pressAction(Minecraft.getInstance().player, 0, 0);
 					}
 				}
 			}

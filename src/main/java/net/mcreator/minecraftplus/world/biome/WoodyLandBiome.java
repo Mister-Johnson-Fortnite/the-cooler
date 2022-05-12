@@ -16,7 +16,6 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.biome.MobSpawnSettings;
-import net.minecraft.world.level.biome.Climate;
 import net.minecraft.world.level.biome.BiomeSpecialEffects;
 import net.minecraft.world.level.biome.BiomeGenerationSettings;
 import net.minecraft.world.level.biome.Biome;
@@ -32,11 +31,6 @@ import net.mcreator.minecraftplus.init.MinecraftPlusModEntities;
 import java.util.List;
 
 public class WoodyLandBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.428571428571f, 0.428571428571f),
-			Climate.Parameter.span(-0.428571428571f, 0.428571428571f), Climate.Parameter.span(0.081428571429f, 0.938571428571f),
-			Climate.Parameter.span(0.371428571429f, 1.228571428571f), Climate.Parameter.point(0),
-			Climate.Parameter.span(-0.488825379247f, 0.368317477895f), 0);
-
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-6750055).waterColor(-6750055).waterFogColor(-13369549)
 				.skyColor(-6750055).foliageColorOverride(-6750055).grassColorOverride(-6750055).build();

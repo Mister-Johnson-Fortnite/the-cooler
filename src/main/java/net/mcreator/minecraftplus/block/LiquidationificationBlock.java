@@ -37,7 +37,7 @@ public class LiquidationificationBlock extends FallingBlock {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public LiquidationificationBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.LADDER).strength(9734f, 1000000000f).lightLevel(s -> 1)
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.LADDER).strength(5f, 1000000000f).lightLevel(s -> 1)
 				.requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}

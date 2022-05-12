@@ -34,7 +34,7 @@
     ],
     "name": "Liquidationification",
     "specialInfo": [],
-    "hardness": 9734.0,
+    "hardness": 5.0,
     "resistance": 1.0E9,
     "hasGravity": true,
     "isWaterloggable": false,

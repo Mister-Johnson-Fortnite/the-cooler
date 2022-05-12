@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft_plus:asbestos_block"
+    "minecraft_plus:asbestos_block",
+    "minecraft_plus:saturated_asbestos"
   ]
 }

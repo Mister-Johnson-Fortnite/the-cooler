@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft_plus:asbestos_block"
+  },
+  "addition": {
+    "item": "minecraft:water_bucket"
+  },
+  "result": {
+    "item": "minecraft_plus:saturated_asbestos"
+  }
+}

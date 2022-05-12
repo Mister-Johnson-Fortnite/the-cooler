@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft_plus:saturated_asbestos"
+    },
+    "title": {
+      "translate": "advancements.lamentation_confirmation.title"
+    },
+    "description": {
+      "translate": "advancements.lamentation_confirmation.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lamentation_confirmation": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft_plus:lamentable"
+      }
+    }
+  },
+  "parent": "minecraft_plus:yayyyyyyy"
+}

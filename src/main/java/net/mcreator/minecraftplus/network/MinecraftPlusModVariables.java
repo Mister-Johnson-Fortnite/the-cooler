@@ -89,8 +89,12 @@ public class MinecraftPlusModVariables {
 			clone.IsPlayerOnGround = original.IsPlayerOnGround;
 			clone.CanDash = original.CanDash;
 			clone.yoinkitydoinkity = original.yoinkitydoinkity;
+			clone.playerEnteringLamentableX = original.playerEnteringLamentableX;
+			clone.playerEnteringLamentableY = original.playerEnteringLamentableY;
+			clone.playerEnteringLamentableZ = original.playerEnteringLamentableZ;
 			if (!event.isWasDeath()) {
 				clone.heavyhelmet = original.heavyhelmet;
+				clone.NeedToBreath = original.NeedToBreath;
 			}
 		}
 
@@ -270,6 +274,10 @@ public class MinecraftPlusModVariables {
 		public boolean IsPlayerOnGround = false;
 		public boolean CanDash = false;
 		public boolean yoinkitydoinkity = true;
+		public double playerEnteringLamentableX = 0;
+		public double playerEnteringLamentableY = 0;
+		public double playerEnteringLamentableZ = 0;
+		public double NeedToBreath = 100.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -289,6 +297,10 @@ public class MinecraftPlusModVariables {
 			nbt.putBoolean("IsPlayerOnGround", IsPlayerOnGround);
 			nbt.putBoolean("CanDash", CanDash);
 			nbt.putBoolean("yoinkitydoinkity", yoinkitydoinkity);
+			nbt.putDouble("playerEnteringLamentableX", playerEnteringLamentableX);
+			nbt.putDouble("playerEnteringLamentableY", playerEnteringLamentableY);
+			nbt.putDouble("playerEnteringLamentableZ", playerEnteringLamentableZ);
+			nbt.putDouble("NeedToBreath", NeedToBreath);
 			return nbt;
 		}
 
@@ -305,6 +317,10 @@ public class MinecraftPlusModVariables {
 			IsPlayerOnGround = nbt.getBoolean("IsPlayerOnGround");
 			CanDash = nbt.getBoolean("CanDash");
 			yoinkitydoinkity = nbt.getBoolean("yoinkitydoinkity");
+			playerEnteringLamentableX = nbt.getDouble("playerEnteringLamentableX");
+			playerEnteringLamentableY = nbt.getDouble("playerEnteringLamentableY");
+			playerEnteringLamentableZ = nbt.getDouble("playerEnteringLamentableZ");
+			NeedToBreath = nbt.getDouble("NeedToBreath");
 		}
 	}
 
@@ -341,6 +357,10 @@ public class MinecraftPlusModVariables {
 					variables.IsPlayerOnGround = message.data.IsPlayerOnGround;
 					variables.CanDash = message.data.CanDash;
 					variables.yoinkitydoinkity = message.data.yoinkitydoinkity;
+					variables.playerEnteringLamentableX = message.data.playerEnteringLamentableX;
+					variables.playerEnteringLamentableY = message.data.playerEnteringLamentableY;
+					variables.playerEnteringLamentableZ = message.data.playerEnteringLamentableZ;
+					variables.NeedToBreath = message.data.NeedToBreath;
 				}
 			});
 			context.setPacketHandled(true);

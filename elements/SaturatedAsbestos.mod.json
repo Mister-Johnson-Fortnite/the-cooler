@@ -2,12 +2,12 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "aaaaaghhhh_i_neeeed_a_medic_bag",
-    "textureTop": "aaaaaghhhh_i_neeeed_a_medic_bag",
-    "textureLeft": "aaaaaghhhh_i_neeeed_a_medic_bag",
-    "textureFront": "aaaaaghhhh_i_neeeed_a_medic_bag",
-    "textureRight": "aaaaaghhhh_i_neeeed_a_medic_bag",
-    "textureBack": "aaaaaghhhh_i_neeeed_a_medic_bag",
+    "texture": "saturatedasbestos",
+    "textureTop": "saturatedasbestos",
+    "textureLeft": "saturatedasbestos",
+    "textureFront": "saturatedasbestos",
+    "textureRight": "saturatedasbestos",
+    "textureBack": "saturatedasbestos",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,18 +32,18 @@
         "subtract": false
       }
     ],
-    "name": "condemned",
+    "name": "Saturated Asbestos",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 2.147483647E9,
+    "hardness": 3.0,
+    "resistance": 4.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Illuminated"
     },
-    "destroyTool": "shovel",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Asbestos"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ANVIL"
+      "value": "CLOTH"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -70,14 +70,14 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 5.0,
-    "speedFactor": 0.0,
-    "jumpFactor": 0.0,
+    "slipperiness": 1.0,
+    "speedFactor": 1.1,
+    "jumpFactor": 0.9,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SLIME"
+      "value": "CLOTH"
     },
     "breakSound": {
       "value": ""
@@ -121,27 +121,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Nether",
-      "Surface",
-      "End"
-    ],
+    "onRightClicked": {
+      "name": "SaturatedAsbestosOnBlockRightClicked"
+    },
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.END_STONE"
-      },
-      {
-        "value": "Blocks.NETHERRACK"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 8,
-    "frequencyOnChunk": 4,
-    "minGenerateHeight": -64,
-    "maxGenerateHeight": 320
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

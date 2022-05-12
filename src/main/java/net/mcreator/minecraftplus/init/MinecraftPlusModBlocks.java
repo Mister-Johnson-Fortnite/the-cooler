@@ -17,6 +17,9 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.minecraftplus.block.StickyResidueBlock;
 import net.mcreator.minecraftplus.block.PurpleStuffBlock;
 import net.mcreator.minecraftplus.block.LiquidationificationBlock;
+import net.mcreator.minecraftplus.block.CondemnedBlock;
+import net.mcreator.minecraftplus.block.AsbestosFlowerBlock;
+import net.mcreator.minecraftplus.block.AsbestosBlockBlock;
 import net.mcreator.minecraftplus.block.AncientTileBlock;
 import net.mcreator.minecraftplus.block.AncientTechBlockBlock;
 import net.mcreator.minecraftplus.block.AncientScreenBlock;
@@ -38,12 +41,16 @@ public class MinecraftPlusModBlocks {
 	public static final RegistryObject<Block> ANCIENT_SCREEN = REGISTRY.register("ancient_screen", () -> new AncientScreenBlock());
 	public static final RegistryObject<Block> LIQUIDATIONIFICATION = REGISTRY.register("liquidationification", () -> new LiquidationificationBlock());
 	public static final RegistryObject<Block> PURPLE_STUFF = REGISTRY.register("purple_stuff", () -> new PurpleStuffBlock());
+	public static final RegistryObject<Block> CONDEMNED = REGISTRY.register("condemned", () -> new CondemnedBlock());
+	public static final RegistryObject<Block> ASBESTOS_BLOCK = REGISTRY.register("asbestos_block", () -> new AsbestosBlockBlock());
+	public static final RegistryObject<Block> ASBESTOS_FLOWER = REGISTRY.register("asbestos_flower", () -> new AsbestosFlowerBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			StickyResidueBlock.registerRenderLayer();
+			AsbestosFlowerBlock.registerRenderLayer();
 		}
 	}
 }

@@ -55,6 +55,7 @@ import net.mcreator.minecraftplus.item.CrustyBulletItem;
 import net.mcreator.minecraftplus.item.BlueSlimeItem;
 import net.mcreator.minecraftplus.item.AsbestosItem;
 import net.mcreator.minecraftplus.item.AncientWarpKeyItem;
+import net.mcreator.minecraftplus.item.ActualMarkerItem;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
 
 public class MinecraftPlusModItems {
@@ -157,6 +158,11 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> LEAN = REGISTRY.register("lean", () -> new LeanItem());
 	public static final RegistryObject<Item> CRUSTY_BULLET = REGISTRY.register("crusty_bullet", () -> new CrustyBulletItem());
 	public static final RegistryObject<Item> CRUSTY_GUN = REGISTRY.register("crusty_gun", () -> new CrustyGunItem());
+	public static final RegistryObject<Item> ACTUAL_MARKER = REGISTRY.register("actual_marker", () -> new ActualMarkerItem());
+	public static final RegistryObject<Item> MARKER = block(MinecraftPlusModBlocks.MARKER, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> RED_BLOCK = block(MinecraftPlusModBlocks.RED_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> BLACK_BLOCK = block(MinecraftPlusModBlocks.BLACK_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> WHITE_BLOCK = block(MinecraftPlusModBlocks.WHITE_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "C",
+    "keyBindingName": "Marker Color Menu",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "OpenColorGui"
+    }
+  }
+}

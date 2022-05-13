@@ -14,11 +14,15 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.minecraftplus.block.WhiteBlockBlock;
 import net.mcreator.minecraftplus.block.StickyResidueBlock;
 import net.mcreator.minecraftplus.block.SaturatedAsbestosBlock;
+import net.mcreator.minecraftplus.block.RedBlockBlock;
 import net.mcreator.minecraftplus.block.PurpleStuffBlock;
+import net.mcreator.minecraftplus.block.MarkerBlock;
 import net.mcreator.minecraftplus.block.LiquidationificationBlock;
 import net.mcreator.minecraftplus.block.CondemnedBlock;
+import net.mcreator.minecraftplus.block.BlackBlockBlock;
 import net.mcreator.minecraftplus.block.BerryBlock;
 import net.mcreator.minecraftplus.block.AsbestosFlowerBlock;
 import net.mcreator.minecraftplus.block.AsbestosBlockBlock;
@@ -48,6 +52,10 @@ public class MinecraftPlusModBlocks {
 	public static final RegistryObject<Block> ASBESTOS_FLOWER = REGISTRY.register("asbestos_flower", () -> new AsbestosFlowerBlock());
 	public static final RegistryObject<Block> SATURATED_ASBESTOS = REGISTRY.register("saturated_asbestos", () -> new SaturatedAsbestosBlock());
 	public static final RegistryObject<Block> BERRY = REGISTRY.register("berry", () -> new BerryBlock());
+	public static final RegistryObject<Block> MARKER = REGISTRY.register("marker", () -> new MarkerBlock());
+	public static final RegistryObject<Block> RED_BLOCK = REGISTRY.register("red_block", () -> new RedBlockBlock());
+	public static final RegistryObject<Block> BLACK_BLOCK = REGISTRY.register("black_block", () -> new BlackBlockBlock());
+	public static final RegistryObject<Block> WHITE_BLOCK = REGISTRY.register("white_block", () -> new WhiteBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -56,6 +64,7 @@ public class MinecraftPlusModBlocks {
 			StickyResidueBlock.registerRenderLayer();
 			AsbestosFlowerBlock.registerRenderLayer();
 			BerryBlock.registerRenderLayer();
+			MarkerBlock.registerRenderLayer();
 		}
 	}
 }

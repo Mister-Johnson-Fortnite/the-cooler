@@ -1,6 +1,8 @@
 
 package net.mcreator.minecraftplus.block;
 
+import net.minecraftforge.common.IPlantable;
+
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
@@ -11,6 +13,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import java.util.List;
@@ -18,13 +21,18 @@ import java.util.Collections;
 
 public class CondemnedBlock extends Block {
 	public CondemnedBlock() {
-		super(BlockBehaviour.Properties.of(Material.HEAVY_METAL).sound(SoundType.SLIME_BLOCK).strength(1f, 2147483647f).requiresCorrectToolForDrops()
-				.speedFactor(0.4f).jumpFactor(0f));
+		super(BlockBehaviour.Properties.of(Material.GRASS).sound(SoundType.SLIME_BLOCK).strength(1f, 2147483647f).requiresCorrectToolForDrops()
+				.speedFactor(0.4f));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public boolean canSustainPlant(BlockState state, BlockGetter world, BlockPos pos, Direction direction, IPlantable plantable) {
+		return true;
 	}
 
 	@Override

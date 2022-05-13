@@ -2127,6 +2127,395 @@
       "locked_code": false,
       "registry_name": "crusty_gunsmith",
       "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "ActualMarker",
+      "type": "item",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actual_marker",
+      "path": "~/marker"
+    },
+    {
+      "name": "Marker",
+      "type": "plant",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marker",
+      "path": "~/marker"
+    },
+    {
+      "name": "RedBlock",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_block",
+      "path": "~/marker"
+    },
+    {
+      "name": "ActualMarkerRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actual_marker_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/marker"
+    },
+    {
+      "name": "MarkerColorMenu",
+      "type": "keybind",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marker_color_menu",
+      "path": "~/marker"
+    },
+    {
+      "name": "SetColorBlack",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_black",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorWhite",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_white",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorOrange",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_orange",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorMagenta",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_magenta",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorLightBlue",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_light_blue",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorYellow",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_yellow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorLime",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_lime",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorPink",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_pink",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorGray",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_gray",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorLightGray",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_light_gray",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorCyan",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_cyan",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorPurple",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_purple",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorBlue",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_blue",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorBrown",
+      "type": "procedure",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_brown",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorGreen",
+      "type": "procedure",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_green",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "SetColorRed",
+      "type": "procedure",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_color_red",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/marker/this is stupid... maybe stupid enough"
+    },
+    {
+      "name": "MarkerColorSelectMenu",
+      "type": "gui",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marker_color_select_menu",
+      "path": "~/marker"
+    },
+    {
+      "name": "OpenColorGui",
+      "type": "procedure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_color_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/marker"
+    },
+    {
+      "name": "BlackBlock",
+      "type": "block",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_block",
+      "path": "~/marker"
+    },
+    {
+      "name": "WhiteBlock",
+      "type": "block",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_block",
+      "path": "~/marker"
     }
   ],
   "variable_elements": [
@@ -2231,6 +2620,30 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "markerColor",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "markerBlockSideX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "markerBlockSideY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "markerBlockSideZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -2255,6 +2668,7 @@
       "effect.minecraft_plus.leanified": "Leanified",
       "advancements.get_a_woodenpickaxe_to_1_durability.title": "Break a Wooden Pickaxe",
       "block.minecraft_plus.berry": "Berry",
+      "item.minecraft_plus.actual_marker": "Marker",
       "block.minecraft_plus.ancient_panel": "Ancient Panel",
       "block.minecraft_plus.condemned": "condemned",
       "advancements.become_leanified.descr": "You became leanified.",
@@ -2289,9 +2703,12 @@
       "item.minecraft_plus.emerald_gilded_netherite_chestplate": "Emerald Adorned Netherite Body",
       "item.minecraft_plus.emerald_gilded_netherite_pickaxe": "Emerald Adorned Netherite Pickaxe",
       "effect.minecraft_plus.downed": "Downed",
+      "key.minecraft_plus.marker_color_menu": "Marker Color Menu",
       "item.minecraft_plus.winged_strawberry": "Winged Strawberry",
+      "block.minecraft_plus.black_block": "Red Block",
       "item.minecraft_plus.emerald_gilded_netherite_sword": "Emerald Adorned Netherite Sword",
       "death.attack.cancer.player": "%1$s died of cancer.",
+      "block.minecraft_plus.red_block": "Red Block",
       "item.minecraft_plus.marmrgh": "enter",
       "advancements.yayyyyyyy.descr": "YEAH YOU DID IT!!!!!! WOOOOOOOOOOOOOOOOOOOOOOOOO",
       "entity.minecraft_plus.mecha_goobert": "Mecha Goobert",
@@ -2304,6 +2721,7 @@
       "item.minecraft_plus.golden_strawberry": "Winged Golden Strawberry",
       "item.minecraft_plus.heavy_netherite_leggings": "Heavy Netherite Leggings",
       "item.minecraft_plus.slime_gun": "Slime Gun",
+      "block.minecraft_plus.white_block": "Red Block",
       "item.minecraft_plus.netherite_waraxe": "Netherite Waraxe",
       "item.minecraft_plus.emerald_shard": "Emerald Shard",
       "item.minecraft_plus.emerald_gilded_netherite_axe": "Emerald Adorned Netherite Axe",
@@ -2353,7 +2771,8 @@
       "advancements.obtain_soda.descr": "Obtained Soda",
       "item.minecraft_plus.bloodied_scarf": "Bloodied Scarf",
       "item.minecraft_plus.crusty_bullet": "crusty bullet",
-      "item.minecraft_plus.david_chestplate_chestplate": "david chestplate"
+      "item.minecraft_plus.david_chestplate_chestplate": "david chestplate",
+      "block.minecraft_plus.marker": "Marker"
     }
   },
   "foldersRoot": {
@@ -2379,6 +2798,15 @@
       {
         "name": "reaction based porfolio issues of the current day",
         "children": []
+      },
+      {
+        "name": "marker",
+        "children": [
+          {
+            "name": "this is stupid... maybe stupid enough",
+            "children": []
+          }
+        ]
       }
     ]
   },
@@ -2401,5 +2829,5 @@
     "modElementsPackage": "net.mcreator.minecraftplus",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200119518
+  "mcreatorVersion": 202200120510
 }

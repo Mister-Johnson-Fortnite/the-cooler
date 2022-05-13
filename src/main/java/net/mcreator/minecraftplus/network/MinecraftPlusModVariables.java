@@ -93,6 +93,10 @@ public class MinecraftPlusModVariables {
 			clone.playerEnteringLamentableY = original.playerEnteringLamentableY;
 			clone.playerEnteringLamentableZ = original.playerEnteringLamentableZ;
 			clone.isImmuneToAsbestos = original.isImmuneToAsbestos;
+			clone.markerColor = original.markerColor;
+			clone.markerBlockSideX = original.markerBlockSideX;
+			clone.markerBlockSideY = original.markerBlockSideY;
+			clone.markerBlockSideZ = original.markerBlockSideZ;
 			if (!event.isWasDeath()) {
 				clone.heavyhelmet = original.heavyhelmet;
 				clone.NeedToBreath = original.NeedToBreath;
@@ -280,6 +284,10 @@ public class MinecraftPlusModVariables {
 		public double playerEnteringLamentableZ = 0;
 		public double NeedToBreath = 100.0;
 		public boolean isImmuneToAsbestos = false;
+		public double markerColor = 0;
+		public double markerBlockSideX = 0;
+		public double markerBlockSideY = 0;
+		public double markerBlockSideZ = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -304,6 +312,10 @@ public class MinecraftPlusModVariables {
 			nbt.putDouble("playerEnteringLamentableZ", playerEnteringLamentableZ);
 			nbt.putDouble("NeedToBreath", NeedToBreath);
 			nbt.putBoolean("isImmuneToAsbestos", isImmuneToAsbestos);
+			nbt.putDouble("markerColor", markerColor);
+			nbt.putDouble("markerBlockSideX", markerBlockSideX);
+			nbt.putDouble("markerBlockSideY", markerBlockSideY);
+			nbt.putDouble("markerBlockSideZ", markerBlockSideZ);
 			return nbt;
 		}
 
@@ -325,6 +337,10 @@ public class MinecraftPlusModVariables {
 			playerEnteringLamentableZ = nbt.getDouble("playerEnteringLamentableZ");
 			NeedToBreath = nbt.getDouble("NeedToBreath");
 			isImmuneToAsbestos = nbt.getBoolean("isImmuneToAsbestos");
+			markerColor = nbt.getDouble("markerColor");
+			markerBlockSideX = nbt.getDouble("markerBlockSideX");
+			markerBlockSideY = nbt.getDouble("markerBlockSideY");
+			markerBlockSideZ = nbt.getDouble("markerBlockSideZ");
 		}
 	}
 
@@ -366,6 +382,10 @@ public class MinecraftPlusModVariables {
 					variables.playerEnteringLamentableZ = message.data.playerEnteringLamentableZ;
 					variables.NeedToBreath = message.data.NeedToBreath;
 					variables.isImmuneToAsbestos = message.data.isImmuneToAsbestos;
+					variables.markerColor = message.data.markerColor;
+					variables.markerBlockSideX = message.data.markerBlockSideX;
+					variables.markerBlockSideY = message.data.markerBlockSideY;
+					variables.markerBlockSideZ = message.data.markerBlockSideZ;
 				}
 			});
 			context.setPacketHandled(true);

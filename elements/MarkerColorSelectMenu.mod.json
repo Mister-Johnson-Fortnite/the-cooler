@@ -1,0 +1,259 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Black",
+          "onClick": {
+            "name": "SetColorBlack"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Black",
+          "x": 66,
+          "y": 40
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "White",
+          "onClick": {
+            "name": "SetColorWhite"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "White",
+          "x": 66,
+          "y": 59
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Orange",
+          "onClick": {
+            "name": "SetColorOrange"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Orange",
+          "x": 66,
+          "y": 78
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Magenta",
+          "onClick": {
+            "name": "SetColorMagenta"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Magenta",
+          "x": 66,
+          "y": 97
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Light Blue",
+          "onClick": {
+            "name": "SetColorLightBlue"
+          },
+          "width": 77,
+          "height": 20,
+          "name": "Light Blue",
+          "x": 66,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Yellow",
+          "onClick": {
+            "name": "SetColorYellow"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Yellow",
+          "x": 66,
+          "y": 135
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lime",
+          "onClick": {
+            "name": "SetColorLime"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Lime",
+          "x": 66,
+          "y": 154
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Pink",
+          "onClick": {
+            "name": "SetColorPink"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Pink",
+          "x": 66,
+          "y": 173
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Gray",
+          "onClick": {
+            "name": "SetColorGray"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Gray",
+          "x": 142,
+          "y": 40
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Light Gray",
+          "onClick": {
+            "name": "SetColorLightGray"
+          },
+          "width": 77,
+          "height": 20,
+          "name": "Light Gray",
+          "x": 142,
+          "y": 59
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Cyan",
+          "onClick": {
+            "name": "SetColorCyan"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Cyan",
+          "x": 142,
+          "y": 78
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Purple",
+          "onClick": {
+            "name": "SetColorPurple"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Purple",
+          "x": 142,
+          "y": 97
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Blue",
+          "onClick": {
+            "name": "SetColorBlue"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Blue",
+          "x": 142,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Brown",
+          "onClick": {
+            "name": "SetColorBrown"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Brown",
+          "x": 142,
+          "y": 135
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Green",
+          "onClick": {
+            "name": "SetColorGreen"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Green",
+          "x": 142,
+          "y": 154
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Red",
+          "onClick": {
+            "name": "SetColorRed"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Red",
+          "x": 142,
+          "y": 173
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "This is why I don't do UI design.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "This is why I don't do UI design.",
+          "x": 188,
+          "y": 189
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

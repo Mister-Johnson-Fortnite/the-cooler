@@ -48,6 +48,13 @@ public class BreathingProcedure {
 					.orElse(new MinecraftPlusModVariables.PlayerVariables())).NeedToBreath <= 0) {
 				if (entity instanceof LivingEntity _entity)
 					_entity.hurt(new DamageSource("notbreath").bypassArmor(), 4);
+				{
+					double _setval = 0;
+					entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.NeedToBreath = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
 			}
 		} else {
 			{

@@ -215,10 +215,7 @@
                       {
                         "type": "minecraft:block",
                         "result_state": {
-                          "Name": "minecraft_plus:liquidationification",
-                          "Properties": {
-                            "axis": "y"
-                          }
+                          "Name": "minecraft_plus:liquidationification"
                         }
                       }
                     ]
@@ -236,10 +233,7 @@
                   "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                      "Name": "minecraft_plus:liquidationification",
-                      "Properties": {
-                        "axis": "y"
-                      }
+                      "Name": "minecraft_plus:liquidationification"
                     }
                   }
                 }

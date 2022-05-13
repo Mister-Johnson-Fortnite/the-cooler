@@ -18,6 +18,7 @@
   "effect.minecraft_plus.leanified": "Leanified",
   "advancements.get_a_woodenpickaxe_to_1_durability.title": "Break a Wooden Pickaxe",
   "block.minecraft_plus.berry": "Berry",
+  "item.minecraft_plus.actual_marker": "Marker",
   "block.minecraft_plus.ancient_panel": "Ancient Panel",
   "block.minecraft_plus.condemned": "condemned",
   "advancements.become_leanified.descr": "You became leanified.",
@@ -52,9 +53,12 @@
   "item.minecraft_plus.emerald_gilded_netherite_chestplate": "Emerald Adorned Netherite Body",
   "item.minecraft_plus.emerald_gilded_netherite_pickaxe": "Emerald Adorned Netherite Pickaxe",
   "effect.minecraft_plus.downed": "Downed",
+  "key.minecraft_plus.marker_color_menu": "Marker Color Menu",
   "item.minecraft_plus.winged_strawberry": "Winged Strawberry",
+  "block.minecraft_plus.black_block": "Red Block",
   "item.minecraft_plus.emerald_gilded_netherite_sword": "Emerald Adorned Netherite Sword",
   "death.attack.cancer.player": "%1$s died of cancer.",
+  "block.minecraft_plus.red_block": "Red Block",
   "item.minecraft_plus.marmrgh": "enter",
   "advancements.yayyyyyyy.descr": "YEAH YOU DID IT!!!!!! WOOOOOOOOOOOOOOOOOOOOOOOOO",
   "entity.minecraft_plus.mecha_goobert": "Mecha Goobert",
@@ -67,6 +71,7 @@
   "item.minecraft_plus.golden_strawberry": "Winged Golden Strawberry",
   "item.minecraft_plus.heavy_netherite_leggings": "Heavy Netherite Leggings",
   "item.minecraft_plus.slime_gun": "Slime Gun",
+  "block.minecraft_plus.white_block": "Red Block",
   "item.minecraft_plus.netherite_waraxe": "Netherite Waraxe",
   "item.minecraft_plus.emerald_shard": "Emerald Shard",
   "item.minecraft_plus.emerald_gilded_netherite_axe": "Emerald Adorned Netherite Axe",
@@ -116,5 +121,6 @@
   "advancements.obtain_soda.descr": "Obtained Soda",
   "item.minecraft_plus.bloodied_scarf": "Bloodied Scarf",
   "item.minecraft_plus.crusty_bullet": "crusty bullet",
-  "item.minecraft_plus.david_chestplate_chestplate": "david chestplate"
+  "item.minecraft_plus.david_chestplate_chestplate": "david chestplate",
+  "block.minecraft_plus.marker": "Marker"
 }

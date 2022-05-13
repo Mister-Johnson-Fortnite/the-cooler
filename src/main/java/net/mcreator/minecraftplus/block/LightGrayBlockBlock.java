@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class LightGrayBlockBlock extends Block {
 	public LightGrayBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.SCAFFOLDING).instabreak().noDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.SCAFFOLDING).instabreak().noDrops());
 	}
 
 	@Override

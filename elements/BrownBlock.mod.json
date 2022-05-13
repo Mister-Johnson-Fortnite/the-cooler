@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "PLANTS"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,

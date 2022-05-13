@@ -14,7 +14,7 @@
     "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "MINING_FATIGUE",
     "suspiciousStewDuration": 100,
-    "growapableSpawnType": "Plains",
+    "growapableSpawnType": "Cave",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Flower",
     "customBoundingBox": false,
@@ -30,7 +30,7 @@
         "subtract": false
       }
     ],
-    "name": "Marker",
+    "name": "Marker Plant",
     "specialInfo": [],
     "creativeTab": {
       "value": "DECORATIONS"
@@ -77,13 +77,23 @@
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
-    "canBePlacedOn": [],
-    "frequencyOnChunks": 4,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:Condemned"
+      },
+      {
+        "value": "CUSTOM:Liquidationification"
+      },
+      {
+        "value": "CUSTOM:SaturatedAsbestos"
+      }
+    ],
+    "frequencyOnChunks": 30,
     "spawnWorldTypes": [
       "CUSTOM:Lamentable"
     ],
     "restrictionBiomes": [],
-    "patchSize": 1,
+    "patchSize": 3,
     "generateAtAnyHeight": true
   }
 }

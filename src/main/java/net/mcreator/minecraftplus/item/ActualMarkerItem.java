@@ -13,7 +13,7 @@ import net.mcreator.minecraftplus.init.MinecraftPlusModTabs;
 
 public class ActualMarkerItem extends Item {
 	public ActualMarkerItem() {
-		super(new Item.Properties().tab(MinecraftPlusModTabs.TAB_ILLUMINATED).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(MinecraftPlusModTabs.TAB_ILLUMINATED).durability(1561).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class ActualMarkerItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		InteractionResult retval = super.useOn(context);
-		ActualMarkerRightclickedOnBlockProcedure.execute(context.getLevel(), context.getPlayer());
+		ActualMarkerRightclickedOnBlockProcedure.execute(context.getLevel(), context.getPlayer(), context.getItemInHand());
 		return retval;
 	}
 }

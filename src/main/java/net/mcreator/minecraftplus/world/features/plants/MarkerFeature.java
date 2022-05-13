@@ -35,8 +35,8 @@ public class MarkerFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new MarkerFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("minecraft_plus:marker", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(MinecraftPlusModBlocks.MARKER.get().defaultBlockState())), List.of(), 1));
-		PLACED_FEATURE = PlacementUtils.register("minecraft_plus:marker", CONFIGURED_FEATURE, List.of(CountPlacement.of(4),
+				new SimpleBlockConfiguration(BlockStateProvider.simple(MinecraftPlusModBlocks.MARKER.get().defaultBlockState())), List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("minecraft_plus:marker", CONFIGURED_FEATURE, List.of(CountPlacement.of(30),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.FULL_RANGE, BiomeFilter.biome()));
 		return FEATURE;
 	}

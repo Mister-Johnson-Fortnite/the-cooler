@@ -1939,7 +1939,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/reaction based porfolio issues of the current day"
     },
     {
       "name": "LamentationConfirmation",

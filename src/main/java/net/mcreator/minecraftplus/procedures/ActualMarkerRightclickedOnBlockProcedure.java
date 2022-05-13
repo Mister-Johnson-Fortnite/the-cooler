@@ -208,15 +208,183 @@ public class ActualMarkerRightclickedOnBlockProcedure {
 						.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
 				(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 						.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ))) {
-			world.setBlock(
-					new BlockPos(
-							(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-									.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
-							(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-									.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
-							(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-									.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
-					MinecraftPlusModBlocks.RED_BLOCK.get().defaultBlockState(), 3);
+			if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 0) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.BLACK_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 1) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.WHITE_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 2) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.ORANGE_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 3) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.MAGENTA_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 4) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.LIGHT_BLUE_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 5) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.YELLOW_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 6) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.LIME_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 7) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.PINK_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 8) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.GRAY_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 9) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.LIGHT_GRAY_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 10) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.CYAN_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 11) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.PURPLE_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 12) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.BLUE_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 13) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.BROWN_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 14) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.GREEN_BLOCK.get().defaultBlockState(), 3);
+			} else if ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerColor == 15) {
+				world.setBlock(
+						new BlockPos(
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideX,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideY,
+								(entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new MinecraftPlusModVariables.PlayerVariables())).markerBlockSideZ),
+						MinecraftPlusModBlocks.RED_BLOCK.get().defaultBlockState(), 3);
+			}
 		} else {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
 				_player.displayClientMessage(new TextComponent("It seems I thought ahead..."), (true));
@@ -225,7 +393,7 @@ public class ActualMarkerRightclickedOnBlockProcedure {
 				.getItem()) {
 			{
 				ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-				if (_ist.hurt(1, new Random(), null)) {
+				if (_ist.hurt(2, new Random(), null)) {
 					_ist.shrink(1);
 					_ist.setDamageValue(0);
 				}
@@ -234,7 +402,7 @@ public class ActualMarkerRightclickedOnBlockProcedure {
 				.getItem()) {
 			{
 				ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY);
-				if (_ist.hurt(1, new Random(), null)) {
+				if (_ist.hurt(2, new Random(), null)) {
 					_ist.shrink(1);
 					_ist.setDamageValue(0);
 				}

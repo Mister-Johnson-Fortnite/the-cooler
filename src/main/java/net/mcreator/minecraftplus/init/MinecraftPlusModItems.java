@@ -163,6 +163,19 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> RED_BLOCK = block(MinecraftPlusModBlocks.RED_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
 	public static final RegistryObject<Item> BLACK_BLOCK = block(MinecraftPlusModBlocks.BLACK_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
 	public static final RegistryObject<Item> WHITE_BLOCK = block(MinecraftPlusModBlocks.WHITE_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> ORANGE_BLOCK = block(MinecraftPlusModBlocks.ORANGE_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> YELLOW_BLOCK = block(MinecraftPlusModBlocks.YELLOW_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> LIME_BLOCK = block(MinecraftPlusModBlocks.LIME_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> BLUE_BLOCK = block(MinecraftPlusModBlocks.BLUE_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> PURPLE_BLOCK = block(MinecraftPlusModBlocks.PURPLE_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> MAGENTA_BLOCK = block(MinecraftPlusModBlocks.MAGENTA_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> PINK_BLOCK = block(MinecraftPlusModBlocks.PINK_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> BROWN_BLOCK = block(MinecraftPlusModBlocks.BROWN_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> GRAY_BLOCK = block(MinecraftPlusModBlocks.GRAY_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> LIGHT_GRAY_BLOCK = block(MinecraftPlusModBlocks.LIGHT_GRAY_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> GREEN_BLOCK = block(MinecraftPlusModBlocks.GREEN_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> CYAN_BLOCK = block(MinecraftPlusModBlocks.CYAN_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> LIGHT_BLUE_BLOCK = block(MinecraftPlusModBlocks.LIGHT_BLUE_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

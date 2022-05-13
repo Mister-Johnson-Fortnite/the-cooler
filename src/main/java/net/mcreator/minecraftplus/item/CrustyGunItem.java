@@ -57,7 +57,7 @@ public class CrustyGunItem extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					CrustyGunEntity entityarrow = CrustyGunEntity.shoot(world, entity, world.getRandom(), 3f, 8, 2);
+					CrustyGunEntity entityarrow = CrustyGunEntity.shoot(world, entity, world.getRandom(), 2f, 5.5, 2);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;

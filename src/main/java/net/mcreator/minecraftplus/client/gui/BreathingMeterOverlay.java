@@ -45,7 +45,7 @@ public class BreathingMeterOverlay {
 						.draw(event.getMatrixStack(),
 								"" + ((entity.getCapability(MinecraftPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 										.orElse(new MinecraftPlusModVariables.PlayerVariables())).NeedToBreath) + "/100",
-								posX + -213, posY + 110, -12829636);
+								posX + -213, posY + 110, -3407668);
 			}
 		}
 	}

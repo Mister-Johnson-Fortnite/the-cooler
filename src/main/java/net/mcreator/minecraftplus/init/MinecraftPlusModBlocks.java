@@ -32,6 +32,10 @@ import net.mcreator.minecraftplus.block.LightGrayBlockBlock;
 import net.mcreator.minecraftplus.block.LightBlueBlockBlock;
 import net.mcreator.minecraftplus.block.GreenBlockBlock;
 import net.mcreator.minecraftplus.block.GrayBlockBlock;
+import net.mcreator.minecraftplus.block.DetroitPortalBlockBlock;
+import net.mcreator.minecraftplus.block.DetroitPortalBlock;
+import net.mcreator.minecraftplus.block.DetroitFluidBlock;
+import net.mcreator.minecraftplus.block.DetroitBlockBlock;
 import net.mcreator.minecraftplus.block.CyanBlockBlock;
 import net.mcreator.minecraftplus.block.CondemnedBlock;
 import net.mcreator.minecraftplus.block.BrownBlockBlock;
@@ -84,6 +88,10 @@ public class MinecraftPlusModBlocks {
 	public static final RegistryObject<Block> GREEN_BLOCK = REGISTRY.register("green_block", () -> new GreenBlockBlock());
 	public static final RegistryObject<Block> CYAN_BLOCK = REGISTRY.register("cyan_block", () -> new CyanBlockBlock());
 	public static final RegistryObject<Block> LIGHT_BLUE_BLOCK = REGISTRY.register("light_blue_block", () -> new LightBlueBlockBlock());
+	public static final RegistryObject<Block> DETROIT_BLOCK = REGISTRY.register("detroit_block", () -> new DetroitBlockBlock());
+	public static final RegistryObject<Block> DETROIT_PORTAL = REGISTRY.register("detroit_portal", () -> new DetroitPortalBlock());
+	public static final RegistryObject<Block> DETROIT_FLUID = REGISTRY.register("detroit_fluid", () -> new DetroitFluidBlock());
+	public static final RegistryObject<Block> DETROIT_PORTAL_BLOCK = REGISTRY.register("detroit_portal_block", () -> new DetroitPortalBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

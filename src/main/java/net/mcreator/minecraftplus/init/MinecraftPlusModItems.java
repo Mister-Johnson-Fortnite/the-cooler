@@ -46,6 +46,8 @@ import net.mcreator.minecraftplus.item.DiamondGildedNetheritePickaxeItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteHoeItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteAxeItem;
+import net.mcreator.minecraftplus.item.DetroitItem;
+import net.mcreator.minecraftplus.item.DetroitFluidItem;
 import net.mcreator.minecraftplus.item.DavidItem;
 import net.mcreator.minecraftplus.item.DavidChestplateItem;
 import net.mcreator.minecraftplus.item.DargleItem;
@@ -177,6 +179,11 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> GREEN_BLOCK = block(MinecraftPlusModBlocks.GREEN_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
 	public static final RegistryObject<Item> CYAN_BLOCK = block(MinecraftPlusModBlocks.CYAN_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
 	public static final RegistryObject<Item> LIGHT_BLUE_BLOCK = block(MinecraftPlusModBlocks.LIGHT_BLUE_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> DETROIT_BLOCK = block(MinecraftPlusModBlocks.DETROIT_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> DETROIT = REGISTRY.register("detroit", () -> new DetroitItem());
+	public static final RegistryObject<Item> DETROIT_FLUID_BUCKET = REGISTRY.register("detroit_fluid_bucket", () -> new DetroitFluidItem());
+	public static final RegistryObject<Item> DETROIT_PORTAL_BLOCK = block(MinecraftPlusModBlocks.DETROIT_PORTAL_BLOCK,
+			MinecraftPlusModTabs.TAB_ILLUMINATED);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

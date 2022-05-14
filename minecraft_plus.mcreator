@@ -2698,6 +2698,84 @@
         "ep": false
       },
       "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "DetroitBlock",
+      "type": "block",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detroit_block",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "DetroitFluid",
+      "type": "fluid",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detroit_fluid",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "DetroitBiome",
+      "type": "biome",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detroit_biome",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "Detroit",
+      "type": "dimension",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detroit",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "DetroitPortalBlock",
+      "type": "block",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detroit_portal_block",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "DetroitIgniterRecipe",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detroit_igniter_recipe",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "DetroitPortalBlockRecipe",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detroit_portal_block_recipe",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "DetroitDavidHouse",
+      "type": "structure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detroit_david_house",
+      "path": "~/reaction based porfolio issues of the current day"
     }
   ],
   "variable_elements": [
@@ -2850,7 +2928,9 @@
       "item.minecraft_plus.diamond_gilded_netherite_shovel": "Diamond Adorned Netherite Shovel",
       "effect.minecraft_plus.leanified": "Leanified",
       "advancements.get_a_woodenpickaxe_to_1_durability.title": "Break a Wooden Pickaxe",
+      "block.minecraft_plus.detroit_fluid": "Detroit Fluid",
       "block.minecraft_plus.cyan_block": "Cyan Block",
+      "block.minecraft_plus.detroit_block": "Detroit Block",
       "block.minecraft_plus.berry": "Berry",
       "item.minecraft_plus.actual_marker": "Marker",
       "block.minecraft_plus.condemned": "condemned",
@@ -2889,6 +2969,7 @@
       "item.minecraft_plus.stimulation_wizard_spawn_egg": "Stimulation Wizard Spawn Egg",
       "death.attack.badliquid": "%1$s drank from the wrong puddle.",
       "item.minecraft_plus.dashhit": "Dashhit",
+      "fluid.minecraft_plus.detroit_fluid": "Detroit Fluid",
       "item.minecraft_plus.emerald_gilded_netherite_chestplate": "Emerald Adorned Netherite Body",
       "item.minecraft_plus.emerald_gilded_netherite_pickaxe": "Emerald Adorned Netherite Pickaxe",
       "effect.minecraft_plus.downed": "Downed",
@@ -2900,6 +2981,7 @@
       "block.minecraft_plus.red_block": "Red Block",
       "item.minecraft_plus.marmrgh": "enter",
       "advancements.yayyyyyyy.descr": "YEAH YOU DID IT!!!!!! WOOOOOOOOOOOOOOOOOOOOOOOOO",
+      "item.minecraft_plus.detroit": "Detroit Portal Igniter",
       "item.minecraft_plus.cloaker_goggles_boots": "Cloaker Goggles Boots",
       "entity.minecraft_plus.mecha_goobert": "Mecha Goobert",
       "item.minecraft_plus.the_garf_spawn_egg": "The Garf Spawn Egg",
@@ -2952,12 +3034,15 @@
       "item.minecraft_plus.lean": "Lean",
       "item.minecraft_plus.blue_slime": "Blue Slime",
       "item.minecraft_plus.lamentable": "Lamentable Portal Igniter",
+      "biome.minecraft_plus.detroit_biome": "Detroit Biome",
       "item.minecraft_plus.cloaker_goggles_helmet": "Cloaker Goggles Helmet",
       "fluid.minecraft_plus.purple_stuff": "purple stuff",
       "block.minecraft_plus.sticky_residue": "Sticky Residue",
       "item.minecraft_plus.david": "david",
       "item.minecraft_plus.handheld_drill_unit": "Handheld Drill Unit",
       "biome.minecraft_plus.woody_land": "woody land",
+      "item.minecraft_plus.detroit_fluid_bucket": "Detroit Fluid Bucket",
+      "block.minecraft_plus.detroit_portal_block": "Detroit Portal Block",
       "block.minecraft_plus.saturated_asbestos": "Saturated Asbestos",
       "item.minecraft_plus.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "item.minecraft_plus.rename_yourself": "rename yourself.",

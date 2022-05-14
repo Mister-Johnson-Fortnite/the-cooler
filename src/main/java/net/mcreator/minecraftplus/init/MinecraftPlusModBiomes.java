@@ -32,6 +32,7 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.minecraftplus.world.biome.WoodyLandBiome;
 import net.mcreator.minecraftplus.world.biome.SearingSandsBiomeBiome;
+import net.mcreator.minecraftplus.world.biome.DetroitBiomeBiome;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
 
 import java.util.Map;
@@ -46,12 +47,14 @@ public class MinecraftPlusModBiomes {
 	public static final RegistryObject<Biome> WOODY_LAND = REGISTRY.register("woody_land", () -> WoodyLandBiome.createBiome());
 	public static final RegistryObject<Biome> SEARING_SANDS_BIOME = REGISTRY.register("searing_sands_biome",
 			() -> SearingSandsBiomeBiome.createBiome());
+	public static final RegistryObject<Biome> DETROIT_BIOME = REGISTRY.register("detroit_biome", () -> DetroitBiomeBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			WoodyLandBiome.init();
 			SearingSandsBiomeBiome.init();
+			DetroitBiomeBiome.init();
 		});
 	}
 

@@ -1247,8 +1247,7 @@
       "sortid": 138,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "liquidationification",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "liquidationification"
     },
     {
       "name": "RenameYourself",
@@ -1256,8 +1255,7 @@
       "sortid": 139,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rename_yourself",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "rename_yourself"
     },
     {
       "name": "ActiveAbilitiesMOD",
@@ -1265,8 +1263,7 @@
       "sortid": 140,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "active_abilities_mod",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "active_abilities_mod"
     },
     {
       "name": "RenamingYourselfIsRequired",
@@ -1274,8 +1271,7 @@
       "sortid": 142,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "renaming_yourself_is_required",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "renaming_yourself_is_required"
     },
     {
       "name": "PurpleStuff",
@@ -1286,8 +1282,7 @@
       "registry_name": "purple_stuff",
       "metadata": {
         "gb": true
-      },
-      "path": "~/reaction based porfolio issues of the current day"
+      }
     },
     {
       "name": "Illuminated",
@@ -1295,8 +1290,7 @@
       "sortid": 140,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "illuminated",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "illuminated"
     },
     {
       "name": "Saltine",
@@ -1304,8 +1298,7 @@
       "sortid": 145,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "saltine",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "saltine"
     },
     {
       "name": "RenameYourselfPlayerFinishesUsingItem",
@@ -1321,8 +1314,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/reaction based porfolio issues of the current day"
+      }
     },
     {
       "name": "Compaction",
@@ -1330,8 +1322,7 @@
       "sortid": 146,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "compaction",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "compaction"
     },
     {
       "name": "LiquidationificationOnBlockRightClicked",
@@ -1363,8 +1354,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/reaction based porfolio issues of the current day"
+      }
     },
     {
       "name": "Condensation",
@@ -1372,8 +1362,7 @@
       "sortid": 145,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "condensation",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "condensation"
     },
     {
       "name": "WoodyLand",
@@ -1381,8 +1370,7 @@
       "sortid": 148,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "woody_land",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "woody_land"
     },
     {
       "name": "David",
@@ -1390,8 +1378,7 @@
       "sortid": 149,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "david",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "david"
     },
     {
       "name": "DavidDistributer",
@@ -1399,8 +1386,7 @@
       "sortid": 150,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "david_distributer",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "david_distributer"
     },
     {
       "name": "DavidsHouse",
@@ -1408,8 +1394,7 @@
       "sortid": 151,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "davids_house",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "davids_house"
     },
     {
       "name": "DavidChestplate",
@@ -1419,12 +1404,11 @@
       "locked_code": false,
       "registry_name": "david_chestplate",
       "metadata": {
-        "eh": true,
+        "eh": false,
         "el": false,
         "eb": false,
         "ec": true
-      },
-      "path": "~/reaction based porfolio issues of the current day"
+      }
     },
     {
       "name": "DavidChestplateRecipe",
@@ -1432,8 +1416,7 @@
       "sortid": 153,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "david_chestplate_recipe",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "david_chestplate_recipe"
     },
     {
       "name": "MothManCardPlayerFinishesUsingItem",
@@ -1461,8 +1444,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/reaction based porfolio issues of the current day"
+      }
     },
     {
       "name": "MothManCard",
@@ -1470,8 +1452,7 @@
       "sortid": 154,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "moth_man_card",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "moth_man_card"
     },
     {
       "name": "Cardmoth",
@@ -1479,8 +1460,7 @@
       "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cardmoth",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "cardmoth"
     },
     {
       "name": "CancerEffectExpires",
@@ -1500,8 +1480,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/reaction based porfolio issues of the current day"
+      }
     },
     {
       "name": "CancerEffectStartedapplied",
@@ -1517,8 +1496,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/reaction based porfolio issues of the current day"
+      }
     },
     {
       "name": "Cancer",
@@ -1526,8 +1504,7 @@
       "sortid": 156,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cancer",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "cancer"
     },
     {
       "name": "PlayerFinishesUsingCancerCausingItem",
@@ -1543,8 +1520,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/reaction based porfolio issues of the current day"
+      }
     },
     {
       "name": "Tumor",
@@ -1552,8 +1528,7 @@
       "sortid": 158,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tumor",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "tumor"
     },
     {
       "name": "DOKTORPEPSII",
@@ -1561,8 +1536,7 @@
       "sortid": 158,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "doktorpepsii",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "doktorpepsii"
     },
     {
       "name": "Condemned",
@@ -1570,8 +1544,7 @@
       "sortid": 159,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "condemned",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "condemned"
     },
     {
       "name": "LeDoktor",
@@ -1579,8 +1552,7 @@
       "sortid": 160,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "le_doktor",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "le_doktor"
     },
     {
       "name": "TheCubePlayerFinishesUsingItem",
@@ -1596,8 +1568,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/reaction based porfolio issues of the current day"
+      }
     },
     {
       "name": "TheCube",
@@ -1605,8 +1576,7 @@
       "sortid": 161,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "the_cube",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "the_cube"
     },
     {
       "name": "CUBISM",
@@ -1614,8 +1584,7 @@
       "sortid": 162,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cubism",
-      "path": "~/reaction based porfolio issues of the current day"
+      "registry_name": "cubism"
     },
     {
       "name": "BecomeGarfedAndStuff",
@@ -2700,14 +2669,6 @@
       "path": "~/reaction based porfolio issues of the current day"
     },
     {
-      "name": "SelfAware",
-      "type": "achievement",
-      "sortid": 239,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "self_aware"
-    },
-    {
       "name": "MODPassivesMenu1",
       "type": "gui",
       "sortid": 240,
@@ -2715,6 +2676,14 @@
       "locked_code": false,
       "registry_name": "mod_passives_menu_1",
       "path": "~/MOD junk"
+    },
+    {
+      "name": "SelfAware",
+      "type": "achievement",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "self_aware"
     }
   ],
   "variable_elements": [
@@ -3024,6 +2993,10 @@
         ]
       },
       {
+        "name": "MOD junk",
+        "children": []
+      },
+      {
         "name": "serverinternal",
         "children": []
       },
@@ -3031,14 +3004,14 @@
         "name": "marker",
         "children": [
           {
-            "name": "this is stupid... maybe stupid enough",
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Stupid Procedures",
             "children": []
           }
         ]
-      },
-      {
-        "name": "MOD junk",
-        "children": []
       }
     ]
   },

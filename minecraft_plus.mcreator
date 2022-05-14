@@ -2709,6 +2709,27 @@
       "path": "~/reaction based porfolio issues of the current day"
     },
     {
+      "name": "DetroitPortalBlock",
+      "type": "block",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detroit_portal_block",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "Detroit",
+      "type": "dimension",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detroit",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
       "name": "DetroitFluid",
       "type": "fluid",
       "sortid": 240,
@@ -2730,36 +2751,6 @@
       "path": "~/reaction based porfolio issues of the current day"
     },
     {
-      "name": "Detroit",
-      "type": "dimension",
-      "sortid": 239,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "detroit",
-      "metadata": {
-        "ep": true
-      },
-      "path": "~/reaction based porfolio issues of the current day"
-    },
-    {
-      "name": "DetroitPortalBlock",
-      "type": "block",
-      "sortid": 242,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "detroit_portal_block",
-      "path": "~/reaction based porfolio issues of the current day"
-    },
-    {
-      "name": "DetroitIgniterRecipe",
-      "type": "recipe",
-      "sortid": 243,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "detroit_igniter_recipe",
-      "path": "~/reaction based porfolio issues of the current day"
-    },
-    {
       "name": "DetroitPortalBlockRecipe",
       "type": "recipe",
       "sortid": 244,
@@ -2776,6 +2767,32 @@
       "locked_code": false,
       "registry_name": "detroit_david_house",
       "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "DetroitIgniterRecipe",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detroit_igniter_recipe",
+      "path": "~/reaction based porfolio issues of the current day"
+    },
+    {
+      "name": "MODPassivesMenu1",
+      "type": "gui",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_passives_menu_1",
+      "path": "~/MOD junk"
+    },
+    {
+      "name": "SelfAware",
+      "type": "achievement",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "self_aware"
     }
   ],
   "variable_elements": [
@@ -2904,6 +2921,18 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "100.0"
+    },
+    {
+      "name": "ModMaxPassives",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ModPassivesUsed",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -2915,22 +2944,20 @@
       "advancements.yayyyyyyy.title": "YAYYYYYYY",
       "item.minecraft_plus.david_chestplate_helmet": "paper gas mask",
       "item.minecraft_plus.diamond_gilded_netherite_sword": "Diamond Adorned Netherite Sword",
-      "advancements.lamentation_confirmation.descr": "You have entered the lamentable dimension.",
       "item.minecraft_plus.doktorpepsii": "docketor.",
+      "advancements.lamentation_confirmation.descr": "You have entered the lamentable dimension.",
       "block.minecraft_plus.gray_block": "Gray Block",
       "entity.minecraft_plus.squirrel": "Rabid Squirrel",
       "advancements.obtain_exactly_37_jungle_logs.title": "Obtain Exactly 37 Jungle Logs",
-      "item.minecraft_plus.discrete_soda": "Discrete Soda",
       "block.minecraft_plus.ancient_tile": "Ancient Tile",
+      "item.minecraft_plus.discrete_soda": "Discrete Soda",
       "item.minecraft_plus.purple_stuff_bucket": "purple stuff squared",
-      "item.minecraft_plus.asbestos": "Asbestos",
       "entity.minecraft_plus.stimulation_wizard": "Stimulation Wizard",
+      "item.minecraft_plus.asbestos": "Asbestos",
       "item.minecraft_plus.diamond_gilded_netherite_shovel": "Diamond Adorned Netherite Shovel",
       "effect.minecraft_plus.leanified": "Leanified",
       "advancements.get_a_woodenpickaxe_to_1_durability.title": "Break a Wooden Pickaxe",
-      "block.minecraft_plus.detroit_fluid": "Detroit Fluid",
       "block.minecraft_plus.cyan_block": "Cyan Block",
-      "block.minecraft_plus.detroit_block": "Detroit Block",
       "block.minecraft_plus.berry": "Berry",
       "item.minecraft_plus.actual_marker": "Marker",
       "block.minecraft_plus.condemned": "condemned",
@@ -2969,7 +2996,6 @@
       "item.minecraft_plus.stimulation_wizard_spawn_egg": "Stimulation Wizard Spawn Egg",
       "death.attack.badliquid": "%1$s drank from the wrong puddle.",
       "item.minecraft_plus.dashhit": "Dashhit",
-      "fluid.minecraft_plus.detroit_fluid": "Detroit Fluid",
       "item.minecraft_plus.emerald_gilded_netherite_chestplate": "Emerald Adorned Netherite Body",
       "item.minecraft_plus.emerald_gilded_netherite_pickaxe": "Emerald Adorned Netherite Pickaxe",
       "effect.minecraft_plus.downed": "Downed",
@@ -3034,15 +3060,12 @@
       "item.minecraft_plus.lean": "Lean",
       "item.minecraft_plus.blue_slime": "Blue Slime",
       "item.minecraft_plus.lamentable": "Lamentable Portal Igniter",
-      "biome.minecraft_plus.detroit_biome": "Detroit Biome",
       "item.minecraft_plus.cloaker_goggles_helmet": "Cloaker Goggles Helmet",
       "fluid.minecraft_plus.purple_stuff": "purple stuff",
       "block.minecraft_plus.sticky_residue": "Sticky Residue",
       "item.minecraft_plus.david": "david",
       "item.minecraft_plus.handheld_drill_unit": "Handheld Drill Unit",
       "biome.minecraft_plus.woody_land": "woody land",
-      "item.minecraft_plus.detroit_fluid_bucket": "Detroit Fluid Bucket",
-      "block.minecraft_plus.detroit_portal_block": "Detroit Portal Block",
       "block.minecraft_plus.saturated_asbestos": "Saturated Asbestos",
       "item.minecraft_plus.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "item.minecraft_plus.rename_yourself": "rename yourself.",
@@ -3078,6 +3101,10 @@
         ]
       },
       {
+        "name": "MOD junk",
+        "children": []
+      },
+      {
         "name": "serverinternal",
         "children": []
       },
@@ -3085,11 +3112,11 @@
         "name": "marker",
         "children": [
           {
-            "name": "Stupid Procedures",
+            "name": "Blocks",
             "children": []
           },
           {
-            "name": "Blocks",
+            "name": "Stupid Procedures",
             "children": []
           }
         ]

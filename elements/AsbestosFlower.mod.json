@@ -13,7 +13,7 @@
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "WITHER",
-    "suspiciousStewDuration": 100,
+    "suspiciousStewDuration": 1000,
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Flower",
@@ -60,7 +60,7 @@
     },
     "useLootTableForDrops": true,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Asbestos"
     },
     "dropAmount": 1,
     "forceTicking": false,
@@ -84,9 +84,6 @@
     ],
     "restrictionBiomes": [],
     "patchSize": 20,
-    "generateAtAnyHeight": false,
-    "onEntityCollides": {
-      "name": "AsbestosBlockEntityWalksOnTheBlock"
-    }
+    "generateAtAnyHeight": false
   }
 }

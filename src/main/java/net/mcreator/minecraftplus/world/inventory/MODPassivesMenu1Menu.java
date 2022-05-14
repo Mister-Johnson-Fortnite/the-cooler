@@ -3,7 +3,7 @@ package net.mcreator.minecraftplus.world.inventory;
 
 import net.mcreator.minecraftplus.MinecraftPlusMod;
 
-public class ActiveAbilitiesMODMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class MODPassivesMenu1Menu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 
@@ -17,8 +17,8 @@ public class ActiveAbilitiesMODMenu extends AbstractContainerMenu implements Sup
 
 	private boolean bound = false;
 
-	public ActiveAbilitiesMODMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(MinecraftPlusModMenus.ACTIVE_ABILITIES_MOD, id);
+	public MODPassivesMenu1Menu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(MinecraftPlusModMenus.MOD_PASSIVES_MENU_1, id);
 
 		this.entity = inv.player;
 		this.world = inv.player.level;

@@ -1,17 +1,11 @@
 
 package net.mcreator.minecraftplus.item;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-
-import net.mcreator.minecraftplus.init.MinecraftPlusModTabs;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import javax.annotation.Nullable;
 
 public class DavidItem extends Item {
+
 	public DavidItem() {
 		super(new Item.Properties().tab(MinecraftPlusModTabs.TAB_ILLUMINATED).stacksTo(3).rarity(Rarity.RARE));
 	}
@@ -31,4 +25,5 @@ public class DavidItem extends Item {
 	public boolean isFoil(ItemStack itemstack) {
 		return true;
 	}
+
 }

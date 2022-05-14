@@ -1,27 +1,10 @@
 
 package net.mcreator.minecraftplus.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.minecraftplus.world.inventory.MarkerColorSelectMenuMenu;
-import net.mcreator.minecraftplus.network.MarkerColorSelectMenuButtonMessage;
-import net.mcreator.minecraftplus.MinecraftPlusMod;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class MarkerColorSelectMenuScreen extends AbstractContainerScreen<MarkerColorSelectMenuMenu> {
+
 	private final static HashMap<String, Object> guistate = MarkerColorSelectMenuMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -44,6 +27,7 @@ public class MarkerColorSelectMenuScreen extends AbstractContainerScreen<MarkerC
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderTooltip(ms, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -51,6 +35,7 @@ public class MarkerColorSelectMenuScreen extends AbstractContainerScreen<MarkerC
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
@@ -66,6 +51,7 @@ public class MarkerColorSelectMenuScreen extends AbstractContainerScreen<MarkerC
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -88,7 +74,9 @@ public class MarkerColorSelectMenuScreen extends AbstractContainerScreen<MarkerC
 	@Override
 	public void init() {
 		super.init();
+
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+
 		this.addRenderableWidget(new Button(this.leftPos + 2, this.topPos + 3, 51, 20, new TextComponent("Black"), e -> {
 			if (true) {
 				MinecraftPlusMod.PACKET_HANDLER.sendToServer(new MarkerColorSelectMenuButtonMessage(0, x, y, z));
@@ -192,4 +180,5 @@ public class MarkerColorSelectMenuScreen extends AbstractContainerScreen<MarkerC
 			}
 		}));
 	}
+
 }

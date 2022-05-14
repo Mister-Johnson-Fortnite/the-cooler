@@ -1,8 +1,8 @@
 package net.mcreator.minecraftplus.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.Entity;
 
-import javax.annotation.Nullable;
+import net.mcreator.minecraftplus.network.MinecraftPlusModVariables;
 
 public class SetColorWhiteProcedure {
 	public static void execute(Entity entity) {

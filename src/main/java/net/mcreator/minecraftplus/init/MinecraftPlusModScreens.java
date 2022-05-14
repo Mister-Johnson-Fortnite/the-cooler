@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.minecraftplus.client.gui.MarkerColorSelectMenuScreen;
+import net.mcreator.minecraftplus.client.gui.MODPassivesMenu1Screen;
 import net.mcreator.minecraftplus.client.gui.MODGuiScreen;
 import net.mcreator.minecraftplus.client.gui.BecomeGarfedAndStuffScreen;
 import net.mcreator.minecraftplus.client.gui.ActiveAbilitiesMODScreen;
@@ -25,6 +26,7 @@ public class MinecraftPlusModScreens {
 			MenuScreens.register(MinecraftPlusModMenus.ACTIVE_ABILITIES_MOD, ActiveAbilitiesMODScreen::new);
 			MenuScreens.register(MinecraftPlusModMenus.BECOME_GARFED_AND_STUFF, BecomeGarfedAndStuffScreen::new);
 			MenuScreens.register(MinecraftPlusModMenus.MARKER_COLOR_SELECT_MENU, MarkerColorSelectMenuScreen::new);
+			MenuScreens.register(MinecraftPlusModMenus.MOD_PASSIVES_MENU_1, MODPassivesMenu1Screen::new);
 		});
 	}
 }

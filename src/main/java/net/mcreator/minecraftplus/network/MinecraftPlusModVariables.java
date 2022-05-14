@@ -97,6 +97,8 @@ public class MinecraftPlusModVariables {
 			clone.markerBlockSideZ = original.markerBlockSideZ;
 			clone.markerBlockSideX = original.markerBlockSideX;
 			clone.markerBlockSideY = original.markerBlockSideY;
+			clone.ModMaxPassives = original.ModMaxPassives;
+			clone.ModPassivesUsed = original.ModPassivesUsed;
 			if (!event.isWasDeath()) {
 				clone.heavyhelmet = original.heavyhelmet;
 				clone.NeedToBreath = original.NeedToBreath;
@@ -288,6 +290,8 @@ public class MinecraftPlusModVariables {
 		public double markerBlockSideX = 0;
 		public double markerBlockSideY = 0;
 		public double NeedToBreath = 100.0;
+		public double ModMaxPassives = 0;
+		public double ModPassivesUsed = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -316,6 +320,8 @@ public class MinecraftPlusModVariables {
 			nbt.putDouble("markerBlockSideX", markerBlockSideX);
 			nbt.putDouble("markerBlockSideY", markerBlockSideY);
 			nbt.putDouble("NeedToBreath", NeedToBreath);
+			nbt.putDouble("ModMaxPassives", ModMaxPassives);
+			nbt.putDouble("ModPassivesUsed", ModPassivesUsed);
 			return nbt;
 		}
 
@@ -341,6 +347,8 @@ public class MinecraftPlusModVariables {
 			markerBlockSideX = nbt.getDouble("markerBlockSideX");
 			markerBlockSideY = nbt.getDouble("markerBlockSideY");
 			NeedToBreath = nbt.getDouble("NeedToBreath");
+			ModMaxPassives = nbt.getDouble("ModMaxPassives");
+			ModPassivesUsed = nbt.getDouble("ModPassivesUsed");
 		}
 	}
 
@@ -386,6 +394,8 @@ public class MinecraftPlusModVariables {
 					variables.markerBlockSideX = message.data.markerBlockSideX;
 					variables.markerBlockSideY = message.data.markerBlockSideY;
 					variables.NeedToBreath = message.data.NeedToBreath;
+					variables.ModMaxPassives = message.data.ModMaxPassives;
+					variables.ModPassivesUsed = message.data.ModPassivesUsed;
 				}
 			});
 			context.setPacketHandled(true);

@@ -1,11 +1,22 @@
 
 package net.mcreator.minecraftplus.network;
 
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.FriendlyByteBuf;
+
+import net.mcreator.minecraftplus.procedures.OpenColorGuiProcedure;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
+
+import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MarkerColorMenuMessage {
-
 	int type, pressedms;
 
 	public MarkerColorMenuMessage(int type, int pressedms) {
@@ -36,16 +47,13 @@ public class MarkerColorMenuMessage {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(entity.blockPosition()))
 			return;
-
 		if (type == 0) {
 
-			OpenColorGuiProcedure.execute();
+			OpenColorGuiProcedure.execute(world, x, y, z, entity);
 		}
-
 	}
 
 	@SubscribeEvent
@@ -53,5 +61,4 @@ public class MarkerColorMenuMessage {
 		MinecraftPlusMod.addNetworkMessage(MarkerColorMenuMessage.class, MarkerColorMenuMessage::buffer, MarkerColorMenuMessage::new,
 				MarkerColorMenuMessage::handler);
 	}
-
 }

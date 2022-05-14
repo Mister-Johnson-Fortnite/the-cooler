@@ -1,36 +1,36 @@
 {
   "display": {
+    "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft_plus:mod"
     },
     "title": {
-      "translate": "advancements.obtain_exactly_37_jungle_logs.title"
+      "translate": "advancements.self_aware.title"
     },
     "description": {
-      "translate": "advancements.obtain_exactly_37_jungle_logs.descr"
+      "translate": "advancements.self_aware.descr"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
-    "obtain_exactly_37_jungle_logs": {
+    "self_aware": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:jungle_log"
+              "minecraft_plus:mod"
             ],
             "count": {
-              "min": 37,
-              "max": 37
+              "min": 1,
+              "max": 1
             }
           }
         ]
       }
     }
-  },
-  "parent": "minecraft_plus:become_leanified"
+  }
 }

@@ -13,6 +13,7 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
 import net.mcreator.minecraftplus.world.inventory.MarkerColorSelectMenuMenu;
+import net.mcreator.minecraftplus.world.inventory.MODPassivesMenu1Menu;
 import net.mcreator.minecraftplus.world.inventory.MODGuiMenu;
 import net.mcreator.minecraftplus.world.inventory.BecomeGarfedAndStuffMenu;
 import net.mcreator.minecraftplus.world.inventory.ActiveAbilitiesMODMenu;
@@ -30,6 +31,8 @@ public class MinecraftPlusModMenus {
 			(id, inv, extraData) -> new BecomeGarfedAndStuffMenu(id, inv, extraData));
 	public static final MenuType<MarkerColorSelectMenuMenu> MARKER_COLOR_SELECT_MENU = register("marker_color_select_menu",
 			(id, inv, extraData) -> new MarkerColorSelectMenuMenu(id, inv, extraData));
+	public static final MenuType<MODPassivesMenu1Menu> MOD_PASSIVES_MENU_1 = register("mod_passives_menu_1",
+			(id, inv, extraData) -> new MODPassivesMenu1Menu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

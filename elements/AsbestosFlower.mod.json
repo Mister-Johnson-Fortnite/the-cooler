@@ -84,9 +84,6 @@
     ],
     "restrictionBiomes": [],
     "patchSize": 20,
-    "generateAtAnyHeight": false,
-    "onEntityCollides": {
-      "name": "AsbestosBlockEntityCollidesInTheBlock"
-    }
+    "generateAtAnyHeight": false
   }
 }

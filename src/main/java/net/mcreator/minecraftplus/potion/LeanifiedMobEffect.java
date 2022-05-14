@@ -1,8 +1,13 @@
 
 package net.mcreator.minecraftplus.potion;
 
-public class LeanifiedMobEffect extends MobEffect {
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffect;
 
+import net.mcreator.minecraftplus.procedures.LeanifiedOnEffectActiveTickProcedure;
+
+public class LeanifiedMobEffect extends MobEffect {
 	public LeanifiedMobEffect() {
 		super(MobEffectCategory.HARMFUL, -3407668);
 	}
@@ -21,5 +26,4 @@ public class LeanifiedMobEffect extends MobEffect {
 	public boolean isDurationEffectTick(int duration, int amplifier) {
 		return true;
 	}
-
 }

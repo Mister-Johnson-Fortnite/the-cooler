@@ -2,7 +2,14 @@
 package net.mcreator.minecraftplus.block;
 
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.material.FlowingFluid;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.minecraftplus.init.MinecraftPlusModFluids;
 
 public class PurpleStuffBlock extends LiquidBlock {
 	public PurpleStuffBlock() {
@@ -15,5 +22,4 @@ public class PurpleStuffBlock extends LiquidBlock {
 	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
 		return true;
 	}
-
 }

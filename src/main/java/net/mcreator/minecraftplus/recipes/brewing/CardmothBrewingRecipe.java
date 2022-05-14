@@ -1,9 +1,18 @@
 
 package net.mcreator.minecraftplus.recipes.brewing;
 
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.common.brewing.IBrewingRecipe;
+import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
+
+import net.minecraft.world.item.ItemStack;
+
+import net.mcreator.minecraftplus.init.MinecraftPlusModItems;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class CardmothBrewingRecipe implements IBrewingRecipe {
-
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> BrewingRecipeRegistry.addRecipe(new CardmothBrewingRecipe()));
@@ -26,5 +35,4 @@ public class CardmothBrewingRecipe implements IBrewingRecipe {
 		}
 		return ItemStack.EMPTY;
 	}
-
 }

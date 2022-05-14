@@ -2,14 +2,17 @@
 package net.mcreator.minecraftplus.block;
 
 import net.minecraft.world.level.material.Material;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.core.BlockPos;
 
 public class OrangeBlockBlock extends Block {
-
 	public OrangeBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.SCAFFOLDING).instabreak().noDrops());
-
 	}
 
 	@Override
@@ -21,5 +24,4 @@ public class OrangeBlockBlock extends Block {
 	public boolean canBeReplaced(BlockState state, BlockPlaceContext context) {
 		return context.getItemInHand().getItem() != this.asItem();
 	}
-
 }

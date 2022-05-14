@@ -144,6 +144,7 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> ASBESTOS_BLOCK = block(MinecraftPlusModBlocks.ASBESTOS_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
 	public static final RegistryObject<Item> ASBESTOS = REGISTRY.register("asbestos", () -> new AsbestosItem());
 	public static final RegistryObject<Item> ASBESTOS_FLOWER = block(MinecraftPlusModBlocks.ASBESTOS_FLOWER, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> SEARING_SANDS = block(MinecraftPlusModBlocks.SEARING_SANDS, MinecraftPlusModTabs.TAB_ILLUMINATED);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.minecraftplus.block.StickyResidueBlock;
+import net.mcreator.minecraftplus.block.SearingSandsBlock;
 import net.mcreator.minecraftplus.block.PurpleStuffBlock;
 import net.mcreator.minecraftplus.block.LiquidationificationBlock;
 import net.mcreator.minecraftplus.block.CondemnedBlock;
@@ -44,6 +45,7 @@ public class MinecraftPlusModBlocks {
 	public static final RegistryObject<Block> CONDEMNED = REGISTRY.register("condemned", () -> new CondemnedBlock());
 	public static final RegistryObject<Block> ASBESTOS_BLOCK = REGISTRY.register("asbestos_block", () -> new AsbestosBlockBlock());
 	public static final RegistryObject<Block> ASBESTOS_FLOWER = REGISTRY.register("asbestos_flower", () -> new AsbestosFlowerBlock());
+	public static final RegistryObject<Block> SEARING_SANDS = REGISTRY.register("searing_sands", () -> new SearingSandsBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

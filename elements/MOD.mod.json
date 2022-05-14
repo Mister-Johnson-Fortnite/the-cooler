@@ -28,8 +28,8 @@
       "Use to modify passive and active abilities"
     ],
     "hasGlow": false,
-    "guiBoundTo": "<NONE>",
-    "inventorySize": 9,
+    "guiBoundTo": "MODGui",
+    "inventorySize": 1,
     "inventoryStackSize": 64,
     "hasDispenseBehavior": false,
     "isFood": false,

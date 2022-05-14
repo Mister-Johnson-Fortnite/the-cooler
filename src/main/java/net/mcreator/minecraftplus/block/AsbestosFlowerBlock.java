@@ -12,19 +12,18 @@ import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.minecraftplus.procedures.AsbestosBlockEntityCollidesInTheBlockProcedure;
-import net.mcreator.minecraftplus.init.MinecraftPlusModMobEffects;
 import net.mcreator.minecraftplus.init.MinecraftPlusModBlocks;
 
 public class AsbestosFlowerBlock extends FlowerBlock {
 	public AsbestosFlowerBlock() {
-		super(MinecraftPlusModMobEffects.CANCER.get(), 1000,
-				BlockBehaviour.Properties.of(Material.PLANT).noCollission().sound(SoundType.GRASS).instabreak());
+		super(MobEffects.WITHER, 1000, BlockBehaviour.Properties.of(Material.PLANT).noCollission().sound(SoundType.GRASS).instabreak());
 	}
 
 	@Override

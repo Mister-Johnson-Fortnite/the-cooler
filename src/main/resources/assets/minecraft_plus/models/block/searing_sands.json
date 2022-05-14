@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft_plus:blocks/hotsand",
+    "up": "minecraft_plus:blocks/hotsand",
+    "north": "minecraft_plus:blocks/hotsand",
+    "east": "minecraft_plus:blocks/hotsand",
+    "south": "minecraft_plus:blocks/hotsand",
+    "west": "minecraft_plus:blocks/hotsand",
+    "particle": "minecraft_plus:blocks/hotsand"
+  }
+}

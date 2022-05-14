@@ -56,10 +56,6 @@ public class MODGuiScreen extends AbstractContainerScreen<MODGuiMenu> {
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("minecraft_plus:textures/death.png"));
-		this.blit(ms, this.leftPos + 204, this.topPos + 133, 0, 0, 100, 100, 100, 100);
-
 		RenderSystem.disableBlend();
 	}
 

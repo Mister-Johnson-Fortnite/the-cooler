@@ -1550,7 +1550,7 @@
       "name": "Condemned",
       "type": "block",
       "sortid": 159,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "condemned"
     },
@@ -1754,7 +1754,7 @@
       "name": "AsbestosFlower",
       "type": "plant",
       "sortid": 174,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "asbestos_flower",
       "path": "~/reaction based porfolio issues of the current day"
@@ -1902,7 +1902,7 @@
       "name": "GrayBlock",
       "type": "block",
       "sortid": 234,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "gray_block",
       "path": "~/marker"
@@ -1937,7 +1937,7 @@
       "name": "BrownBlock",
       "type": "block",
       "sortid": 233,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "brown_block",
       "path": "~/marker"
@@ -2051,7 +2051,7 @@
       "name": "CyanBlock",
       "type": "block",
       "sortid": 237,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cyan_block",
       "path": "~/marker"
@@ -2078,7 +2078,7 @@
       "name": "LightGrayBlock",
       "type": "block",
       "sortid": 235,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "light_gray_block",
       "path": "~/marker"
@@ -2139,7 +2139,7 @@
       "name": "Berry",
       "type": "plant",
       "sortid": 192,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "berry",
       "path": "~/reaction based porfolio issues of the current day"
@@ -2252,7 +2252,7 @@
       "name": "LightBlueBlock",
       "type": "block",
       "sortid": 238,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "light_blue_block",
       "path": "~/marker"
@@ -2304,7 +2304,7 @@
       "name": "BlueBlock",
       "type": "block",
       "sortid": 229,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "blue_block",
       "path": "~/marker"
@@ -2650,7 +2650,7 @@
       "name": "LimeBlock",
       "type": "block",
       "sortid": 228,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lime_block",
       "path": "~/marker"
@@ -2659,7 +2659,7 @@
       "name": "BlackBlock",
       "type": "block",
       "sortid": 224,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "black_block",
       "path": "~/marker"

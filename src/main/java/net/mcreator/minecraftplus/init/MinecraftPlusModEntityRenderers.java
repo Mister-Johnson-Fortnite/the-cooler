@@ -25,5 +25,6 @@ public class MinecraftPlusModEntityRenderers {
 		event.registerEntityRenderer(MinecraftPlusModEntities.SLIME_GUN.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MinecraftPlusModEntities.SQUIRREL.get(), SquirrelRenderer::new);
 		event.registerEntityRenderer(MinecraftPlusModEntities.SQUIRREL_GUN.get(), SquirrelGunRenderer::new);
+		event.registerEntityRenderer(MinecraftPlusModEntities.CRUSTY_GUN.get(), ThrownItemRenderer::new);
 	}
 }

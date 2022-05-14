@@ -1,0 +1,34 @@
+{
+  "_fv": 28,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NeedToBreath>/100",
+          "color": {
+            "value": -3407668,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NeedToBreath>/100",
+          "x": 0,
+          "y": 230
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "BreathingMeterDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

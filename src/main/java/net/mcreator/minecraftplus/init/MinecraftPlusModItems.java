@@ -28,6 +28,7 @@ import net.mcreator.minecraftplus.item.MothwingCloakItem;
 import net.mcreator.minecraftplus.item.MothManCardItem;
 import net.mcreator.minecraftplus.item.MarmrghItem;
 import net.mcreator.minecraftplus.item.MODItem;
+import net.mcreator.minecraftplus.item.LeanItem;
 import net.mcreator.minecraftplus.item.HeavyNetheriteItem;
 import net.mcreator.minecraftplus.item.HandheldDrillUnitItem;
 import net.mcreator.minecraftplus.item.FunnyboxItem;
@@ -38,6 +39,7 @@ import net.mcreator.minecraftplus.item.EmeraldGildedNetheritePickaxeItem;
 import net.mcreator.minecraftplus.item.EmeraldGildedNetheriteItem;
 import net.mcreator.minecraftplus.item.EmeraldGildedNetheriteHoeItem;
 import net.mcreator.minecraftplus.item.EmeraldGildedNetheriteAxeItem;
+import net.mcreator.minecraftplus.item.DiscreteSodaItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteSwordItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheriteShovelItem;
 import net.mcreator.minecraftplus.item.DiamondGildedNetheritePickaxeItem;
@@ -48,9 +50,12 @@ import net.mcreator.minecraftplus.item.DavidItem;
 import net.mcreator.minecraftplus.item.DavidChestplateItem;
 import net.mcreator.minecraftplus.item.DargleItem;
 import net.mcreator.minecraftplus.item.DOKTORPEPSIIItem;
+import net.mcreator.minecraftplus.item.CrustyGunItem;
+import net.mcreator.minecraftplus.item.CrustyBulletItem;
 import net.mcreator.minecraftplus.item.BlueSlimeItem;
 import net.mcreator.minecraftplus.item.AsbestosItem;
 import net.mcreator.minecraftplus.item.AncientWarpKeyItem;
+import net.mcreator.minecraftplus.item.ActualMarkerItem;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
 
 public class MinecraftPlusModItems {
@@ -133,6 +138,8 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> SALTINE = REGISTRY.register("saltine", () -> new SaltineItem());
 	public static final RegistryObject<Item> PURPLE_STUFF_BUCKET = REGISTRY.register("purple_stuff_bucket", () -> new PurpleStuffItem());
 	public static final RegistryObject<Item> DAVID = REGISTRY.register("david", () -> new DavidItem());
+	public static final RegistryObject<Item> DAVID_CHESTPLATE_HELMET = REGISTRY.register("david_chestplate_helmet",
+			() -> new DavidChestplateItem.Helmet());
 	public static final RegistryObject<Item> DAVID_CHESTPLATE_CHESTPLATE = REGISTRY.register("david_chestplate_chestplate",
 			() -> new DavidChestplateItem.Chestplate());
 	public static final RegistryObject<Item> MOTH_MAN_CARD = REGISTRY.register("moth_man_card", () -> new MothManCardItem());
@@ -145,6 +152,31 @@ public class MinecraftPlusModItems {
 	public static final RegistryObject<Item> ASBESTOS = REGISTRY.register("asbestos", () -> new AsbestosItem());
 	public static final RegistryObject<Item> ASBESTOS_FLOWER = block(MinecraftPlusModBlocks.ASBESTOS_FLOWER, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> SEARING_SANDS = block(MinecraftPlusModBlocks.SEARING_SANDS, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> SATURATED_ASBESTOS = block(MinecraftPlusModBlocks.SATURATED_ASBESTOS,
+			MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> DISCRETE_SODA = REGISTRY.register("discrete_soda", () -> new DiscreteSodaItem());
+	public static final RegistryObject<Item> BERRY = block(MinecraftPlusModBlocks.BERRY, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> LEAN = REGISTRY.register("lean", () -> new LeanItem());
+	public static final RegistryObject<Item> CRUSTY_BULLET = REGISTRY.register("crusty_bullet", () -> new CrustyBulletItem());
+	public static final RegistryObject<Item> CRUSTY_GUN = REGISTRY.register("crusty_gun", () -> new CrustyGunItem());
+	public static final RegistryObject<Item> MARKER = block(MinecraftPlusModBlocks.MARKER, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> ACTUAL_MARKER = REGISTRY.register("actual_marker", () -> new ActualMarkerItem());
+	public static final RegistryObject<Item> RED_BLOCK = block(MinecraftPlusModBlocks.RED_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> BLACK_BLOCK = block(MinecraftPlusModBlocks.BLACK_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> WHITE_BLOCK = block(MinecraftPlusModBlocks.WHITE_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> ORANGE_BLOCK = block(MinecraftPlusModBlocks.ORANGE_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> YELLOW_BLOCK = block(MinecraftPlusModBlocks.YELLOW_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> LIME_BLOCK = block(MinecraftPlusModBlocks.LIME_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> BLUE_BLOCK = block(MinecraftPlusModBlocks.BLUE_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> PURPLE_BLOCK = block(MinecraftPlusModBlocks.PURPLE_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> MAGENTA_BLOCK = block(MinecraftPlusModBlocks.MAGENTA_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> PINK_BLOCK = block(MinecraftPlusModBlocks.PINK_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> BROWN_BLOCK = block(MinecraftPlusModBlocks.BROWN_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> GRAY_BLOCK = block(MinecraftPlusModBlocks.GRAY_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> LIGHT_GRAY_BLOCK = block(MinecraftPlusModBlocks.LIGHT_GRAY_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> GREEN_BLOCK = block(MinecraftPlusModBlocks.GREEN_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> CYAN_BLOCK = block(MinecraftPlusModBlocks.CYAN_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
+	public static final RegistryObject<Item> LIGHT_BLUE_BLOCK = block(MinecraftPlusModBlocks.LIGHT_BLUE_BLOCK, MinecraftPlusModTabs.TAB_ILLUMINATED);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

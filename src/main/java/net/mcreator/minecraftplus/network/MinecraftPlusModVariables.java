@@ -89,8 +89,17 @@ public class MinecraftPlusModVariables {
 			clone.IsPlayerOnGround = original.IsPlayerOnGround;
 			clone.CanDash = original.CanDash;
 			clone.yoinkitydoinkity = original.yoinkitydoinkity;
+			clone.playerEnteringLamentableX = original.playerEnteringLamentableX;
+			clone.playerEnteringLamentableY = original.playerEnteringLamentableY;
+			clone.playerEnteringLamentableZ = original.playerEnteringLamentableZ;
+			clone.markerColor = original.markerColor;
+			clone.isImmuneToAsbestos = original.isImmuneToAsbestos;
+			clone.markerBlockSideZ = original.markerBlockSideZ;
+			clone.markerBlockSideX = original.markerBlockSideX;
+			clone.markerBlockSideY = original.markerBlockSideY;
 			if (!event.isWasDeath()) {
 				clone.heavyhelmet = original.heavyhelmet;
+				clone.NeedToBreath = original.NeedToBreath;
 			}
 		}
 
@@ -270,6 +279,15 @@ public class MinecraftPlusModVariables {
 		public boolean IsPlayerOnGround = false;
 		public boolean CanDash = false;
 		public boolean yoinkitydoinkity = true;
+		public double playerEnteringLamentableX = 0;
+		public double playerEnteringLamentableY = 0;
+		public double playerEnteringLamentableZ = 0;
+		public double markerColor = 0;
+		public boolean isImmuneToAsbestos = false;
+		public double markerBlockSideZ = 0;
+		public double markerBlockSideX = 0;
+		public double markerBlockSideY = 0;
+		public double NeedToBreath = 100.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -289,6 +307,15 @@ public class MinecraftPlusModVariables {
 			nbt.putBoolean("IsPlayerOnGround", IsPlayerOnGround);
 			nbt.putBoolean("CanDash", CanDash);
 			nbt.putBoolean("yoinkitydoinkity", yoinkitydoinkity);
+			nbt.putDouble("playerEnteringLamentableX", playerEnteringLamentableX);
+			nbt.putDouble("playerEnteringLamentableY", playerEnteringLamentableY);
+			nbt.putDouble("playerEnteringLamentableZ", playerEnteringLamentableZ);
+			nbt.putDouble("markerColor", markerColor);
+			nbt.putBoolean("isImmuneToAsbestos", isImmuneToAsbestos);
+			nbt.putDouble("markerBlockSideZ", markerBlockSideZ);
+			nbt.putDouble("markerBlockSideX", markerBlockSideX);
+			nbt.putDouble("markerBlockSideY", markerBlockSideY);
+			nbt.putDouble("NeedToBreath", NeedToBreath);
 			return nbt;
 		}
 
@@ -305,6 +332,15 @@ public class MinecraftPlusModVariables {
 			IsPlayerOnGround = nbt.getBoolean("IsPlayerOnGround");
 			CanDash = nbt.getBoolean("CanDash");
 			yoinkitydoinkity = nbt.getBoolean("yoinkitydoinkity");
+			playerEnteringLamentableX = nbt.getDouble("playerEnteringLamentableX");
+			playerEnteringLamentableY = nbt.getDouble("playerEnteringLamentableY");
+			playerEnteringLamentableZ = nbt.getDouble("playerEnteringLamentableZ");
+			markerColor = nbt.getDouble("markerColor");
+			isImmuneToAsbestos = nbt.getBoolean("isImmuneToAsbestos");
+			markerBlockSideZ = nbt.getDouble("markerBlockSideZ");
+			markerBlockSideX = nbt.getDouble("markerBlockSideX");
+			markerBlockSideY = nbt.getDouble("markerBlockSideY");
+			NeedToBreath = nbt.getDouble("NeedToBreath");
 		}
 	}
 
@@ -341,6 +377,15 @@ public class MinecraftPlusModVariables {
 					variables.IsPlayerOnGround = message.data.IsPlayerOnGround;
 					variables.CanDash = message.data.CanDash;
 					variables.yoinkitydoinkity = message.data.yoinkitydoinkity;
+					variables.playerEnteringLamentableX = message.data.playerEnteringLamentableX;
+					variables.playerEnteringLamentableY = message.data.playerEnteringLamentableY;
+					variables.playerEnteringLamentableZ = message.data.playerEnteringLamentableZ;
+					variables.markerColor = message.data.markerColor;
+					variables.isImmuneToAsbestos = message.data.isImmuneToAsbestos;
+					variables.markerBlockSideZ = message.data.markerBlockSideZ;
+					variables.markerBlockSideX = message.data.markerBlockSideX;
+					variables.markerBlockSideY = message.data.markerBlockSideY;
+					variables.NeedToBreath = message.data.NeedToBreath;
 				}
 			});
 			context.setPacketHandled(true);

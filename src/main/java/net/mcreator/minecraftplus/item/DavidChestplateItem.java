@@ -1,22 +1,10 @@
 
 package net.mcreator.minecraftplus.item;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.minecraftplus.init.MinecraftPlusModTabs;
-import net.mcreator.minecraftplus.init.MinecraftPlusModItems;
 
 public abstract class DavidChestplateItem extends ArmorItem {
+
 	public DavidChestplateItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -56,12 +44,32 @@ public abstract class DavidChestplateItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 1f;
+				return 0f;
 			}
 		}, slot, properties);
 	}
 
+	public static class Helmet extends DavidChestplateItem {
+
+		public Helmet() {
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(MinecraftPlusModTabs.TAB_ILLUMINATED).fireResistant());
+		}
+
+		@Override
+		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, world, list, flag);
+			list.add(new TextComponent("no more asbestos taste!"));
+		}
+
+		@Override
+		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
+			return "minecraft_plus:textures/models/armor/davidset_layer_1.png";
+		}
+
+	}
+
 	public static class Chestplate extends DavidChestplateItem {
+
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(MinecraftPlusModTabs.TAB_ILLUMINATED));
 		}
@@ -70,5 +78,7 @@ public abstract class DavidChestplateItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "minecraft_plus:textures/models/armor/davidset_layer_1.png";
 		}
+
 	}
+
 }

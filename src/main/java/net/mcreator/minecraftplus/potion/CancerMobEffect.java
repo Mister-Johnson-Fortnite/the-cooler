@@ -1,15 +1,8 @@
 
 package net.mcreator.minecraftplus.potion;
 
-import net.minecraft.world.entity.ai.attributes.AttributeMap;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.effect.MobEffectCategory;
-import net.minecraft.world.effect.MobEffect;
-
-import net.mcreator.minecraftplus.procedures.CancerEffectStartedappliedProcedure;
-import net.mcreator.minecraftplus.procedures.CancerEffectExpiresProcedure;
-
 public class CancerMobEffect extends MobEffect {
+
 	public CancerMobEffect() {
 		super(MobEffectCategory.HARMFUL, -16711936);
 	}
@@ -34,4 +27,5 @@ public class CancerMobEffect extends MobEffect {
 	public boolean isDurationEffectTick(int duration, int amplifier) {
 		return true;
 	}
+
 }

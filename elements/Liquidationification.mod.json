@@ -10,7 +10,7 @@
     "textureBack": "kingofthehill",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 5,
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -34,14 +34,14 @@
     ],
     "name": "Liquidationification",
     "specialInfo": [],
-    "hardness": 9734.0,
+    "hardness": 5.0,
     "resistance": 1.0E9,
     "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Illuminated"
     },
-    "destroyTool": "hoe",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },

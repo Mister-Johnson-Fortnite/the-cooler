@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft_plus:blocks/blueblockface",
+    "up": "minecraft_plus:blocks/blueblockface",
+    "north": "minecraft_plus:blocks/blueblockface",
+    "east": "minecraft_plus:blocks/blueblockface",
+    "south": "minecraft_plus:blocks/blueblockface",
+    "west": "minecraft_plus:blocks/blueblockface",
+    "particle": "minecraft_plus:blocks/blueblockface"
+  }
+}

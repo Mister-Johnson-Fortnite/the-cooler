@@ -9,25 +9,33 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.minecraftplus.procedures.AsbestosBlockPlayerStartsToDestroyProcedure;
-import net.mcreator.minecraftplus.procedures.AsbestosBlockEntityCollidesInTheBlockProcedure;
+import net.mcreator.minecraftplus.procedures.AsbestosBlockEntityWalksOnTheBlockProcedure;
 
 import java.util.List;
 import java.util.Collections;
 
 public class AsbestosBlockBlock extends Block {
 	public AsbestosBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOL).sound(SoundType.WOOL).strength(100f, 50f));
+		super(BlockBehaviour.Properties.of(Material.WOOL).sound(SoundType.WOOL).strength(2f, 1f).requiresCorrectToolForDrops());
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
+			return tieredItem.getTier().getLevel() >= 0;
+		return false;
 	}
 
 	@Override
@@ -45,8 +53,8 @@ public class AsbestosBlockBlock extends Block {
 	}
 
 	@Override
-	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
-		super.entityInside(blockstate, world, pos, entity);
-		AsbestosBlockEntityCollidesInTheBlockProcedure.execute(entity);
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
+		super.stepOn(world, pos, blockstate, entity);
+		AsbestosBlockEntityWalksOnTheBlockProcedure.execute(entity);
 	}
 }

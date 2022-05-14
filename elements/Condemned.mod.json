@@ -34,7 +34,7 @@
     ],
     "name": "condemned",
     "specialInfo": [],
-    "hardness": 64000.0,
+    "hardness": 1.0,
     "resistance": 2.147483647E9,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ANVIL"
+      "value": "GRASS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -70,9 +70,9 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 5.0,
-    "speedFactor": 0.0,
-    "jumpFactor": 0.0,
+    "slipperiness": 0.6,
+    "speedFactor": 0.4,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

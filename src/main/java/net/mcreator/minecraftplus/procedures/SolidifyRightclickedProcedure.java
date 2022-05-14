@@ -27,29 +27,33 @@ public class SolidifyRightclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		{
-			if (entity instanceof ServerPlayer _ent) {
-				BlockPos _bpos = new BlockPos(x, y, z);
-				NetworkHooks.openGui((ServerPlayer) _ent, new MenuProvider() {
-					@Override
-					public Component getDisplayName() {
-						return new TextComponent("BecomeGarfedAndStuff");
-					}
+		for (int index0 = 0; index0 < (int) (1); index0++) {
+			{
+				if (entity instanceof ServerPlayer _ent) {
+					BlockPos _bpos = new BlockPos(x, y, z);
+					NetworkHooks.openGui((ServerPlayer) _ent, new MenuProvider() {
+						@Override
+						public Component getDisplayName() {
+							return new TextComponent("BecomeGarfedAndStuff");
+						}
 
-					@Override
-					public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-						return new BecomeGarfedAndStuffMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
-					}
-				}, _bpos);
+						@Override
+						public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+							return new BecomeGarfedAndStuffMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+						}
+					}, _bpos);
+				}
 			}
 		}
-		if (entity instanceof ServerPlayer _player) {
-			Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("minecraft_plus:solidified"));
-			AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-			if (!_ap.isDone()) {
-				Iterator _iterator = _ap.getRemainingCriteria().iterator();
-				while (_iterator.hasNext())
-					_player.getAdvancements().award(_adv, (String) _iterator.next());
+		for (int index1 = 0; index1 < (int) (1); index1++) {
+			if (entity instanceof ServerPlayer _player) {
+				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("minecraft_plus:solidified"));
+				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+				if (!_ap.isDone()) {
+					Iterator _iterator = _ap.getRemainingCriteria().iterator();
+					while (_iterator.hasNext())
+						_player.getAdvancements().award(_adv, (String) _iterator.next());
+				}
 			}
 		}
 	}

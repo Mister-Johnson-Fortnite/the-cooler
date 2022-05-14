@@ -1,12 +1,33 @@
 
 package net.mcreator.minecraftplus.world.features.plants;
 
-import com.mojang.serialization.Codec;
-import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
+import net.minecraft.world.level.levelgen.placement.RarityFilter;
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
+import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
+import net.minecraft.world.level.levelgen.placement.CountPlacement;
+import net.minecraft.world.level.levelgen.placement.BiomeFilter;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
+import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
+import net.minecraft.world.level.levelgen.feature.RandomPatchFeature;
+import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
+import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.WorldGenLevel;
+import net.minecraft.world.level.Level;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.data.worldgen.placement.PlacementUtils;
+import net.minecraft.data.worldgen.features.FeatureUtils;
+import net.minecraft.core.Registry;
+import net.minecraft.core.Holder;
+
+import net.mcreator.minecraftplus.init.MinecraftPlusModBlocks;
+
+import java.util.Set;
+import java.util.List;
 
 public class MarkerFeature extends RandomPatchFeature {
-
 	public static MarkerFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
@@ -25,9 +46,8 @@ public class MarkerFeature extends RandomPatchFeature {
 	}
 
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
-
 	private final Set<ResourceKey<Level>> generate_dimensions = Set
-			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minecraft_plus:deleted_mod_element")));
+			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minecraft_plus:lamentable")));
 
 	public MarkerFeature() {
 		super(RandomPatchConfiguration.CODEC);
@@ -37,7 +57,6 @@ public class MarkerFeature extends RandomPatchFeature {
 		WorldGenLevel world = context.level();
 		if (!generate_dimensions.contains(world.getLevel().dimension()))
 			return false;
-
 		return super.place(context);
 	}
 }

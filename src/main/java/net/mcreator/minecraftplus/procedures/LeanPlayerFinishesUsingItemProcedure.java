@@ -1,8 +1,11 @@
 package net.mcreator.minecraftplus.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
 
-import javax.annotation.Nullable;
+import net.mcreator.minecraftplus.init.MinecraftPlusModMobEffects;
 
 public class LeanPlayerFinishesUsingItemProcedure {
 	public static void execute(Entity entity) {

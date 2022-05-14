@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft_plus:deleted_mod_element"
+      "item": "minecraft_plus:lean"
     },
     "title": {
       "translate": "advancements.become_leanified.title"
@@ -26,5 +26,5 @@
       }
     }
   },
-  "parent": "minecraft_plus:deleted_mod_element"
+  "parent": "minecraft_plus:obtain_soda"
 }

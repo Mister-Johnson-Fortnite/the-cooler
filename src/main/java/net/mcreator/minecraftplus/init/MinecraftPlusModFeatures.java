@@ -22,6 +22,8 @@ import net.mcreator.minecraftplus.world.features.plants.BerryFeature;
 import net.mcreator.minecraftplus.world.features.plants.AsbestosFlowerFeature;
 import net.mcreator.minecraftplus.world.features.ores.CondemnedFeature;
 import net.mcreator.minecraftplus.world.features.lakes.PurpleStuffFeature;
+import net.mcreator.minecraftplus.world.features.lakes.DetroitFluidFeature;
+import net.mcreator.minecraftplus.world.features.DetroitDavidHouseFeature;
 import net.mcreator.minecraftplus.world.features.DavidsHouseFeature;
 import net.mcreator.minecraftplus.MinecraftPlusMod;
 
@@ -47,6 +49,11 @@ public class MinecraftPlusModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, BerryFeature.GENERATE_BIOMES, BerryFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> MARKER = register("marker", MarkerFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, MarkerFeature.GENERATE_BIOMES, MarkerFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DETROIT_FLUID = register("detroit_fluid", DetroitFluidFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.LAKES, DetroitFluidFeature.GENERATE_BIOMES, DetroitFluidFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DETROIT_DAVID_HOUSE = register("detroit_david_house", DetroitDavidHouseFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, DetroitDavidHouseFeature.GENERATE_BIOMES,
+					DetroitDavidHouseFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

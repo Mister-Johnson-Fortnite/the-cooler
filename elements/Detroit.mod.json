@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:DetroitBiome"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:DetroitBlock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:DetroitFluid"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:DetroitPortalBlock"
+    },
+    "portalParticles": {
+      "value": "SQUID_INK"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Detroit Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:Illuminated"
+    },
+    "texture": "hotdogcooler",
+    "portalTexture": "blacktextureface",
+    "enablePortal": true
+  }
+}

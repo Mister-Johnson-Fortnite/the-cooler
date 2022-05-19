@@ -1887,8 +1887,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "GrayBlock",
@@ -1957,8 +1956,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "SetColorMagenta",
@@ -1974,8 +1972,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "SetColorCyan",
@@ -1991,8 +1988,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "DiscreteSodaRecipe",
@@ -2089,8 +2085,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "SaturatedAsbestosOnBlockRightClicked",
@@ -2176,8 +2171,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "SetColorBlue",
@@ -2193,8 +2187,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "SetColorLightBlue",
@@ -2210,8 +2203,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "BreathingMeterDisplayOverlayIngame",
@@ -2341,8 +2333,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "ObtainSoda",
@@ -2418,8 +2409,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "AsbestosBlockEntityWalksOnTheBlock",
@@ -2470,8 +2460,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "Leanified",
@@ -2496,8 +2485,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "SetColorLightGray",
@@ -2513,8 +2501,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "DiscreteSodaPlayerFinishesUsingItem",
@@ -2547,8 +2534,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "SetColorYellow",
@@ -2564,8 +2550,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "GreenBlock",
@@ -2626,8 +2611,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/marker/this is stupid... maybe stupid enough"
+      }
     },
     {
       "name": "MarkerColorSelectMenu",
@@ -2838,7 +2822,7 @@
       "advancements.self_aware.title": "Self Aware",
       "item.minecraft_plus.doktorpepsii": "docketor.",
       "advancements.lamentation_confirmation.descr": "You have entered the lamentable dimension.",
-      "block.minecraft_plus.gray_block": "Red Block",
+      "block.minecraft_plus.gray_block": "Gray Block",
       "entity.minecraft_plus.squirrel": "Rabid Squirrel",
       "advancements.obtain_exactly_37_jungle_logs.title": "Obtain Exactly 37 Jungle Logs",
       "block.minecraft_plus.ancient_tile": "Ancient Tile",
@@ -2849,7 +2833,7 @@
       "item.minecraft_plus.diamond_gilded_netherite_shovel": "Diamond Adorned Netherite Shovel",
       "effect.minecraft_plus.leanified": "Leanified",
       "advancements.get_a_woodenpickaxe_to_1_durability.title": "Break a Wooden Pickaxe",
-      "block.minecraft_plus.cyan_block": "Red Block",
+      "block.minecraft_plus.cyan_block": "Cyan Block",
       "block.minecraft_plus.berry": "Berry",
       "item.minecraft_plus.actual_marker": "Marker",
       "block.minecraft_plus.condemned": "condemned",
@@ -2859,11 +2843,11 @@
       "item.minecraft_plus.diamond_gilded_netherite_axe": "Diamond Adorned Netherite Axe",
       "block.minecraft_plus.ancient_screen": "Ancient Screen",
       "item.minecraft_plus.shield_of_cthulhu": "Bloodied Scarf",
-      "block.minecraft_plus.yellow_block": "Red Block",
+      "block.minecraft_plus.yellow_block": "Yellow Block",
       "item.minecraft_plus.emerald_gilded_netherite_shovel": "Emerald Adorned Netherite Shovel",
       "item.minecraft_plus.the_cube": "a cube?",
       "item.minecraft_plus.tumor": "tumor.",
-      "block.minecraft_plus.light_blue_block": "Red Block",
+      "block.minecraft_plus.light_blue_block": "Light Blue Block",
       "item.minecraft_plus.netherite_cleaver": "Netherite Cleaver",
       "item.minecraft_plus.funnybox": "Funnybox",
       "death.attack.notbreath.player": "%1$s forgot to breathe in the F U N  Z O N E ! ! !",
@@ -2871,7 +2855,7 @@
       "block.minecraft_plus.purple_stuff": "purple stuff",
       "death.attack.notbreath": "%1$s forgot to breathe in the F U N  Z O N E ! ! !",
       "item.minecraft_plus.emerald_gilded_netherite_helmet": "Emerald Adorned Netherite Helmet",
-      "block.minecraft_plus.pink_block": "Red Block",
+      "block.minecraft_plus.pink_block": "Pink Block",
       "item.minecraft_plus.diamond_gilded_netherite_boots": "Diamond Adorned Netherite Boots",
       "key.minecraft_plus.breathe": "Breathe",
       "block.minecraft_plus.searing_sands": "Searing Sands",
@@ -2893,7 +2877,7 @@
       "effect.minecraft_plus.downed": "Downed",
       "key.minecraft_plus.marker_color_menu": "Marker Color Menu",
       "item.minecraft_plus.winged_strawberry": "Winged Strawberry",
-      "block.minecraft_plus.black_block": "Red Block",
+      "block.minecraft_plus.black_block": "Black Block",
       "item.minecraft_plus.emerald_gilded_netherite_sword": "Emerald Adorned Netherite Sword",
       "death.attack.cancer.player": "%1$s died of cancer.",
       "block.minecraft_plus.red_block": "Red Block",
@@ -2909,22 +2893,22 @@
       "item.minecraft_plus.golden_strawberry": "Winged Golden Strawberry",
       "item.minecraft_plus.heavy_netherite_leggings": "Heavy Netherite Leggings",
       "item.minecraft_plus.slime_gun": "Slime Gun",
-      "block.minecraft_plus.white_block": "Red Block",
-      "block.minecraft_plus.green_block": "Red Block",
+      "block.minecraft_plus.white_block": "White Block",
+      "block.minecraft_plus.green_block": "Green Block",
       "item.minecraft_plus.netherite_waraxe": "Netherite Waraxe",
       "advancements.self_aware.descr": "Obtain the M.O.D., a powerful tool for augmenting your body.",
       "item.minecraft_plus.emerald_shard": "Emerald Shard",
-      "block.minecraft_plus.magenta_block": "Red Block",
+      "block.minecraft_plus.magenta_block": "Magenta Block",
       "item.minecraft_plus.emerald_gilded_netherite_axe": "Emerald Adorned Netherite Axe",
       "advancements.get_a_woodenpickaxe_to_1_durability.descr": "You broke a wooden pickaxe!",
       "key.minecraft_plus.dash": "Dash",
       "item.minecraft_plus.crusty_gun": "Crusty Gun",
       "item.minecraft_plus.emerald_gilded_netherite_boots": "Emerald Adorned Netherite Boots",
       "item.minecraft_plus.dargle": "exit",
-      "block.minecraft_plus.light_gray_block": "Red Block",
+      "block.minecraft_plus.light_gray_block": "Light Gray Block",
       "item.minecraft_plus.mothwing_cloak": "Bloodied Scarf",
       "item.minecraft_plus.cloaker_goggles_chestplate": "Cloaker Goggles Body",
-      "block.minecraft_plus.brown_block": "Red Block",
+      "block.minecraft_plus.brown_block": "Brown Block",
       "block.minecraft_plus.ancient_tech_block": "Ancient Tech Block",
       "item.minecraft_plus.solidify": "solidify",
       "advancements.goombo.title": "goombo",
@@ -2937,11 +2921,11 @@
       "effect.minecraft_plus.cancer": "Cancer",
       "block.minecraft_plus.ancient_light": "Ancient Light",
       "block.minecraft_plus.asbestos_flower": "Asbestos Flower",
-      "block.minecraft_plus.lime_block": "Red Block",
+      "block.minecraft_plus.lime_block": "Lime Block",
       "key.categories.breathing": "Breathing",
       "item.minecraft_plus.cloaker_goggles_leggings": "Cloaker Goggles Leggings",
       "block.minecraft_plus.asbestos_block": "Asbestos Block",
-      "block.minecraft_plus.orange_block": "Red Block",
+      "block.minecraft_plus.orange_block": "Orange Block",
       "item.minecraft_plus.squirrel_gun": "Squirrel Gun",
       "block.minecraft_plus.ancient_rune_panel": "Ancient Rune Panel",
       "item.minecraft_plus.diamond_gilded_netherite_pickaxe": "Diamond Adorned Netherite Pickaxe",
@@ -2961,13 +2945,13 @@
       "block.minecraft_plus.saturated_asbestos": "Saturated Asbestos",
       "item.minecraft_plus.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "item.minecraft_plus.rename_yourself": "rename yourself.",
-      "block.minecraft_plus.blue_block": "Red Block",
+      "block.minecraft_plus.blue_block": "Blue Block",
       "item.minecraft_plus.diamond_gilded_netherite_leggings": "Diamond Adorned Netherite Leggings",
       "advancements.become_leanified.title": "Become Leanified",
       "advancements.obtain_soda.descr": "Obtained Soda",
       "item.minecraft_plus.bloodied_scarf": "Bloodied Scarf",
       "item.minecraft_plus.crusty_bullet": "crusty bullet",
-      "block.minecraft_plus.purple_block": "Red Block",
+      "block.minecraft_plus.purple_block": "Purple Block",
       "item.minecraft_plus.david_chestplate_chestplate": "david chestplate",
       "block.minecraft_plus.marker": "Marker Plant"
     }
@@ -3034,5 +3018,5 @@
     "modElementsPackage": "net.mcreator.minecraftplus",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200119518
+  "mcreatorVersion": 202200120510
 }

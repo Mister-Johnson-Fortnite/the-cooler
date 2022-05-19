@@ -1,9 +1,41 @@
 
 package net.mcreator.minecraftplus.network;
 
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.minecraftplus.world.inventory.MarkerColorSelectMenuMenu;
+import net.mcreator.minecraftplus.procedures.SetColorYellowProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorWhiteProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorRedProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorPurpleProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorPinkProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorOrangeProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorMagentaProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorLimeProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorLightGrayProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorLightBlueProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorGreenProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorGrayProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorCyanProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorBrownProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorBlueProcedure;
+import net.mcreator.minecraftplus.procedures.SetColorBlackProcedure;
+import net.mcreator.minecraftplus.procedures.PlayerFinishesUsingCancerCausingItemProcedure;
+import net.mcreator.minecraftplus.MinecraftPlusMod;
+
+import java.util.function.Supplier;
+import java.util.HashMap;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MarkerColorSelectMenuButtonMessage {
-
 	private final int buttonID, x, y, z;
 
 	public MarkerColorSelectMenuButtonMessage(FriendlyByteBuf buffer) {
@@ -35,7 +67,6 @@ public class MarkerColorSelectMenuButtonMessage {
 			int x = message.x;
 			int y = message.y;
 			int z = message.z;
-
 			handleButtonAction(entity, buttonID, x, y, z);
 		});
 		context.setPacketHandled(true);
@@ -44,11 +75,9 @@ public class MarkerColorSelectMenuButtonMessage {
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level;
 		HashMap guistate = MarkerColorSelectMenuMenu.guistate;
-
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
-
 		if (buttonID == 0) {
 
 			SetColorBlackProcedure.execute(entity);
@@ -124,5 +153,4 @@ public class MarkerColorSelectMenuButtonMessage {
 		MinecraftPlusMod.addNetworkMessage(MarkerColorSelectMenuButtonMessage.class, MarkerColorSelectMenuButtonMessage::buffer,
 				MarkerColorSelectMenuButtonMessage::new, MarkerColorSelectMenuButtonMessage::handler);
 	}
-
 }

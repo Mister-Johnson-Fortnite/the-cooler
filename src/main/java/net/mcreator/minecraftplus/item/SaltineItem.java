@@ -1,11 +1,14 @@
 
 package net.mcreator.minecraftplus.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import javax.annotation.Nullable;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.minecraftplus.init.MinecraftPlusModTabs;
 
 public class SaltineItem extends Item {
-
 	public SaltineItem() {
 		super(new Item.Properties().tab(MinecraftPlusModTabs.TAB_ILLUMINATED).stacksTo(1).fireResistant().rarity(Rarity.EPIC));
 	}
@@ -19,5 +22,4 @@ public class SaltineItem extends Item {
 	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 		return 0.3F;
 	}
-
 }
